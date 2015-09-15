@@ -1,0 +1,12 @@
+@NLD_units_OPFOR: Credits
+__________________________________________
+
+Textures: 	ShiftySean & Smootch
+config.cpp:	Sacha Ligthert & Smootch
+Models:		Bohemia Interactive
+
+__________________________________________
+
+Uniforms	: Craig (@SP_Pack/NED_Pack)
+Uniforms	: teriyaki (TRYK's Multi-Play Uniforms)
+Weapons		: Community Upgrade Project
