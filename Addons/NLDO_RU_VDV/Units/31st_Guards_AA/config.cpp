@@ -49,13 +49,16 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", ""};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"V_TacVest_oli", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_oli", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		weapons[] = {"arifle_MX_ACO_F","hgun_P07_F","Throw","Put"};
-		respawnWeapons[] = {"arifle_MX_ACO_F","hgun_P07_F","Throw","Put"};
-		magazines[] = {"30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};
-		respawnMagazines[] = {"30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};
-	};
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		FacewearProbability = 100;
+		allowedFacewear[] = {"G_Bandanna_aviator","G_Bandanna_beast","G_Bandanna_blk","G_Bandanna_oli","G_Bandanna_shades","G_Bandanna_sport"};
+        };
+		
 	class NLDO_RU_VDV_31_riflemanlight: I_Soldier_base_F
 	{
 		author = "Lowlands Tactical";
@@ -72,13 +75,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", ""};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"V_TacVest_oli", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_oli", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		weapons[] = {"arifle_MX_ACO_F","hgun_P07_F","Throw","Put"};
-		respawnWeapons[] = {"arifle_MX_ACO_F","hgun_P07_F","Throw","Put"};
-		magazines[] = {"30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};
-		respawnMagazines[] = {"30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};
-	};
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		FacewearProbability = 100;
+		allowedFacewear[] = {"G_Bandanna_aviator","G_Bandanna_beast","G_Bandanna_blk","G_Bandanna_oli","G_Bandanna_shades","G_Bandanna_sport"};
+        };
 
 	class NLDO_RU_VDV_31_Fieldpack : B_FieldPack_blk {
 		displayName = "[NLD OPFOR] Russian Fieldpack Flora";
@@ -94,6 +99,8 @@ class cfgWeapons
 	class ItemCore;
 	class HeadgearItem;
 	class InventoryItem_Base_F;
+	class V_PlateCarrier1_rgr;
+    class VestItem;
 	
 	class NLDO_RU_VDV_31_Camo : Uniform_Base {
 		scope = 2;
@@ -165,6 +172,28 @@ class cfgWeapons
 			passThrough = 0.5;
 			hiddenSelections[] = {"Camo","Camo1","Camo2"};
             hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Helmet.paa","\SP_Pack\Hats\SSh68CoverHelmet\Black.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
+		};
+	};
+
+        class NLDO_RU_VDV_31_Vest: V_PlateCarrier1_rgr
+	{
+		scope = 2;
+		displayName = "[NLD OPFOR] Russian Vest Flora";
+		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Vest.paa";
+		model = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
+                hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Vest.paa"};
+                hiddenSelections[] = {"Camo"};
+                
+                  
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 50;
+			armor = 60;
+			passThrough = 0.30;
 		};
 	};
 };
