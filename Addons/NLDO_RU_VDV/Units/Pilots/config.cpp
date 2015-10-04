@@ -1,0 +1,108 @@
+class CfgPatches {
+	class NLDO_RU_VDV_Main {
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {};
+	};
+};
+
+class CfgFactionClasses
+{
+
+	class NLDO_RU_VDV_Air
+	{
+		displayName="VDV Pilots";
+		icon="\NLDO_RU_VDV\Icon\Icon-russia.jpg";
+		priority=1;
+		side=1;
+	};
+};
+
+class CfgVehicleClasses
+{
+	class NLDO_RU_VDV_Pilot
+	{
+		displayName="Men";
+	};
+};
+	
+class CfgVehicles 
+{
+	class I_Soldier_base_F;
+	class I_G_Soldier_base_F;
+	class B_FieldPack_blk;
+	
+	class NLDO_RU_VDV_Pilot: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Fighter Pilot";
+		faction = "NLDO_RU_VDV_Air";
+		vehicleClass = "NLDO_RU_VDV_Pilot";
+		backpack = "B_Parachute";
+		model = "\A3\characters_F\Common\pilot_f.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_Pilot_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\RussianPilotCoverall.paa", ""};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"SmokeShell","SmokeShell"};
+        };
+};
+
+class cfgWeapons 
+{
+	class Uniform_Base;
+	class UniformItem;
+	class ItemInfo;
+	class ItemCore;
+	class HeadgearItem;
+	class InventoryItem_Base_F;
+	class V_PlateCarrier1_rgr;
+    class VestItem;
+	
+	class NLDO_RU_VDV_Pilot_Camo : Uniform_Base {
+		scope = 2;
+		displayName = "[NLD OPFOR] Russian pilot Camo";
+		picture = "\NLDO_RU_VDV\Units\Pilots\Data\uim\Uniform.paa";
+		model = "\A3\characters_F\Common\pilot_f.p3d";
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLDO_RU_VDV_Pilot";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	
+	};
+
+        class NLDO_RU_RU_VDV_PilotHelmet: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD OPFOR] Russian Pilot Helmet";
+		picture = "\NLDO_RU_VDV\Units\Pilots\Data\uim\Helmet.paa";
+		model = "\a3\characters_f\common\headgear_helmet_pilot";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\Helmet.paa"};         
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 1;
+			uniformmodel = "\a3\characters_f\common\headgear_helmet_pilot";
+			modelSides[] = {3,1};
+			armor = 6;
+			passThrough = 0.5;
+            hiddenSelections[] = {"Camo"};
+            hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\Helmet.paa"};
+		};
+	};
+};
