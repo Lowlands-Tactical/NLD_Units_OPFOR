@@ -46,7 +46,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "NLDO_RU_VDV_76_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\Uniform.paa", ""};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\76th_Airborne_Division_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -70,7 +70,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "NLDO_RU_VDV_76_Camo2";
 		hiddenSelections[] = {"Camo1", "Camo2", "insignia"};
-		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\Uniform.paa", ""};
+		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\76th_Airborne_Division_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_RU_VDV_76_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
