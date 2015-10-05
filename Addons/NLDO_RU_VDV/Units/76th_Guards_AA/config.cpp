@@ -83,6 +83,7 @@ class CfgVehicles
 
 	class NLDO_RU_VDV_76_Fieldpack : B_FieldPack_blk {
 		displayName = "[NLD OPFOR] Russian Fieldpack EMP";
+		picture = "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\Backpack.paa"};
 	};
 };
@@ -114,8 +115,8 @@ class cfgWeapons
 	};
 	class NLDO_RU_VDV_76_Camo2 : Uniform_Base {
 		scope = 2;
-		displayName = "[NLD OPFOR] Russian Camo2 EMP";
-		picture = "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\uim\Uniform.paa";
+		displayName = "[NLD OPFOR] Russian Camo EMP 2";
+		picture = "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\uim\T-shirt.paa";
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
 		
 		class ItemInfo : UniformItem {
@@ -153,7 +154,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[NLD OPFOR] Russian Helmet2 EMP";
+		displayName = "[NLD OPFOR] Russian Helmet EMP 2";
 		picture = "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\uim\Helmet2.paa";
 		model = "\SP_Pack\Models\SSh68CoverHelmet2";
         hiddenSelections[] = {"Camo","Camo1","Camo2"};

@@ -30,8 +30,6 @@ class CfgVehicleClasses
 class CfgVehicles 
 {
 	class I_Soldier_base_F;
-	class I_G_Soldier_base_F;
-	class B_FieldPack_blk;
 	
 	class NLDO_RU_VDV_Pilot: I_Soldier_base_F
 	{
@@ -46,11 +44,59 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "NLDO_RU_VDV_Pilot_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\RussianPilotCoverall.paa", ""};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", ""};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"SmokeShell","SmokeShell"};
+        };
+		
+	class NLDO_RU_VDV_HeliPilot: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Heli Pilot";
+		faction = "NLDO_RU_VDV_Air";
+		vehicleClass = "NLDO_RU_VDV_Pilot";
+		backpack = "B_Parachute";
+		model = "\A3\characters_F\Common\pilot_f.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_Pilot_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", ""};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"SmokeShell","SmokeShell"};
+        };
+		
+	class NLDO_RU_VDV_HeliCrew: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Heli Crew";
+		faction = "NLDO_RU_VDV_Air";
+		vehicleClass = "NLDO_RU_VDV_Pilot";
+		backpack = "B_Parachute";
+		model = "\A3\characters_F\Common\pilot_f.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_Pilot_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", ""};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         weapons[] = {"CUP_hgun_Makarov","put","throw"};
         respawnweapons[] = {"CUP_hgun_Makarov","put","throw"};
         magazines[] = {"SmokeShell","SmokeShell"};
@@ -103,6 +149,50 @@ class cfgWeapons
 			passThrough = 0.5;
             hiddenSelections[] = {"Camo"};
             hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\Helmet.paa"};
+		};
+	};
+
+        class NLDO_RU_RU_VDV_HeliHelmet: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD OPFOR] Russian HeliPilot Helmet";
+		picture = "\NLDO_RU_VDV\Units\Pilots\Data\uim\HeliHelmet.paa";
+		model = "A3\Characters_F\Common\headgear_helmet_heli";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\HeliHelmet.paa"};         
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 1;
+			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
+			modelSides[] = {3,1};
+			armor = 6;
+			passThrough = 0.5;
+            hiddenSelections[] = {"Camo"};
+            hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\HeliHelmet.paa"};
+		};
+	};
+
+        class NLDO_RU_RU_VDV_HeliCrewHelmet: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD OPFOR] Russian HeliCrew Helmet";
+		picture = "\NLDO_RU_VDV\Units\Pilots\Data\uim\HeliHelmet.paa";
+		model = "A3\Characters_F\Common\headgear_helmet_heli_shield";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\HeliHelmet.paa"};         
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 1;
+			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli_shield";
+			modelSides[] = {3,1};
+			armor = 6;
+			passThrough = 0.5;
+            hiddenSelections[] = {"Camo"};
+            hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\HeliHelmet.paa"};
 		};
 	};
 };

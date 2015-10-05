@@ -39,7 +39,8 @@ class CfgVehicles
 		_generalMacro = "O_Heli_Light_02_unarmed_F";
 		displayName = "KA-60 Orca";
 		side = 0;
-		crew = "NLDO_RU_VDV_Pilot";
+		crew = "NLDO_RU_VDV_HeliPilot";
+		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew","NLDO_RU_VDV_HeliPilot"};
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
@@ -105,7 +106,8 @@ class CfgVehicles
 		_generalMacro = "O_Heli_Light_02_F";
 		displayName = "KA-60 Orca (Armed)";
 		side = 0;
-		crew = "NLDO_RU_VDV_Pilot";
+		crew = "NLDO_RU_VDV_HeliPilot";
+		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew","NLDO_RU_VDV_HeliPilot"};
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
@@ -171,7 +173,8 @@ class CfgVehicles
 		_generalMacro = "O_Heli_Attack_02_black_F";
 		displayName = "MI-48 (Black)";
 		side = 0;
-		crew = "NLDO_RU_VDV_Pilot";
+		crew = "NLDO_RU_VDV_HeliPilot";
+		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew","NLDO_RU_VDV_HeliPilot"};
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1", "Camo2"};
