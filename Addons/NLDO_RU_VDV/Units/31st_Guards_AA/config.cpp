@@ -46,7 +46,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "NLDO_RU_VDV_31_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", ""};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -72,7 +72,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "NLDO_RU_VDV_31_Camo2";
 		hiddenSelections[] = {"Camo1", "Camo2", "insignia"};
-		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", ""};
+		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};

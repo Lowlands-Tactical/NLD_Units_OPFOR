@@ -44,15 +44,15 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "NLDO_RU_VDV_Pilot_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", ""};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", "\NLDO_RU_VDV\Badges\YAK_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"SmokeShell","SmokeShell"};
+		linkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+        weapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         };
 		
 	class NLDO_RU_VDV_HeliPilot: I_Soldier_base_F
@@ -63,20 +63,20 @@ class CfgVehicles
 		displayName = "Heli Pilot";
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = "NLDO_RU_VDV_Pilot";
-		backpack = "B_Parachute";
+		backpack = "";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
-		uniformClass = "NLDO_RU_VDV_Pilot_Camo";
+		uniformClass = "NLDO_RU_VDV_HeliPilot_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", ""};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", "\NLDO_RU_VDV\Badges\Heli_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"SmokeShell","SmokeShell"};
+		linkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+        weapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         };
 		
 	class NLDO_RU_VDV_HeliCrew: I_Soldier_base_F
@@ -87,20 +87,20 @@ class CfgVehicles
 		displayName = "Heli Crew";
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = "NLDO_RU_VDV_Pilot";
-		backpack = "B_Parachute";
+		backpack = "";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
-		uniformClass = "NLDO_RU_VDV_Pilot_Camo";
+		uniformClass = "NLDO_RU_VDV_HeliPilot_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", ""};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\Pilots\Data\PilotCoverall.paa", "\NLDO_RU_VDV\Badges\Heli_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"SmokeShell","SmokeShell"};
+		linkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+        weapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         };
 };
 
@@ -124,6 +124,21 @@ class cfgWeapons
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
 			uniformClass = "NLDO_RU_VDV_Pilot";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	
+	};
+	
+	class NLDO_RU_VDV_HeliPilot_Camo : Uniform_Base {
+		scope = 1;
+		displayName = "[NLD OPFOR] Russian Helipilot Camo";
+		picture = "\NLDO_RU_VDV\Units\Pilots\Data\uim\Uniform.paa";
+		model = "\A3\characters_F\Common\pilot_f.p3d";
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLDO_RU_VDV_HeliPilot";
 			containerClass = "Supply60";
 			mass = 1;
 		};
