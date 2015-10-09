@@ -9,30 +9,30 @@ class CfgPatches {
 
 class CfgUnitInsignia
 {
-    class NLDO_31MB_Rondel
+    class NLDO_31MB_Russia
     {
-        displayName = "[NLDO] 31AMB (Rondel)";
+        displayName = "[NLDO] 31AMB (Russia)";
         author = "Lowlands Tactical";
         texture = "\NLDO_RU_VDV\Badges\31th_Rondel.paa";
         textureVehicle = "\NLDO_RU_VDV\Badges\31th_Rondel.paa";
     };
-    class NLDO_76AMB_Rondel
+    class NLDO_76AMB_Russia
     {
-        displayName = "[NLDO] 76AMB (Rondel)";
+        displayName = "[NLDO] 76AMB (Russia)";
         author = "Lowlands Tactical";
         texture = "\NLDO_RU_VDV\Badges\76th_Rondel.paa";
         textureVehicle = "\NLDO_RU_VDV\Badges\76th_Rondel.paa";
     };
-    class NLDO_Heli_Rondel
+    class NLDO_Heli_Russia
     {
-        displayName = "[NLDO] Heli Pilot (Rondel)";
+        displayName = "[NLDO] Heli Pilot (Russia)";
         author = "Lowlands Tactical";
         texture = "\NLDO_RU_VDV\Badges\Heli_Rondel.paa";
         textureVehicle = "\NLDO_RU_VDV\Badges\Heli_Rondel.paa";
     };
-    class NLDO_YAK_Rondel
+    class NLDO_YAK_Russia
     {
-        displayName = "[NLDO] YAK Pilot (Rondel)";
+        displayName = "[NLDO] YAK Pilot (Russia)";
         author = "Lowlands Tactical";
         texture = "\NLDO_RU_VDV\Badges\YAK_Rondel.paa";
         textureVehicle = "\NLDO_RU_VDV\Badges\YAK_Rondel.paa";
