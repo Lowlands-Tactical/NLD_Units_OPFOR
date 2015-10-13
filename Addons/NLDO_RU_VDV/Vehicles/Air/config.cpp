@@ -44,7 +44,7 @@ class CfgVehicles
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Black\Data\KA60.paa"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Black\Data\Body_co.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -111,7 +111,7 @@ class CfgVehicles
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Black\Data\KA60.paa"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Black\Data\Body_co.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -178,7 +178,7 @@ class CfgVehicles
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\MI-48\Black\Data\MI48body.paa", "\NLDO_RU_VDV\Vehicles\Air\MI-48\Black\Data\MI48body1.paa"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\MI-48\Black\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Air\MI-48\Black\Data\Rotor_co.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -243,7 +243,7 @@ class CfgVehicles
 		crew = "NLDO_RU_VDV_Pilot";
 		faction = "NLDO_RU_VDV_Air";
 		vehicleClass = Air;
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\Yak-131\Data\yakbody.paa","\NLDO_RU_VDV\Vehicles\Air\Yak-131\Data\yakbody1.paa"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\Yak-131\Data\Body_up_co.paa","\NLDO_RU_VDV\Vehicles\Air\Yak-131\Data\Body_down_co.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
