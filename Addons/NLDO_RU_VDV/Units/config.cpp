@@ -15,21 +15,14 @@ class CfgFactionClasses
 		displayName="[NLDO] 76th Guards AA";
 		icon="\NLDO_RU_VDV\Icon\Icon-russia.jpg";
 		priority=1;
-		side=1;
+		side=0;
 	};
 	class NLDO_RU_VDV_31
 	{
 		displayName="[NLDO] 31st Guards AA";
 		icon="\NLDO_RU_VDV\Icon\Icon-russia.jpg";
 		priority=1;
-		side=1;
-	};
-	class NLDO_RU_VDV_Air
-	{
-		displayName="[NLDO] VDV Pilots";
-		icon="\NLDO_RU_VDV\Icon\Icon-russia.jpg";
-		priority=1;
-		side=1;
+		side=0;
 	};
 };
 
@@ -40,10 +33,6 @@ class CfgVehicleClasses
 		displayName="Men";
 	};
 	class NLDO_RU_VDV_31_Infantry
-	{
-		displayName="Men";
-	};
-	class NLDO_RU_VDV_Pilot
 	{
 		displayName="Men";
 	};
