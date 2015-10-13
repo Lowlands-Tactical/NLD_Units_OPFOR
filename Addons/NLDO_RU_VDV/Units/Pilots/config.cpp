@@ -12,7 +12,7 @@ class CfgFactionClasses
 
 	class NLDO_RU_VDV_Air
 	{
-		displayName="VDV Pilots";
+		displayName="[NLDO] VDV Pilots";
 		icon="\NLDO_RU_VDV\Icon\Icon-russia.jpg";
 		priority=1;
 		side=1;

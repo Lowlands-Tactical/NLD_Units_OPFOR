@@ -1,5 +1,5 @@
 class CfgPatches {
-	class NLDO_RU_VDV_Main {
+	class NLDO_RU_VDV_31_Main {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -12,7 +12,7 @@ class CfgFactionClasses
 
 	class NLDO_RU_VDV_31
 	{
-		displayName="31st Guards AA";
+		displayName="[NLDO] 31st Guards AA";
 		icon="\NLDO_RU_VDV\Icon\Icon-russia.jpg";
 		priority=1;
 		side=1;
@@ -49,15 +49,13 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
         respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
-		FacewearProbability = 100;
-		allowedFacewear[] = {"G_Bandanna_aviator","G_Bandanna_beast","G_Bandanna_blk","G_Bandanna_oli","G_Bandanna_shades","G_Bandanna_sport"};
-        };
+		};
 		
 	class NLDO_RU_VDV_31_riflemanlight: I_Soldier_base_F
 	{
@@ -71,22 +69,332 @@ class CfgVehicles
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "NLDO_RU_VDV_31_Camo2";
-		hiddenSelections[] = {"Camo1", "Camo2", "insignia"};
+		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
         respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
-		FacewearProbability = 100;
-		allowedFacewear[] = {"G_Bandanna_aviator","G_Bandanna_beast","G_Bandanna_blk","G_Bandanna_oli","G_Bandanna_shades","G_Bandanna_sport"};
-        };
+		};
+		
+	class NLDO_RU_VDV_31_aar: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Assistent Automatic Rifleman";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_ammg: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Assistent Medium Machinegunner";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_mmg: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Medium machiengunner";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_lmg_Pecheneg","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_lmg_Pecheneg","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_tl: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Team Leader";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107_GL","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107_GL","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_ar: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Automatic Rifleman";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_RPK74M","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_RPK74M","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_ammo: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Ammo Bearer";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo2";
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_officer: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Officer";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107_GL","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107_GL","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_amat: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Assistent Medium Anti-Tank";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_cls: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Combat Life Saver";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_mat: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Medium Anti-Tank";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","CUP_launch_Metis","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","CUP_launch_Metis","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+	class NLDO_RU_VDV_31_at: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Anti-Tank";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo2";
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","CUP_launch_RPG18","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107","CUP_hgun_Makarov","CUP_launch_RPG18","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_gl: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Grenadier";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo2";
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = { "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\t-shirt.paa", "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107_GL","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107_GL","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
+		
+	class NLDO_RU_VDV_31_sl: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2; 
+		displayName = "Squad Leader";
+		faction = "NLDO_RU_VDV_31";
+		vehicleClass = "NLDO_RU_VDV_31_Infantry";
+		backpack = "NLDO_RU_VDV_31_Fieldpack";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Uniform.paa", "\NLDO_RU_VDV\Badges\31th_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_31_Vest", "NLDO_RU_VDV_31_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        weapons[] = {"CUP_arifle_AK107_GL","CUP_hgun_Makarov","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AK107_GL","CUP_hgun_Makarov","put","throw"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell"};
+		};
 
 	class NLDO_RU_VDV_31_Fieldpack : B_FieldPack_blk {
 		displayName = "[NLD OPFOR] Russian Fieldpack Flora";
+		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Backpack.paa"};
 	};
 };
@@ -104,7 +412,7 @@ class cfgWeapons
 	
 	class NLDO_RU_VDV_31_Camo : Uniform_Base {
 		scope = 2;
-		displayName = "[NLD OPFOR] Russian Camo Flora";
+		displayName = "[NLD OPFOR] Russian Flora Camo";
 		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
@@ -118,7 +426,7 @@ class cfgWeapons
 	};
 	class NLDO_RU_VDV_31_Camo2 : Uniform_Base {
 		scope = 2;
-		displayName = "[NLD OPFOR] Russian Camo2 Flora";
+		displayName = "[NLD OPFOR] Russian Flora Camo2";
 		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Uniform.paa";
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
 		
@@ -131,11 +439,11 @@ class cfgWeapons
 	
 	};
 
-        class NLDO_RU_RU_VDV_31_Helmet: ItemCore
+        class NLDO_RU_VDV_31_Helmet: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[NLD OPFOR] Russian Helmet Flora";
+		displayName = "[NLD OPFOR] Russian Flora Helmet";
 		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Helmet.paa";
 		model = "\SP_Pack\Models\SSh68CoverHelmet1";
         hiddenSelections[] = {"Camo"};
@@ -153,11 +461,11 @@ class cfgWeapons
 		};
 	};
 
-        class NLDO_RU_RU_VDV_31_Helmet2: ItemCore
+        class NLDO_RU_VDV_31_Helmet2: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[NLD OPFOR] Russian Helmet2 Flora";
+		displayName = "[NLD OPFOR] Russian Flora Helmet2";
 		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Helmet2.paa";
 		model = "\SP_Pack\Models\SSh68CoverHelmet2";
         hiddenSelections[] = {"Camo","Camo1","Camo2"};
@@ -178,11 +486,11 @@ class cfgWeapons
         class NLDO_RU_VDV_31_Vest: V_PlateCarrier1_rgr
 	{
 		scope = 2;
-		displayName = "[NLD OPFOR] Russian Vest Flora";
+		displayName = "[NLD OPFOR] Russian Flora Vest";
 		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Vest.paa";
 		model = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
-                hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Vest.paa"};
-                hiddenSelections[] = {"Camo"};
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Vest.paa"};
                 
                   
 

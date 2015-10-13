@@ -12,7 +12,7 @@ class CfgFactionClasses
 
 	class NLDO_UA_UAF_BG
 	{
-		displayName="State Border Guard Service of Ukraine";
+		displayName="[NLDO] State Border Guard Service of Ukraine";
 		icon="\NLDO_UA_UAF\Icon\Icon-Ukraine.jpg";
 		priority=1;
 		side=1;
@@ -36,7 +36,7 @@ class CfgVehicles
 	class NLDO_UA_UAF_BG_rifleman: I_Soldier_base_F
 	{
 		author = "Lowlands Tactical";
-		side = 0;
+		side = 1;
 		scope = 2; 
 		displayName = "Rifleman";
 		faction = "NLDO_UA_UAF_BG";
@@ -60,7 +60,7 @@ class CfgVehicles
 	class NLDO_UA_UAF_BG_riflemanlight: I_Soldier_base_F
 	{
 		author = "Lowlands Tactical";
-		side = 0;
+		side = 1;
 		scope = 2; 
 		displayName = "Rifleman (Light)";
 		faction = "NLDO_UA_UAF_BG";
