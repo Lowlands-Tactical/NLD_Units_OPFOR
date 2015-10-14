@@ -220,7 +220,7 @@ class CfgVehicles
 		};
 
 	class NLDO_RU_VDV_76_Fieldpack : B_FieldPack_blk {
-		displayName = "[NLD OPFOR] Russian Fieldpack EMP";
+		displayName = "[NLD OPFOR] Russian EMP Fieldpack";
 		picture = "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\Backpack.paa"};
 		};
@@ -401,7 +401,7 @@ class CfgVehicles
 		};
 
 	class NLDO_RU_VDV_31_Fieldpack : B_FieldPack_blk {
-		displayName = "[NLD OPFOR] Russian Fieldpack Flora";
+		displayName = "[NLD OPFOR] Russian Flora Fieldpack";
 		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\Backpack.paa"};
 		};
@@ -1142,7 +1142,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "[NLD OPFOR] Russian Flora Camo2";
-		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\Uniform.paa";
+		picture = "\NLDO_RU_VDV\Units\31st_Guards_AA\Flora\Data\uim\T-shirt.paa";
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
 		
 		class ItemInfo : UniformItem {
@@ -1230,7 +1230,7 @@ class cfgWeapons
 		class ItemInfo : UniformItem 
 		{
 			uniformModel = "-";
-			uniformClass = "NLDO_RU_VDV_Pilot";
+			uniformClass = "NLDO_RU_VDV_Pilot_76";
 			containerClass = "Supply60";
 			mass = 1;
 		};
@@ -1247,7 +1247,7 @@ class cfgWeapons
 		class ItemInfo : UniformItem 
 		{
 			uniformModel = "-";
-			uniformClass = "NLDO_RU_VDV_HeliPilot";
+			uniformClass = "NLDO_RU_VDV_HeliPilot_76";
 			containerClass = "Supply60";
 			mass = 1;
 		};

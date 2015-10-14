@@ -101,17 +101,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Armored\T-95 Black Eagle\Green\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\T-95 Black Eagle\Green\Data\Turret_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\T-95 Black Eagle\Green\Data\Turret_extra_co.paa"};
 		};
 
-	class NLDO_T100_woodland : NLDO_T100_armata
-	{
-		displayName = "T100 (woodland)";
-		vehicleClass = "NLDO_RU_VDV_31_Armored";
-		faction = "NLDO_RU_VDV_31";
-		crew = "NLDO_RU_VDV_31_rifleman";
-		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Armored\T-95 Black Eagle\Woodland\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\T-95 Black Eagle\Woodland\Data\Turret_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\T-95 Black Eagle\Woodland\Data\Turret_extra_co.paa"};
-	};
-
 	class NLDO_BMP_T_armata : O_APC_Tracked_02_cannon_F
 	{
 		author = "Lowlands Tactical";
