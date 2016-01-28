@@ -10,14 +10,14 @@ class CfgPatches {
 class CfgFactionClasses
 {
 
-	class NLDO_RU_VDV_31
+	class NLDO_RU_VDV_31_Air
 	{
 		displayName="[NLDO] 31st Guards AA";
 		icon="\NLDO_RU_VDV\Icon\Icon-russia.jpg";
 		priority=1;
 		side=1;
 	};
-	class NLDO_RU_VDV_76
+	class NLDO_RU_VDV_76_Air
 	{
 		displayName="[NLDO] 76th Guards AA";
 		icon="\NLDO_RU_VDV\Icon\Icon-russia.jpg";
@@ -30,11 +30,11 @@ class CfgVehicleClasses
 {
 	class NLDO_RU_VDV_31_Air
 	{
-		displayName="Air";
+		displayName="Air [31st]";
 	};
 	class NLDO_RU_VDV_76_Air
 	{
-		displayName="Air";
+		displayName="Air [76th]";
 	};
 };
 
@@ -194,7 +194,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
-	class NLDO_KA60_Armed_31 : O_Heli_Light_02_F
+	class NLDO_KA60_Armed_31 : NLDO_KA60_Armed_76
 	{
 		displayName = "KA-60 armed (31st)";
 		crew = "NLDO_RU_VDV_HeliPilot_31";
