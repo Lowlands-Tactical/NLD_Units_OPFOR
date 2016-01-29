@@ -252,6 +252,6 @@ class CfgVehicles {
 		crew = "NLDO_RU_VDV_Crew_31";
 		typicalCargo[] = {"NLDO_RU_VDV_Crew_31"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo4"};
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Armored\2S19MSTA\Green\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\2S19MSTA\Green\Data\Turret_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\2S19MSTA\Green\Data\Comgun_co.paa"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Armored\2S19MSTA\Woodland\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\2S19MSTA\Woodland\Data\Turret_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\2S19MSTA\Woodland\Data\Comgun_co.paa"};
 	};
 };
