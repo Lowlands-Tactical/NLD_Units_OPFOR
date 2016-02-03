@@ -125,6 +125,8 @@ class CfgVehicles
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_31","NLDO_RU_VDV_HeliPilot_31"};
 		vehicleClass = "NLDO_RU_VDV_31_Air";
 		faction = "NLDO_RU_VDV_31";
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Camo\Data\Body_co.paa"};
 	};
 	
 	class NLDO_KA60_Armed_76 : O_Heli_Light_02_F
@@ -201,9 +203,11 @@ class CfgVehicles
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_31","NLDO_RU_VDV_HeliPilot_31"};
 		vehicleClass = "NLDO_RU_VDV_31_Air";
 		faction = "NLDO_RU_VDV_31";
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Camo\Data\Body_co.paa"};
 	};
 	
-	class NLDO_MI48_Black_76 : O_Heli_Attack_02_black_F
+	class NLDO_MI48_76 : O_Heli_Attack_02_black_F
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -270,13 +274,15 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
-	class NLDO_MI48_Black_31 : NLDO_MI48_Black_76
+	class NLDO_MI48_31 : NLDO_MI48_Black_76
 	{
 		displayName = "MI-48 (31st)";
 		crew = "NLDO_RU_VDV_HeliPilot_31";
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_31","NLDO_RU_VDV_HeliPilot_31"};
 		vehicleClass = "NLDO_RU_VDV_31_Air";
 		faction = "NLDO_RU_VDV_31";
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\MI-48\Woodland\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Air\MI-48\Woodland\Data\Rotor_co.paa"};
 	};
 	
 	class NLDO_YAK131_76 : O_Plane_CAS_02_F

@@ -489,6 +489,8 @@ class CfgVehicles
 		displayName = "Heli Crew";
 		faction = "NLDO_RU_VDV_76";
 		vehicleClass = "NLDO_RU_VDV_76_Infantry";
+		linkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
 		};
 		
 	class NLDO_RU_VDV_Pilot_31: NLDO_RU_VDV_Pilot_76

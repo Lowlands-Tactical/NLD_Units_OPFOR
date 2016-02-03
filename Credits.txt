@@ -7,6 +7,5 @@ Models:		Bohemia Interactive
 
 __________________________________________
 
-Uniforms	: Craig (@SP_Pack)
-Uniforms	: teriyaki (TRYK's Multi-Play Uniforms)
+Helmets		: Craig (@SP_Pack)
 Weapons		: Community Upgrade Project

@@ -2,11 +2,11 @@
 
 CUP_hgun_Makarov
 CUP_hgun_PB6P9
-CUP_arifle_AK107
-CUP_arifle_AK107_GL
+CUP_arifle_AK107_kobra
+CUP_arifle_AK107_GL_kobra
 CUP_arifle_RPK74M
 CUP_lmg_Pecheneg
-CUP_srifle_SVD
+CUP_srifle_SVD_pso
 CUP_launch_RPG18
 CUP_launch_Metis
 CUP_launch_Igla
@@ -18,17 +18,17 @@ CUP_optic_PSO_3									(Sniperscope)
 
 CUP_8Rnd_9x18_Makarov_M 						(CUP_hgun_Makarov, CUP_hgun_PB6P9)
 CUP_8Rnd_9x18_MakarovSD_M						(CUP_hgun_Makarov, CUP_hgun_PB6P9)
-CUP_30Rnd_545x39_AK_M 							(CUP_arifle_AK107, CUP_arifle_AK107_GL, CUP_arifle_RPK74M)
-CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M 			(CUP_arifle_AK107, CUP_arifle_AK107_GL, CUP_arifle_RPK74M)
-CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M 	(CUP_arifle_AK107, CUP_arifle_AK107_GL, CUP_arifle_RPK74M)
+CUP_30Rnd_545x39_AK_M 							(CUP_arifle_AK107_kobra, CUP_arifle_AK107_GL_kobra, CUP_arifle_RPK74M)
+CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M 			(CUP_arifle_AK107_kobra, CUP_arifle_AK107_GL_kobra, CUP_arifle_RPK74M)
+CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M 	(CUP_arifle_AK107_kobra, CUP_arifle_AK107_GL_kobra, CUP_arifle_RPK74M)
 CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M	(CUP_arifle_RPK74M)
 CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M 	(CUP_lmg_Pecheneg)
-CUP_10Rnd_762x54_SVD_M							(CUP_srifle_SVD)
+CUP_10Rnd_762x54_SVD_M							(CUP_srifle_SVD_pso)
 
-CUP_1Rnd_HE_GP25_M								(CUP_arifle_AK107_GL)
-CUP_1Rnd_SMOKE_GP25_M							(CUP_arifle_AK107_GL)
-CUP_1Rnd_SmokeRed_GP25_M						(CUP_arifle_AK107_GL)
-CUP_1Rnd_SmokeGreen_GP25_M						(CUP_arifle_AK107_GL)
+CUP_1Rnd_HE_GP25_M								(CUP_arifle_AK107_GL_kobra)
+CUP_1Rnd_SMOKE_GP25_M							(CUP_arifle_AK107_GL_kobra)
+CUP_1Rnd_SmokeRed_GP25_M						(CUP_arifle_AK107_GL_kobra)
+CUP_1Rnd_SmokeGreen_GP25_M						(CUP_arifle_AK107_GL_kobra)
 
 CUP_RPG18_M										(CUP_launch_RPG18)
 CUP_AT13_M										(CUP_launch_Metis)

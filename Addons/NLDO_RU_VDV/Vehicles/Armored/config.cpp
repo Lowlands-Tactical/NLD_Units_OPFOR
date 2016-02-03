@@ -25,7 +25,7 @@ class CfgVehicles {
 	class O_APC_Tracked_02_cannon_F;
 	class O_MBT_02_arty_F;
 
-	class NLDO_T100_Green : O_MBT_02_cannon_F
+	class NLDO_T100_76 : O_MBT_02_cannon_F
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -91,7 +91,7 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_T100_Woodland : NLDO_T100_Green
+	class NLDO_T100_31 : NLDO_T100_Green
 	{
 		displayName = "T100 (31st)";
 		vehicleClass = "NLDO_RU_VDV_31_Armored";
@@ -102,7 +102,7 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Armored\T-95BlackEagle\Woodland\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\T-95BlackEagle\Woodland\Data\Turret_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\T-95BlackEagle\Woodland\Data\Turret_extra_co.paa"};
 		};
 
-	class NLDO_BMP_T_Green : O_APC_Tracked_02_cannon_F
+	class NLDO_BMP_T_76 : O_APC_Tracked_02_cannon_F
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -168,7 +168,7 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 	
-	class NLDO_BMP_T_Woodland : NLDO_BMP_T_Green
+	class NLDO_BMP_T_31 : NLDO_BMP_T_Green
 	{
 		displayName = "BMP-T (31st)";
 		vehicleClass = "NLDO_RU_VDV_31_Armored";
@@ -178,7 +178,7 @@ class CfgVehicles {
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Armored\BMP-T\Woodland\Data\Body_up_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\BMP-T\Woodland\Data\Body_down_co.paa", "\NLDO_RU_VDV\Vehicles\Armored\BMP-T\Woodland\Data\Turret_co.paa"};
 	};
-	class NLDO_2S19MSTA_Green : O_MBT_02_arty_F
+	class NLDO_2S19MSTA_76 : O_MBT_02_arty_F
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -244,7 +244,7 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 	
-	class NLDO_2S19MSTA_Woodland : NLDO_2S19MSTA_Green
+	class NLDO_2S19MSTA_31 : NLDO_2S19MSTA_Green
 	{
 		displayName = "2S19 MSTA (31st)";
 		vehicleClass = "NLDO_RU_VDV_31_Armored";
