@@ -163,6 +163,7 @@ class CfgVehicles
 	{
 		displayName = "Officer";
 		icon = "iconManOfficer";
+		backpack = "NLDO_FieldPack_EMP_TL";
         weapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
         respawnweapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
@@ -360,6 +361,7 @@ class CfgVehicles
 	{
 		displayName = "Officer";
 		icon = "iconManOfficer";
+		backpack = "NLDO_FieldPack_Flora_TL";
         weapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
         respawnweapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};

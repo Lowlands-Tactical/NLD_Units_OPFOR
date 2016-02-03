@@ -1,6 +1,10 @@
 name = "NLD Units OPFOR: OPFOR Units for ArmA 3";
 picture = "NLD_Units_OPFOR.paa";
+logo = "NLD_Units_OPFOR.paa";
+logoOver = "NLD_Units_OPFOR_Overlay.paa";
+tooltipOwned = "@NLD_Units_OPFOR";
 actionName = "Website";
 action = "http://lowtac.nl";
-description = "NLD Units OPFOR";
+overview = "NLD Units OPFOR: OPFOR Units for ArmA 3 v1.";
+description = "NLD Units v1";
 author = "Lowlands Tactical";
