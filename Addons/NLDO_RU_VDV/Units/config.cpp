@@ -25,18 +25,6 @@ class CfgFactionClasses
 		side=0;
 	};
 };
-
-class CfgVehicleClasses
-{
-	class NLDO_RU_VDV_76_Infantry
-	{
-		displayName="Men [76th]";
-	};
-	class NLDO_RU_VDV_31_Infantry
-	{
-		displayName="Men [31st]";
-	};
-};
 	
 class CfgVehicles 
 {
@@ -51,7 +39,6 @@ class CfgVehicles
 		scope = 2; 
 		displayName = "Marksman";
 		faction = "NLDO_RU_VDV_76";
-		vehicleClass = "NLDO_RU_VDV_76_Infantry";
 		backpack = "NLDO_FieldPack_EMP_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
@@ -75,7 +62,6 @@ class CfgVehicles
 		scope = 2; 
 		displayName = "Rifleman";
 		faction = "NLDO_RU_VDV_76";
-		vehicleClass = "NLDO_RU_VDV_76_Infantry";
 		backpack = "NLDO_FieldPack_EMP_B";
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
 		uniformAccessories[] = {};
@@ -249,7 +235,6 @@ class CfgVehicles
 		scope = 2; 
 		displayName = "marksman";
 		faction = "NLDO_RU_VDV_31";
-		vehicleClass = "NLDO_RU_VDV_31_Infantry";
 		backpack = "NLDO_FieldPack_Flora_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
@@ -273,7 +258,6 @@ class CfgVehicles
 		scope = 2; 
 		displayName = "Rifleman";
 		faction = "NLDO_RU_VDV_31";
-		vehicleClass = "NLDO_RU_VDV_31_Infantry";
 		backpack = "NLDO_FieldPack_Flora_B";
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
 		uniformAccessories[] = {};
@@ -445,7 +429,6 @@ class CfgVehicles
 		scope = 2; 
 		displayName = "Fighter Pilot";
 		faction = "NLDO_RU_VDV_76";
-		vehicleClass = "NLDO_RU_VDV_76_Infantry";
 		backpack = "B_Parachute";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
@@ -469,7 +452,6 @@ class CfgVehicles
 		scope = 2; 
 		displayName = "Heli Pilot";
 		faction = "NLDO_RU_VDV_76";
-		vehicleClass = "NLDO_RU_VDV_76_Infantry";
 		backpack = "";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
@@ -490,7 +472,6 @@ class CfgVehicles
 	{
 		displayName = "Heli Crew";
 		faction = "NLDO_RU_VDV_76";
-		vehicleClass = "NLDO_RU_VDV_76_Infantry";
 		linkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
 		};
@@ -499,21 +480,18 @@ class CfgVehicles
 	{
 		displayName = "Pilot";
 		faction = "NLDO_RU_VDV_31";
-		vehicleClass = "NLDO_RU_VDV_31_Infantry";
 		};
 		
 	class NLDO_RU_VDV_HeliPilot_31: NLDO_RU_VDV_HeliPilot_76
 	{
 		displayName = "Helipilot";
 		faction = "NLDO_RU_VDV_31";
-		vehicleClass = "NLDO_RU_VDV_31_Infantry";
 		};
 		
 	class NLDO_RU_VDV_HeliCrew_31: NLDO_RU_VDV_HeliCrew_76
 	{
 		displayName = "HeliCrew";
 		faction = "NLDO_RU_VDV_31";
-		vehicleClass = "NLDO_RU_VDV_31_Infantry";
 		};
 		
 	class NLDO_RU_VDV_Crew_76: I_Soldier_base_F
@@ -523,7 +501,6 @@ class CfgVehicles
 		scope = 2; 
 		displayName = "Crew";
 		faction = "NLDO_RU_VDV_76";
-		vehicleClass = "NLDO_RU_VDV_76_Infantry";
 		backpack = "";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
@@ -543,7 +520,6 @@ class CfgVehicles
 	class NLDO_RU_VDV_Crew_31: NLDO_RU_VDV_Crew_76
 	{
 		faction = "NLDO_RU_VDV_31";
-		vehicleClass = "NLDO_RU_VDV_31_Infantry";
 		backpack = "";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};

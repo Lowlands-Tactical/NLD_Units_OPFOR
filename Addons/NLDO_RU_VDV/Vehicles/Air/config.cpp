@@ -26,18 +26,6 @@ class CfgFactionClasses
 	};
 };
 
-class CfgVehicleClasses
-{
-	class NLDO_RU_VDV_31_Air
-	{
-		displayName="Air [31st]";
-	};
-	class NLDO_RU_VDV_76_Air
-	{
-		displayName="Air [76th]";
-	};
-};
-
 class WeaponFireGun ;
 class WeaponCloudsGun ;
 class WeaponFireMGun ;
@@ -60,7 +48,6 @@ class CfgVehicles
 		side = 0;
 		crew = "NLDO_RU_VDV_HeliPilot_76";
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_76","NLDO_RU_VDV_HeliPilot_76"};
-		vehicleClass = "NLDO_RU_VDV_76_Air";
 		faction = "NLDO_RU_VDV_76";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Black\Data\Body_co.paa"};
@@ -123,7 +110,6 @@ class CfgVehicles
 		displayName = "KA-60 (31st)";
 		crew = "NLDO_RU_VDV_HeliPilot_31";
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_31","NLDO_RU_VDV_HeliPilot_31"};
-		vehicleClass = "NLDO_RU_VDV_31_Air";
 		faction = "NLDO_RU_VDV_31";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Camo\Data\Body_co.paa"};
@@ -138,7 +124,6 @@ class CfgVehicles
 		side = 0;
 		crew = "NLDO_RU_VDV_HeliPilot_76";
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_76","NLDO_RU_VDV_HeliPilot_76"};
-		vehicleClass = "NLDO_RU_VDV_76_Air";
 		faction = "NLDO_RU_VDV_76";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Black\Data\Body_co.paa"};
@@ -201,7 +186,6 @@ class CfgVehicles
 		displayName = "KA-60 armed (31st)";
 		crew = "NLDO_RU_VDV_HeliPilot_31";
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_31","NLDO_RU_VDV_HeliPilot_31"};
-		vehicleClass = "NLDO_RU_VDV_31_Air";
 		faction = "NLDO_RU_VDV_31";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\KA-60\Camo\Data\Body_co.paa"};
@@ -216,7 +200,6 @@ class CfgVehicles
 		side = 0;
 		crew = "NLDO_RU_VDV_HeliPilot_76";
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_76","NLDO_RU_VDV_HeliPilot_76"};
-		vehicleClass = "NLDO_RU_VDV_76_Air";
 		faction = "NLDO_RU_VDV_76";
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\MI-48\Black\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Air\MI-48\Black\Data\Rotor_co.paa"};
@@ -274,12 +257,11 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
-	class NLDO_MI48_31 : NLDO_MI48_Black_76
+	class NLDO_MI48_31 : NLDO_MI48_76
 	{
 		displayName = "MI-48 (31st)";
 		crew = "NLDO_RU_VDV_HeliPilot_31";
 		typicalCargo[] = {"NLDO_RU_VDV_HeliCrew_31","NLDO_RU_VDV_HeliPilot_31"};
-		vehicleClass = "NLDO_RU_VDV_31_Air";
 		faction = "NLDO_RU_VDV_31";
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\MI-48\Woodland\Data\Body_co.paa", "\NLDO_RU_VDV\Vehicles\Air\MI-48\Woodland\Data\Rotor_co.paa"};
@@ -293,7 +275,6 @@ class CfgVehicles
 		displayName = "YAK-131 (76th)";
 		side = 0;
 		crew = "NLDO_RU_VDV_Pilot_76";
-		vehicleClass = "NLDO_RU_VDV_76_Air";
 		faction = "NLDO_RU_VDV_76";
 		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Vehicles\Air\Yak-131\Data\Body_up_co.paa","\NLDO_RU_VDV\Vehicles\Air\Yak-131\Data\Body_down_co.paa"};
 		
@@ -354,7 +335,6 @@ class CfgVehicles
 	{
 		displayName = "YAK-131 (31st)";
 		crew = "NLDO_RU_VDV_Pilot_31";
-		vehicleClass = "NLDO_RU_VDV_31_Air";
 		faction = "NLDO_RU_VDV_31";
 	};
 };

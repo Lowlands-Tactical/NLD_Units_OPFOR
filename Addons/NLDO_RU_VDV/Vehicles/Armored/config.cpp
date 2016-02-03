@@ -7,18 +7,6 @@ class CfgPatches {
 	};
 };
 
-class CfgVehicleClasses
-{
-	class NLDO_RU_VDV_31_Armored
-	{
-		displayName="Armored [31st]";
-	};
-	class NLDO_RU_VDV_76_Armored
-	{
-		displayName="Armored [76th]";
-	};
-};
-
 class CfgVehicles {
 
 	class O_MBT_02_cannon_F;
@@ -31,7 +19,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "T100 (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Armored";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_Crew_76";
 		typicalCargo[] = {"NLDO_RU_VDV_Crew_76"};
@@ -91,10 +78,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_T100_31 : NLDO_T100_Green
+	class NLDO_T100_31 : NLDO_T100_76
 	{
 		displayName = "T100 (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Armored";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_Crew_31";
 		typicalCargo[] = {"NLDO_RU_VDV_Crew_31"};
@@ -108,7 +94,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "BMP-T (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Armored";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -168,10 +153,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 	
-	class NLDO_BMP_T_31 : NLDO_BMP_T_Green
+	class NLDO_BMP_T_31 : NLDO_BMP_T_76
 	{
 		displayName = "BMP-T (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Armored";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_Crew_31";
 		typicalCargo[] = {"NLDO_RU_VDV_Crew_31"};
@@ -184,7 +168,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "2S19 MSTA (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Armored";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_Crew_76";
 		typicalCargo[] = {"NLDO_RU_VDV_Crew_76"};
@@ -244,10 +227,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 	
-	class NLDO_2S19MSTA_31 : NLDO_2S19MSTA_Green
+	class NLDO_2S19MSTA_31 : NLDO_2S19MSTA_76
 	{
 		displayName = "2S19 MSTA (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Armored";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_Crew_31";
 		typicalCargo[] = {"NLDO_RU_VDV_Crew_31"};

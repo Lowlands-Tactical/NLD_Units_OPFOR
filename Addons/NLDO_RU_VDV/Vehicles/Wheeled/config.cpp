@@ -7,18 +7,6 @@ class CfgPatches {
 	};
 };
 
-class CfgVehicleClasses
-{
-	class NLDO_RU_VDV_31_Wheeled
-	{
-		displayName="Wheeled [31st]";
-	};
-	class NLDO_RU_VDV_76_Wheeled
-	{
-		displayName="Wheeled [76th]";
-	};
-};
-
 class CfgVehicles {
 
 	class O_MRAP_02_hmg_F;
@@ -37,7 +25,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Punisher (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -78,7 +65,7 @@ class CfgVehicles {
 				magazine="CUP_30Rnd_545x39_AK_M";
 				count=25;
 			};
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_75Rnd_TE4_LRT4_Tracer_545x39_RPK_M
 			{
 				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
 				count=10;
@@ -97,10 +84,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_Punisher_31 : NLDO_Punisher_Green
+	class NLDO_Punisher_31 : NLDO_Punisher_76
 	{
 		displayName = "Punisher (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -114,7 +100,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Punisher HMG (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -174,10 +159,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_Punisher_31_HMG : NLDO_Punisher_Green_HMG
+	class NLDO_Punisher_31_HMG : NLDO_Punisher_76_HMG
 	{
 		displayName = "Punisher HMG(31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -191,7 +175,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Otokar (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -251,10 +234,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_Otokar_31 : NLDO_Otokar_76th
+	class NLDO_Otokar_31 : NLDO_Otokar_76
 	{
 		displayName = "Otokar (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -268,7 +250,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Kamaz Transport (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -327,10 +308,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_kamaz_Transport_31 : NLDO_kamaz_Transport_76th
+	class NLDO_kamaz_Transport_31 : NLDO_kamaz_Transport_76
 	{
-		displayName = "kamaz Transport (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
+		displayName = "Kamaz Transport (31st)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -342,7 +322,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Kamaz Covered (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -401,10 +380,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_kamaz_Covered_31 : NLDO_kamaz_Covered_76th
+	class NLDO_kamaz_Covered_31 : NLDO_kamaz_Covered_76
 	{
 		displayName = "kamaz Covered (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -416,7 +394,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Kamaz Medical (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -475,10 +452,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_kamaz_Medical_31 : NLDO_kamaz_Medical_76th
+	class NLDO_kamaz_Medical_31 : NLDO_kamaz_Medical_76
 	{
 		displayName = "kamaz Medical (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -490,7 +466,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Kamaz Fuel (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -549,10 +524,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_kamaz_Fuel_31 : NLDO_kamaz_Fuel_76th
+	class NLDO_kamaz_Fuel_31 : NLDO_kamaz_Fuel_76
 	{
 		displayName = "kamaz Fuel (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -564,7 +538,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Kamaz Repair (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -623,10 +596,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_kamaz_Repair_31 : NLDO_kamaz_Repair_76th
+	class NLDO_kamaz_Repair_31 : NLDO_kamaz_Repair_76
 	{
 		displayName = "kamaz Repair (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -638,7 +610,6 @@ class CfgVehicles {
 		scope = 2;
 		side = 0;
 		displayName = "Kamaz Ammo (76th)";
-		vehicleClass = "NLDO_RU_VDV_76_Wheeled";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
@@ -697,10 +668,9 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLDO_kamaz_Ammo_31 : NLDO_kamaz_Ammo_76th
+	class NLDO_kamaz_Ammo_31 : NLDO_kamaz_Ammo_76
 	{
 		displayName = "kamaz Ammo (31st)";
-		vehicleClass = "NLDO_RU_VDV_31_Wheeled";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
