@@ -43,8 +43,8 @@ class cfgVehicles
 	// Start backpack
 	class NLDO_FieldPack_EMP_Empty: B_FieldPack_blk {
 		displayName = "[NLDO] EMP FieldPack";
-		picture = "\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\uim\Backpack.paa";
-		hiddenSelectionsTextures[] = {"\NLDO_RU_VDV\Units\76th_Guards_AA\EMP\Data\Backpack.paa"};
+		picture = "NLDO_RU_VDV_76\Gear\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Backpack.paa"};
         maximumLoad = 360;
 	};
 
@@ -599,5 +599,8 @@ class cfgVehicles
 		};
 	};
 	// End backpack
+
+	// Start infantrie
+	// End infantrie
 
 };
