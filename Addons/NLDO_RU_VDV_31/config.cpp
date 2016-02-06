@@ -238,7 +238,7 @@ class CfgVehicles
 	
 
 	class NLDO_FieldPack_Flora_AT : NLDO_FieldPack_Flora_Empty {
-		displayName = "[NLDO] EMP FieldPack AT";
+		displayName = "[NLDO] Flora FieldPack AT";
         scope = 1;
 
 		class TransportMagazines
@@ -352,7 +352,7 @@ class CfgVehicles
 	
 
 	class NLDO_FieldPack_Flora_Ammo : NLDO_FieldPack_Flora_Empty {
-		displayName = "[NLDO] EMP FieldPack Ammo";
+		displayName = "[NLDO] Flora FieldPack Ammo";
         scope = 1;
 
 		class TransportMagazines
@@ -607,7 +607,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		side = 0;
 		scope = 2; 
-		displayName = "marksman";
+		displayName = "Marksman";
 		faction = "NLDO_RU_VDV_31";
 		backpack = "NLDO_FieldPack_Flora_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -876,7 +876,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Punisher (31st)";
+		displayName = "[NLDO] Punisher (31st)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -942,7 +942,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Punisher HMG (31st)";
+		displayName = "[NLDO] Punisher HMG (31st)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1008,7 +1008,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Otokar (31th)";
+		displayName = "[NLDO] Otokar (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1074,7 +1074,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Kamaz Transport (31th)";
+		displayName = "[NLDO] Kamaz Transport (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1138,7 +1138,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Kamaz Covered (31th)";
+		displayName = "[NLDO] Kamaz Covered (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1203,7 +1203,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Kamaz Medical (31th)";
+		displayName = "[NLDO] Kamaz Medical (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1268,7 +1268,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Kamaz Fuel (31th)";
+		displayName = "[NLDO] Kamaz Fuel (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1333,7 +1333,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Kamaz Repair (31th)";
+		displayName = "[NLDO] Kamaz Repair (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1398,7 +1398,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "Kamaz Ammo (31th)";
+		displayName = "[NLDO] Kamaz Ammo (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1468,7 +1468,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "T100 (31th)";
+		displayName = "[NLDO] T100 (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_Crew_31";
 		typicalCargo[] = {"NLDO_RU_VDV_31_Crew"};
@@ -1534,7 +1534,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "BMP-T (31th)";
+		displayName = "[NLDO] BMP-T (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1600,7 +1600,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "2S19 MSTA (31th)";
+		displayName = "[NLDO] 2S19 MSTA (31th)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_31_Crew"};
@@ -1672,7 +1672,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "O_Heli_Light_02_unarmed_F";
-		displayName = "KA-60 (31th)";
+		displayName = "[NLDO] KA-60 (31th)";
 		side = 0;
 		crew = "NLDO_RU_VDV_31_HeliPilot";
 		typicalCargo[] = {"NLDO_RU_VDV_31_HeliCrew","NLDO_RU_VDV_31_HeliPilot"};
@@ -1739,7 +1739,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "O_Heli_Light_02_F";
-		displayName = "KA-60 armed (31th)";
+		displayName = "[NLDO] KA-60 armed (31th)";
 		side = 0;
 		crew = "NLDO_RU_VDV_31_HeliPilot";
 		typicalCargo[] = {"NLDO_RU_VDV_31_HeliCrew","NLDO_RU_VDV_31_HeliPilot"};
@@ -1806,7 +1806,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "O_Heli_Attack_02_black_F";
-		displayName = "MI-48 (31th)";
+		displayName = "[NLDO] MI-48 (31th)";
 		side = 0;
 		crew = "NLDO_RU_VDV_31_HeliPilot";
 		typicalCargo[] = {"NLDO_RU_VDV_31_HeliCrew","NLDO_RU_VDV_31_HeliPilot"};
@@ -1873,7 +1873,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "O_Plane_CAS_02_F";
-		displayName = "YAK-131 (31st)";
+		displayName = "[NLDO] YAK-131 (31st)";
 		side = 0;
 		crew = "NLDO_RU_VDV_31_Pilot";
 		faction = "NLDO_RU_VDV_31";
@@ -1982,7 +1982,7 @@ class cfgWeapons
     {
         scope = 2;
         weaponPoolAvailable = 1;
-        displayName = "[NLD OPFOR] Russian Flora Helmet";
+        displayName = "[NLDO] Russian Flora Helmet";
         picture = "\NLDO_RU_VDV_31\Gear\uim\Helmet.paa";
         model = "\SP_Pack\Models\SSh68Helmet1";
         hiddenSelections[] = {"Camo"};
@@ -2004,7 +2004,7 @@ class cfgWeapons
     {
         scope = 2;
         weaponPoolAvailable = 1;
-        displayName = "[NLD OPFOR] Russian Flora Helmet2";
+        displayName = "[NLDO] Russian Flora Helmet2";
         picture = "\NLDO_RU_VDV_31\Gear\uim\Helmet2.paa";
         model = "\SP_Pack\Models\SSh68Helmet2";
         hiddenSelections[] = {"Camo","Camo1","Camo2"};
@@ -2025,7 +2025,7 @@ class cfgWeapons
     class NLDO_RU_VDV_31_Vest: V_PlateCarrier1_rgr
     {
         scope = 2;
-        displayName = "[NLD OPFOR] Russian Flora Vest";
+        displayName = "[NLDO] Russian Flora Vest";
         picture = "\NLDO_RU_VDV_31\Gear\uim\Vest.paa";
         model = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
         hiddenSelections[] = {"Camo"};
