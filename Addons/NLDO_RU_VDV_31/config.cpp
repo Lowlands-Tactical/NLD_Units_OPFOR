@@ -22,7 +22,7 @@ class CfgFactionClasses
 // The units insignia
 class CfgUnitInsignia
 {
-    class NLDO_31MB_Russia
+    class NLDO_31AMB_Russia
     {
         displayName = "[NLDO] 31AMB (Russia)";
         author = "Lowlands Tactical";
