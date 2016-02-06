@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CUP_BaseData","CUP_BaseConfigs"};
+		requiredAddons[] = {"CUP_BaseData","CUP_BaseConfigs","NLDO_Units_Common"};
 	};
 };
 
