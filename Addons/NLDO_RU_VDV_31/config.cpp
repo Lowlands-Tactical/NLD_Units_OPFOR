@@ -13,7 +13,7 @@ class CfgFactionClasses
 	class NLDO_RU_VDV_31
 	{
 		displayName="[NLDO] 31st Guards AA";
-		icon="\NLDO_RU_VDV_31\Icon\Icon.jpg";
+		icon="NLDO_Common\Icon\russian_flag.jpg";
 		priority=1;
 		side=0;
 	};
