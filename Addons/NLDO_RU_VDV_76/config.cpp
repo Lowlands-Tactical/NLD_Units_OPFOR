@@ -2016,6 +2016,15 @@ class cfgWeapons
 			passThrough = 0.5;
             hiddenSelections[] = {"Camo"};
             hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Helmet.paa"};
+			class HitpointsProtectionInfo
+ 			{
+ 				class Head
+ 				{
+ 					hitpointName="HitHead";
+ 					armor=6;
+ 					passThrough=0.5;
+ 				};
+ 			};
 		};
 	};
 
@@ -2038,6 +2047,15 @@ class cfgWeapons
 			passThrough = 0.5;
 			hiddenSelections[] = {"Camo","Camo1","Camo2"};
             hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Helmet.paa","\SP_Pack\Hats\SSh68CoverHelmet\Black.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
+			class HitpointsProtectionInfo
+ 			{
+ 				class Head
+ 				{
+ 					hitpointName="HitHead";
+ 					armor=6;
+ 					passThrough=0.5;
+ 				};
+ 			};
 		};
 	};
 
@@ -2060,6 +2078,38 @@ class cfgWeapons
 			mass = 50;
 			armor = 60;
 			passThrough = 0.30;
+			class HitpointsProtectionInfo
+ 			{
+ 				class Chest
+ 				{
+ 					hitpointName="HitChest";
+ 					armor=16;
+ 					passThrough=0.30000001;
+ 				};
+ 				class Diaphragm
+ 				{
+ 					hitpointName="HitDiaphragm";
+ 					armor=16;
+ 					passThrough=0.30000001;
+ 				};
+ 				class Abdomen
+ 				{
+ 					hitpointName="HitAbdomen";
+ 					armor=16;
+ 					passThrough=0.30000001;
+ 				};
+ 				class Pelvis
+ 				{
+ 					hitpointName="HitPelvis";
+ 					armor=16;
+ 					passThrough=0.30000001;
+ 				};
+ 				class Body
+ 				{
+ 					hitpointName="HitBody";
+ 					passThrough=0.30000001;
+ 				};
+ 			};
 		};
 	};
 };
