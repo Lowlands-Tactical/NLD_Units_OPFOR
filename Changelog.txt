@@ -2,3 +2,6 @@ Changelog:
 
 v0.1
 - first release
+
+v?????
+- Added armor values to helmets and vests.
