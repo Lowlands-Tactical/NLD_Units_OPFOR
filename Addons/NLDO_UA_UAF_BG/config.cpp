@@ -29,7 +29,7 @@ class CfgVehicleClasses
 class cfgVehicles
 {
 
-        class I_Soldier_base_F;
+  class I_Soldier_base_F;
 
 	class nldo_ua_uaf_bg_cls: I_Soldier_base_F
 	{
@@ -124,8 +124,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","rangefinder" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","rangefinder"  };
-		weapons[] = { "NLDO_Fort222_black","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "NLDO_Fort222_black","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_Fort222_GL_Black","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_Fort222_GL_Black","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag" };
 	};
@@ -198,8 +198,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","laserdesignator","ItemGPS" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","laserdesignator","ItemGPS"  };
-		weapons[] = { "NLDO_Fort222_black","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "NLDO_Fort222_black","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_Fort222_GL_Black","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_Fort222_GL_Black","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "Laserbatteries","Laserbatteries","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"  };
 		respawnmagazines[] = { "Laserbatteries","Laserbatteries","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag" };
 	};
@@ -223,8 +223,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","rangefinder","ItemGPS" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","rangefinder","ItemGPS"  };
-		weapons[] = { "NLDO_Fort222_black","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "NLDO_Fort222_black","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_Fort222_GL_Black","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_Fort222_GL_Black","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag" };
 	};
@@ -558,7 +558,7 @@ class cfgWeapons
 		scope = 2;
 		author="Lowlands Tactical";
 		displayName = "[NLDO] Pixelated Woodland";
-		picture = "nldo_ua_uaf_bg\Gear\uim\Uniform.paa";
+		picture = "\nldo_ua_uaf_bg\Gear\uim\Uniform.paa";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 
 		class ItemInfo : UniformItem {
@@ -607,27 +607,28 @@ class cfgWeapons
 
 	class InventoryItem_Base_F;
 	class VestItem;
+	class V_PlateCarrier3_rgr;
 
-	class nldo_ua_uaf_bg_Vest: NLDO_UA_UAF_BG_Camo
+	class nldo_ua_uaf_bg_Vest: V_PlateCarrier3_rgr
 	{
 		scope = 2;
 		displayName = "[NLDO] Ukrainian Vest BG";
 		author="Lowlands Tactical";
-		picture = "nldo_ua_uaf_bg\Gear\uim\Vest.paa";
+		picture = "\nldo_ua_uaf_bg\Gear\uim\Vest.paa";
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
-		hiddenSelectionsTextures[] = {"nldo_ua_uaf_bg\Gear\Vest.paa"};
+		hiddenSelectionsTextures[] = {"\nldo_ua_uaf_bg\Gear\Vest.paa"};
 		hiddenSelections[] = {"Camo"};
-
-
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "NLDO_UA_UAF_BG_Camo";
-			containerClass = "Supply120";
-			hiddenSelections[] = {"camo"};
-			mass = 50;
+			_generalMacro = "VestItem";
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+			uniformType = "default";
+			type = 701;
+			containerClass = "Supply140";
+			mass = 100;
 			armor = 0.5;
-			passThrough = 60;
+			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -648,16 +649,9 @@ class cfgWeapons
 					armor=20;
 					passThrough=0.2;
 				};
-//				class Pelvis
-// 				{
-//					hitpointName="HitPelvis";
-//					armor=10;
-//					passThrough=0.5;
-//				};
 				class Body
 				{
 					hitpointName="HitBody";
-//					armor=10;
 					passThrough=0.2;
 				};
 			};
@@ -674,27 +668,27 @@ class cfgWeapons
 	{
 		author="Lowlands Tactical";
 		displayName="[NLDO] Fort 221";
-		picture = "nldo_ua_uaf_bg\Weapons\Fort221\uim\Fort221.paa";
+		picture = "\nldo_ua_uaf_bg\Weapons\Fort221\uim\Fort221.paa";
 		hiddenselections[]= {"camo"};
-		hiddenselectionstextures[]={"nldo_ua_uaf_bg\Weapons\Fort221\Fort221.paa"};
+		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\Fort221\Fort221.paa"};
 	};
 
 	class NLDO_Fort222_black: arifle_TRG21_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLDO] Fort-222";
-		picture = "nldo_ua_uaf_bg\Weapons\Fort222\uim\Fort221.paa";
+		picture = "\nldo_ua_uaf_bg\Weapons\Fort222\uim\Fort221.paa";
 		hiddenselections[]={"camo"};
-		hiddenselectionstextures[]={"nldo_ua_uaf_bg\Weapons\Fort222\Fort221.paa"};
+		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\Fort222\Fort221.paa"};
 	};
 
 	class NLDO_Fort222_GL_Black: arifle_TRG21_GL_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLDO] Fort-222 EGLM";
-		picture = "nldo_ua_uaf_bg\Weapons\Fort222\uim\Fort222EGLM.paa";
+		picture = "\nldo_ua_uaf_bg\Weapons\Fort222\uim\Fort222EGLM.paa";
 		hiddenselections[]={"camo1"};
-		hiddenselectionstextures[]={"nldo_ua_uaf_bg\Weapons\Fort222\Fort221ugl.paa"};
+		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\Fort222\Fort221ugl.paa"};
 	};
 
 
@@ -702,9 +696,9 @@ class cfgWeapons
 	{
 		author="Lowlands Tactical";
 		displayName="[NLDO] Fort-401";
-		picture = "nldo_ua_uaf_bg\Weapons\Fort401\uim\Fort401.paa";
+		picture = "\nldo_ua_uaf_bg\Weapons\Fort401\uim\Fort401.paa";
 		hiddenselections[]={"camo1", "camo2"};
-		hiddenselectionstextures[]={"nldo_ua_uaf_bg\Weapons\Fort401\Fort4011.paa", "nldo_ua_uaf_bg\Weapons\Fort401\Fort4012.paa"};
+		hiddenselectionstextures[]={\"nldo_ua_uaf_bg\Weapons\Fort401\Fort4011.paa", "\nldo_ua_uaf_bg\Weapons\Fort401\Fort4012.paa"};
 	};
 
 };
