@@ -29,7 +29,7 @@ class CfgUnitInsignia
 
 
 // Weapons
-class cfgWeapons 
+class cfgWeapons
 {
     class Uniform_Base;
     class UniformItem;
@@ -48,7 +48,7 @@ class cfgWeapons
         picture = "NLDO_Common\Gear\uim\HeliHelmet.paa";
         model = "A3\Characters_F\Common\headgear_helmet_heli";
         hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmet.paa"};         
+        hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmet.paa"};
 
         class ItemInfo: HeadgearItem
         {
@@ -62,38 +62,38 @@ class cfgWeapons
         };
     };
 
-    class NLDO_RU_VDV_Pilot_Camo : Uniform_Base 
+    class NLDO_RU_VDV_Pilot_Camo : Uniform_Base
     {
         scope = 2;
         displayName = "[NLDO] Russian pilot Camo";
         picture = "NLDO_Common\Gear\uim\Uniform.paa";
         model = "\A3\characters_F\Common\pilot_f.p3d";
-        
-        class ItemInfo : UniformItem 
+
+        class ItemInfo : UniformItem
         {
             uniformModel = "-";
             uniformClass = "NLDO_RU_VDV_Pilot_76";
             containerClass = "Supply60";
             mass = 1;
         };
-    
+
     };
-    
-    class NLDO_RU_VDV_HeliPilot_Camo : Uniform_Base 
+
+    class NLDO_RU_VDV_HeliPilot_Camo : Uniform_Base
     {
         scope = 1;
         displayName = "[NLDO] Russian Helipilot Camo";
         picture = "NLDO_Common\Gear\uim\Uniform.paa";
         model = "\A3\characters_F\Common\pilot_f.p3d";
-        
-        class ItemInfo : UniformItem 
+
+        class ItemInfo : UniformItem
         {
             uniformModel = "-";
             uniformClass = "NLDO_RU_VDV_HeliPilot_76";
             containerClass = "Supply60";
             mass = 1;
         };
-    
+
     };
 
     class NLDO_RU_RU_VDV_PilotHelmet: ItemCore
@@ -104,7 +104,7 @@ class cfgWeapons
         picture = "NLDO_Common\Gear\uim\Helmet.paa";
         model = "\a3\characters_f\common\headgear_helmet_pilot";
         hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = {"NLDO_Common\Gear\Helmet.paa"};         
+        hiddenSelectionsTextures[] = {"NLDO_Common\Gear\Helmet.paa"};
 
         class ItemInfo: HeadgearItem
         {
@@ -126,7 +126,7 @@ class cfgWeapons
         picture = "NLDO_Common\Gear\uim\HeliHelmet.paa";
         model = "A3\Characters_F\Common\headgear_helmet_heli_shield";
         hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmet.paa"};         
+        hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmet.paa"};
 
         class ItemInfo: HeadgearItem
         {
@@ -149,7 +149,7 @@ class cfgWeapons
         model = "\SP_Pack\Models\TSH04Helmet";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\SP_Pack\Hats\TSH04Helmet\Black.paa"};
-                
+
         class ItemInfo: HeadgearItem
         {
             mass = 1;
@@ -162,4 +162,19 @@ class cfgWeapons
         };
     };
 
+};
+
+class cfgVehicles
+{
+	class FlagPole_F;
+
+	class nldo_ua_flag : FlagPole_F
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		accuracy = 10000;
+		displayName = "[NLDO] Flag (Ukraine)";
+		nameSound = "flag";
+		class EventHandlers { init = "(_this select 0) setFlagTexture ""NLDO_Common\Flags\Ukraine.paa"""; };
+	};
 };
