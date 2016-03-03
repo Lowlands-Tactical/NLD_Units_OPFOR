@@ -688,7 +688,7 @@ class cfgWeapons
 		displayName="[NLDO] Fort-222 EGLM";
 		picture = "\nldo_ua_uaf_bg\Weapons\Fort222\uim\Fort222EGLM.paa";
 		hiddenselections[]={"camo1"};
-		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\Fort222\Fort221ugl.paa"};
+		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\Fort222\Fort221.paa"};
 	};
 
 
