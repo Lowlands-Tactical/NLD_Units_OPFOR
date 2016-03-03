@@ -8,4 +8,4 @@ DEL /S /Q *.pbo
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLDO_RU_VDV_31
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLDO_RU_VDV_76
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLDO_UA_UAF_BG
-rem "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLDO_UA_UAF_95
+"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -U NLDO_UA_UAF_95
