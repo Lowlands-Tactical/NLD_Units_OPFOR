@@ -135,7 +135,7 @@ class cfgVehicles
 		author = "Lowlands Tactical";
 		side = 2;
 		scope = 2;
-		displayName = "Medium machiengunner";
+		displayName = "Medium machinegunner";
 		icon = "iconManMG";
 		faction = "nldo_ua_uaf_bg";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
@@ -335,7 +335,7 @@ class cfgVehicles
 		displayName = "[NLDO] Ukrainian Fieldpack BG (empty)";
 		picture = "nldo_ua_uaf_bg\Gear\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"nldo_ua_uaf_bg\Gear\Backpack.paa"};
-		maximumLoad = 360;
+		maximumLoad = 200;
 	};
 
 	class nldo_ua_uaf_bg_bp_cls : nldo_ua_uaf_bg_bp_empty
