@@ -40,6 +40,7 @@ class cfgVehicles
 		icon = "iconManMedic";
 		attendant = 1;
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_cls";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -64,6 +65,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "Ammo Bearer";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_ammo";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -88,6 +90,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "Rifleman";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -113,6 +116,7 @@ class cfgVehicles
 		displayName = "Team leader";
 		icon = "iconManLeader";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_cc";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -138,6 +142,7 @@ class cfgVehicles
 		displayName = "Medium machinegunner";
 		icon = "iconManMG";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_mmg";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -162,6 +167,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "Grenadier";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_gl";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -187,6 +193,7 @@ class cfgVehicles
 		displayName = "Officer";
 		icon = "iconManOfficer";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_cc";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -212,6 +219,7 @@ class cfgVehicles
 		displayName = "Squad leader";
 		icon = "iconManLeader";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_cc";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -237,6 +245,7 @@ class cfgVehicles
 		displayName = "Rifleman (AT)";
 		icon = "iconManAT";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_at";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -261,6 +270,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "Assistent Medium Anti-Tank";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_mat";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -286,6 +296,7 @@ class cfgVehicles
 		displayName = "Medium Anti-tank";
 		icon = "iconManAT";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_mat";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -310,6 +321,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "Assistent Medium Machinegunner";
 		faction = "nldo_ua_uaf_bg";
+		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_bg_Infantry";
 		backpack = "nldo_ua_uaf_bg_bp_mmg";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";

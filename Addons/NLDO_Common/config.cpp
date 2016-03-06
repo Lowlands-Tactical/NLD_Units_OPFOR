@@ -2228,7 +2228,7 @@ class cfgWorlds
 		};
 		class NLDO_UA
 		{
-			class FirstName
+			class FirstNames
 			{
 				NLDO_UA0001="Андрій";
 				NLDO_UA0002="Борис";
@@ -2257,7 +2257,7 @@ class cfgWorlds
 				NLDO_UA0025="Тарас";
 				NLDO_UA0026="Юрій";
 			};
-			class LastName
+			class LastNames
 			{
 				NLDO_UA0001="Abrahamovsky";
 				NLDO_UA0002="Adamchuk";
