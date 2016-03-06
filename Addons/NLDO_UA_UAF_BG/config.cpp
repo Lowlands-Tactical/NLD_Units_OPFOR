@@ -985,10 +985,10 @@ class CfgUnitInsignia
 
     class nldo_ua_uaf_bg_bg
     {
-        displayName = "[NLDO] Ukraine Border Guards";
+        displayName = "[NLDO] Border Guards (Ukraine)";
         author = "Lowlands Tactical";
-        texture = "nldo_ua_uaf_bg\Badges\bg.paa";
-        textureVehicle = "nldo_ua_uaf_bg\Badges\bg.paa";
+        texture = "nldo_ua_uaf_bg\Badge\Badge.paa";
+        textureVehicle = "nldo_ua_uaf_bg\Badge\Badge.paa";
     };
 
 };
