@@ -989,7 +989,7 @@ class cfgVehicles
     crew = "nldo_ua_uaf_95_crew";
     typicalCargo[] = {"nldo_ua_uaf_95_crew"};
     hiddenSelections[] = {"Camo1", "Camo2", "Camo4"};
-    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk1.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAturretuk.paa"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAturretuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAcomgunuk.paa"};
 
     class TransportItems
     {
