@@ -911,7 +911,7 @@ class cfgVehicles
     crew = "nldo_ua_uaf_95_crew";
     typicalCargo[] = {"nldo_ua_uaf_95_crew"};
     hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
-    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95bodyukwdl.paa", "\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95turret1ukwdl.paa", "\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95turretukwdl.paa"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95bodyukwdl.paa", "\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95turretukwdl.paa", "\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95turret1ukwdl.paa"};
 
     class TransportItems
     {
