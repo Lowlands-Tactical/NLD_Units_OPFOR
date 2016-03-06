@@ -50,7 +50,7 @@ class cfgVehicles
         maximumLoad = 360;
 	};
 
-	
+
 	class NLDO_FieldPack_EMP_B : NLDO_FieldPack_EMP_Empty {
 		displayName = "[NLDO] EMP FieldPack";
         scope = 1;
@@ -416,7 +416,7 @@ class cfgVehicles
 				magazine="DemoCharge_Remote_Mag";
 				count=3;
 			};
-			class _xx_SatchelCharge_Remote_Mag 
+			class _xx_SatchelCharge_Remote_Mag
 			{
 				magazine="SatchelCharge_Remote_Mag";
 				count=1;
@@ -531,7 +531,7 @@ class cfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 				count=4;
 			};
-			
+
 		};
 		class TransportItems
 		{
@@ -573,7 +573,7 @@ class cfgVehicles
 			};
 		};
 	};
-	
+
 
 	class NLDO_FieldPack_EMP_AA : NLDO_FieldPack_EMP_Empty {
 		displayName = "[NLDO] EMP FieldPack AA";
@@ -607,9 +607,10 @@ class cfgVehicles
 	{
 		author = "Lowlands Tactical";
 		side = 0;
-		scope = 2; 
+		scope = 2;
 		displayName = "Marksman";
 		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
 		backpack = "NLDO_FieldPack_EMP_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
@@ -625,14 +626,15 @@ class cfgVehicles
         magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_rifleman: I_Soldier_base_F
 	{
 		author = "Lowlands Tactical";
 		side = 0;
-		scope = 2; 
+		scope = 2;
 		displayName = "Rifleman";
 		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
 		backpack = "NLDO_FieldPack_EMP_B";
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
 		uniformAccessories[] = {};
@@ -648,7 +650,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_aar: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Assistent Automatic Rifleman";
@@ -658,7 +660,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_ammg: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Assistent Medium Machinegunner";
@@ -668,7 +670,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_mmg: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Medium machiengunner";
@@ -681,7 +683,7 @@ class cfgVehicles
         magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_tl: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Team Leader";
@@ -692,7 +694,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_ar: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Automatic Rifleman";
@@ -705,7 +707,7 @@ class cfgVehicles
         magazines[] = {"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_ammo: NLDO_RU_VDV_76_rifleman
 	{
 		displayName = "Ammo Bearer";
@@ -715,7 +717,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_officer: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Officer";
@@ -726,7 +728,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_amat: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Assistent Medium Anti-Tank";
@@ -736,7 +738,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_cls: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Combat Life Saver";
@@ -747,7 +749,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_mat: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Medium Anti-Tank";
@@ -760,7 +762,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_at: NLDO_RU_VDV_76_rifleman
 	{
 		displayName = "Anti-Tank";
@@ -773,7 +775,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_gl: NLDO_RU_VDV_76_rifleman
 	{
 		displayName = "Grenadier";
@@ -785,7 +787,7 @@ class cfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_sl: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Squad Leader";
@@ -803,9 +805,10 @@ class cfgVehicles
 	{
 		author = "Lowlands Tactical";
 		side = 0;
-		scope = 2; 
+		scope = 2;
 		displayName = "Pilot";
 		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
 		backpack = "B_Parachute";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
@@ -821,14 +824,15 @@ class cfgVehicles
         magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_HeliPilot: I_Soldier_base_F
 	{
 		author = "Lowlands Tactical";
 		side = 0;
-		scope = 2; 
+		scope = 2;
 		displayName = "Heli Pilot";
 		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
 		backpack = "";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
@@ -844,7 +848,7 @@ class cfgVehicles
         magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
         respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
 	};
-		
+
 	class NLDO_RU_VDV_76_HeliCrew: NLDO_RU_VDV_76_HeliPilot
 	{
 		displayName = "Heli Crew";
@@ -856,9 +860,10 @@ class cfgVehicles
 	{
 		author = "Lowlands Tactical";
 		side = 0;
-		scope = 2; 
+		scope = 2;
 		displayName = "Crew";
 		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
 		backpack = "";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
@@ -899,14 +904,14 @@ class cfgVehicles
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Comgun_co.paa"};
-	
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -965,14 +970,14 @@ class cfgVehicles
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Comgun_co.paa"};
-	
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1038,7 +1043,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1103,7 +1108,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1168,7 +1173,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1233,7 +1238,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1298,7 +1303,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1363,7 +1368,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1428,7 +1433,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1499,7 +1504,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1565,7 +1570,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1611,7 +1616,7 @@ class cfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLDO_2S19MSTA_76 : O_MBT_02_arty_F
 	{
 		author = "Lowlands Tactical";
@@ -1630,7 +1635,7 @@ class cfgVehicles
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1696,14 +1701,14 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Air\KA-60\Body_co.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1750,7 +1755,7 @@ class cfgVehicles
 		class TransportWeapons {};
 	};
 
-	
+
 	class NLDO_KA60_Armed_76 : O_Heli_Light_02_F
 	{
 		author = "Lowlands Tactical";
@@ -1763,14 +1768,14 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Air\KA-60\Body_co.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1816,8 +1821,8 @@ class cfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
-	
+
+
 	class NLDO_MI48_76 : O_Heli_Attack_02_black_F
 	{
 		author = "Lowlands Tactical";
@@ -1830,14 +1835,14 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Air\MI-48\Body_co.paa", "NLDO_RU_VDV_76\Air\MI-48\Rotor_co.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1883,8 +1888,8 @@ class cfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
-	
+
+
 	class NLDO_YAK131_76 : O_Plane_CAS_02_F
 	{
 		author = "Lowlands Tactical";
@@ -1895,14 +1900,14 @@ class cfgVehicles
 		crew = "NLDO_RU_VDV_76_Pilot";
 		faction = "NLDO_RU_VDV_76";
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Air\Yak-131\Body_up_co.paa","NLDO_RU_VDV_76\Air\Yak-131\Body_down_co.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -1955,7 +1960,7 @@ class cfgVehicles
 
 
 // Weapons
-class cfgWeapons 
+class cfgWeapons
 {
 	class Uniform_Base;
 	class UniformItem;
@@ -1965,21 +1970,21 @@ class cfgWeapons
 	class InventoryItem_Base_F;
 	class V_PlateCarrier1_rgr;
     class VestItem;
-	
-	class NLDO_RU_VDV_76_Camo : Uniform_Base 
+
+	class NLDO_RU_VDV_76_Camo : Uniform_Base
 	{
 		scope = 2;
 		displayName = "[NLDO] Russian EMP Camo";
 		picture = "NLDO_RU_VDV_76\Gear\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
+
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
 			uniformClass = "NLDO_RU_VDV_76_marksman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
-	
+
 	};
 	class NLDO_RU_VDV_76_Camo2 : Uniform_Base
 	{
@@ -1987,14 +1992,14 @@ class cfgWeapons
 		displayName = "[NLDO] Russian EMP Camo2";
 		picture = "NLDO_RU_VDV_76\Gear\uim\T-shirt.paa";
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
-		
+
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
 			uniformClass = "NLDO_RU_VDV_76_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
-	
+
 	};
 
     class NLDO_RU_VDV_76_Helmet: ItemCore
@@ -2037,7 +2042,7 @@ class cfgWeapons
 		model = "\SP_Pack\Models\SSh68Helmet2";
         hiddenSelections[] = {"Camo","Camo1","Camo2"};
         hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Helmet.paa","\SP_Pack\Hats\SSh68CoverHelmet\Black.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
-                
+
    		class ItemInfo: HeadgearItem
 		{
 			mass = 1;
@@ -2067,8 +2072,8 @@ class cfgWeapons
 		model = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
                 hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Vest.paa"};
                 hiddenSelections[] = {"Camo"};
-                
-                  
+
+
 
 		class ItemInfo: VestItem
 		{
