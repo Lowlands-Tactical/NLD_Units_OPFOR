@@ -24,6 +24,10 @@ class CfgVehicleClasses
 	{
 		displayName="Men";
 	};
+	class nldo_ua_uaf_bg_Car
+	{
+		displayName="Car";
+	};
 };
 
 class cfgVehicles
@@ -555,9 +559,89 @@ class cfgVehicles
 		class EventHandlers { init = "(_this select 0) setFlagTexture ""nldo_ua_uaf_bg\Flags\BorderGuards.paa"""; };
 	};
 
+	// Give dem weels
+  class B_MRAP_01_F;
+
+  class nldo_ua_uaf_BG_kraz: B_MRAP_01_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kraz Spartan (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Car";
+    crew = "nldo_ua_uaf_bg_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody1.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+
+
+  class B_MRAP_01_hmg_F;
+
+  class nldo_ua_uaf_bg_kraz_hmg: B_MRAP_01_hmg_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kraz Spartan HMG (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Car";
+    crew = "nldo_ua_uaf_bg_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody1.paa","\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\rcwsuk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+
 };
-//	};
-//};
 
 class cfgWeapons
 {
