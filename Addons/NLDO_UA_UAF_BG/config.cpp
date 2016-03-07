@@ -261,8 +261,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "NLDO_Fort221_black","CUP_launch_RPG7V","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "NLDO_Fort221_black","CUP_launch_RPG7V","CUP_hgun_Makarov","put","throw"};
+		weapons[] = { "Fort221","CUP_launch_RPG7V","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "Fort221","CUP_launch_RPG7V","CUP_hgun_Makarov","put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","SmokeShell","SmokeShell","CUP_PG7VR_M","CUP_OG7_M"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","SmokeShell","SmokeShell","CUP_PG7VR_M","CUP_OG7_M" };
 	};
@@ -359,19 +359,35 @@ class cfgVehicles
 		displayName = "[NLDO] Ukrainian Fieldpack BG (cls)";
 		scope = 1;
 
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
 		class TransportItems
 		{
-
-			class _xx_medikit {
-				name = "medikit";
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
 				count = 1;
 			};
-
-			class _xx_firstAidKit {
-				name = "firstAidKit";
-				count = 4;
+			class _xx_MediKit
+			{
+				name="MediKit";
+				count=1;
 			};
-
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
 		};
 
 
@@ -389,14 +405,31 @@ class cfgVehicles
 			class _xx_CUP_PG7VR_M
 			{
 				magazine="CUP_PG7VR_M";
-				count=3;
+				count=2;
 			};
-
+			class _xx_CUP_HandGrenade_RGD5
+			{
+				magazine="CUP_HandGrenade_RGD5";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};			
+		};
 	};
 
 	class nldo_ua_uaf_bg_bp_cc : nldo_ua_uaf_bg_bp_empty
@@ -431,12 +464,24 @@ class cfgVehicles
 				magazine="1Rnd_SmokeGreen_Grenade_shell";
 				count=4;
 			};
-
+			class _xx_CUP_HandGrenade_RGD5
+			{
+				magazine="CUP_HandGrenade_RGD5";
+				count=2;
+			};
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_bg_bp_ammo : nldo_ua_uaf_bg_bp_empty
@@ -465,12 +510,17 @@ class cfgVehicles
 				magazine="smokeShell";
 				count=4;
 			};
-
-		};
-
-
-
-
+			
+			class _xx_CUP_HandGrenade_RGD5
+			{
+				magazine="CUP_HandGrenade_RGD5";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
 	};
 
 	class nldo_ua_uaf_bg_bp_mat : nldo_ua_uaf_bg_bp_empty
@@ -488,11 +538,34 @@ class cfgVehicles
 				count=2;
 			};
 
+			class _xx_CUP_HandGrenade_RGD5
+			{
+				magazine="CUP_HandGrenade_RGD5";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=2;
+			};
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_bg_bp_mmg : nldo_ua_uaf_bg_bp_empty
@@ -507,14 +580,36 @@ class cfgVehicles
 			class _xx_150Rnd_762x54_Box_Tracer
 			{
 				magazine="150Rnd_762x54_Box_Tracer";
-				count=3;
+				count=2;
 			};
-
+			class _xx_CUP_HandGrenade_RGD5
+			{
+				magazine="CUP_HandGrenade_RGD5";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=2;
+			};
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=1;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_bg_bp_gl : nldo_ua_uaf_bg_bp_empty
@@ -529,20 +624,44 @@ class cfgVehicles
 			class _xx_1Rnd_HE_Grenade_shell
 			{
 				magazine="1Rnd_HE_Grenade_shell";
-				count=10;
+				count=15;
 			};
 
 			class _xx_1Rnd_Smoke_Grenade_shell
 			{
 				magazine="1Rnd_Smoke_Grenade_shell";
-				count=4;
+				count=6;
 			};
-
+			
+			class _xx_CUP_HandGrenade_RGD5
+			{
+				magazine="CUP_HandGrenade_RGD5";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=2;
+			};
+			
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 
@@ -810,7 +929,7 @@ class cfgWeapons
 		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\Fort221\Fort221.paa"};
 	};
 	
-	class NLDO_Fort221: NLDO_Fort221_black
+	class Fort221: NLDO_Fort221_black
 	{
 		class LinkedItems
 		{
