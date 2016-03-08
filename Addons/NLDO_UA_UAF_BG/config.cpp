@@ -28,6 +28,10 @@ class CfgVehicleClasses
 	{
 		displayName="Car";
 	};
+	class nldo_ua_uaf_bg_Supports
+	{
+		displayName="Supports";
+	};
 };
 
 class cfgVehicles
@@ -827,7 +831,7 @@ class cfgVehicles
     author = "Lowlands Tactical";
     scope = 2;
     side = 2;
-    displayName = "[NLDO] Kraz Spartan (Ukraine Border Guards)";
+    displayName = "[NLDO] Kraz Cougar (Ukraine Border Guards)";
     faction = "nldo_ua_uaf_bg";
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
@@ -861,6 +865,47 @@ class cfgVehicles
   };
 
 
+  class C_Quadbike_01_F;
+
+  class nldo_ua_uaf_bg_quad: C_Quadbike_01_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Bombardier Outlander (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Car";
+    crew = "nldo_ua_uaf_bg_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Bombardier Outlander\Body_co.paa", "\NLDO_UA_UAF_BG\Wheeled\Bombardier Outlander\Wheels_co.paa"};
+	class EventHandlers { init = "(_this select 0) setVariable [""BIS_enableRandomization"", false];"; };
+	
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=5;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+  
   class B_MRAP_01_hmg_F;
 
   class nldo_ua_uaf_bg_kraz_hmg: B_MRAP_01_hmg_F
@@ -868,7 +913,7 @@ class cfgVehicles
     author = "Lowlands Tactical";
     scope = 2;
     side = 2;
-    displayName = "[NLDO] Kraz Spartan HMG (Ukraine Border Guards)";
+    displayName = "[NLDO] Kraz Cougar HMG (Ukraine Border Guards)";
     faction = "nldo_ua_uaf_bg";
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
@@ -909,13 +954,256 @@ class cfgVehicles
     author = "Lowlands Tactical";
     scope = 2;
     side = 2;
-    displayName = "[NLDO] Kraz Spartan GMG (Ukraine Border Guards)";
+    displayName = "[NLDO] Kraz Cougar GMG (Ukraine Border Guards)";
     faction = "nldo_ua_uaf_bg";
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody1.paa","\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\rcwsuk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+  
+  class O_Truck_02_transport_F;
+
+  class nldo_ua_uaf_bg_kamaz_transport: O_Truck_02_transport_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kamaz Transport (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Car";
+    crew = "nldo_ua_uaf_bg_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+
+
+  class O_Truck_02_covered_F;
+
+  class nldo_ua_uaf_bg_kamaz_covered: O_Truck_02_covered_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kamaz Covered (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Car";
+    crew = "nldo_ua_uaf_bg_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+  
+    class O_Truck_02_medical_F;
+
+  class nldo_ua_uaf_bg_kamaz_medical: O_Truck_02_medical_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kamaz Medical (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Supports";
+    crew = "nldo_ua_uaf_bg_cls";
+    typicalCargo[] = {"nldo_ua_uaf_bg_cls"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+
+
+  class O_Truck_02_fuel_F;
+
+  class nldo_ua_uaf_bg_kamaz_fuel: O_Truck_02_fuel_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kamaz Fuel (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Supports";
+    crew = "nldo_ua_uaf_bg_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_fueluk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+
+
+  class O_Truck_02_box_F;
+
+  class nldo_ua_uaf_bg_kamaz_repair: O_Truck_02_box_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kamaz Repair (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Supports";
+    crew = "nldo_ua_uaf_bg_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_repairuk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+  
+  class O_Truck_02_ammo_F;
+
+  class nldo_ua_uaf_bg_kamaz_ammo: O_Truck_02_ammo_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kamaz Ammo (Ukraine Border Guards)";
+    faction = "nldo_ua_uaf_bg";
+    vehicleClass = "nldo_ua_uaf_bg_Supports";
+    crew = "nldo_ua_uaf_bg_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_repairuk.paa"};
 
     class TransportItems
     {
