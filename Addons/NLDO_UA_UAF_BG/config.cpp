@@ -1035,7 +1035,8 @@ class cfgWeapons
 	class arifle_TRG21_F;
 	class arifle_TRG21_GL_F;
 	class LMG_Zafir_F;
-
+	class launch_RPG32_F
+	
 	class NLDO_Fort221_black: arifle_TRG20_F
 	{
 		author="Lowlands Tactical";
@@ -1097,7 +1098,7 @@ class cfgWeapons
 		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\Fort222\Fort221.paa"};
 	};
 	
-	class Fort222_GL: NLDO_Fort222_black
+	class Fort222_GL: NLDO_Fort222_GL_Black
 	{
 		class LinkedItems
 		{
@@ -1122,6 +1123,15 @@ class cfgWeapons
 		picture = "\nldo_ua_uaf_bg\Weapons\Fort401\uim\Fort401.paa";
 		hiddenselections[]={"camo1", "camo2"};
 		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\Fort401\Fort4011.paa", "\nldo_ua_uaf_bg\Weapons\Fort401\Fort4012.paa"};
+	};
+	
+	class NLDO_RPG32: launch_RPG32_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] RPG32";
+		picture = "\nldo_ua_uaf_bg\Weapons\Fort221\uim\Fort221.paa";
+		hiddenselections[]= {"camo"};
+		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\RPG32\rpg_32.paa"};
 	};
 
 };
