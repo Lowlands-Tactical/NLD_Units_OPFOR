@@ -28,9 +28,9 @@ class CfgVehicleClasses
 	{
 		displayName="Car";
 	};
-	class nldo_ua_uaf_bg_Supports
+	class nldo_ua_uaf_bg_Support
 	{
-		displayName="Supports";
+		displayName="Support";
 	};
 };
 
@@ -1077,7 +1077,7 @@ class cfgVehicles
     side = 2;
     displayName = "[NLDO] Kamaz Medical (Ukraine Border Guards)";
     faction = "nldo_ua_uaf_bg";
-    vehicleClass = "nldo_ua_uaf_bg_Supports";
+	vehicleClass = "nldo_ua_uaf_bg_Support";
     crew = "nldo_ua_uaf_bg_cls";
     typicalCargo[] = {"nldo_ua_uaf_bg_cls"};
     hiddenSelections[] = {"Camo1", "Camo2"};
@@ -1118,7 +1118,7 @@ class cfgVehicles
     side = 2;
     displayName = "[NLDO] Kamaz Fuel (Ukraine Border Guards)";
     faction = "nldo_ua_uaf_bg";
-    vehicleClass = "nldo_ua_uaf_bg_Supports";
+	vehicleClass = "nldo_ua_uaf_bg_Support";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2"};
@@ -1159,7 +1159,7 @@ class cfgVehicles
     side = 2;
     displayName = "[NLDO] Kamaz Repair (Ukraine Border Guards)";
     faction = "nldo_ua_uaf_bg";
-    vehicleClass = "nldo_ua_uaf_bg_Supports";
+	vehicleClass = "nldo_ua_uaf_bg_Support";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2"};
@@ -1199,7 +1199,7 @@ class cfgVehicles
     side = 2;
     displayName = "[NLDO] Kamaz Ammo (Ukraine Border Guards)";
     faction = "nldo_ua_uaf_bg";
-    vehicleClass = "nldo_ua_uaf_bg_Supports";
+	vehicleClass = "nldo_ua_uaf_bg_Support";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2"};
