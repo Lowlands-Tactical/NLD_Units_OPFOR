@@ -32,6 +32,10 @@ class CfgVehicleClasses
 	{
 		displayName="Support";
 	};
+	class nldo_ua_uaf_bg_Motorized
+	{
+		displayName="Motorized Infantry";
+	};
 };
 
 class cfgVehicles
@@ -1720,6 +1724,335 @@ class CfgGroups
 				};
 
 			};
+			class Motorized
+			{
+				name = "Motorized";
+
+
+				class nldo_ua_uaf_bg_grp_motor_hmg
+				{
+					name = "Motorized HMG patrol";
+					side = "2";
+					faction = "nldo_ua_uaf_bg";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_gl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz_hmg";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_mmg";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+				};
+				
+				class nldo_ua_uaf_bg_grp_motor_team_hmg
+				{
+					name = "Motorized Team HMG";
+					side = "2";
+					faction = "nldo_ua_uaf_bg";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_sl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz_hmg";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz_hmg";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_tl";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_cls";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_mmg";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_gl";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+
+					class Unit7
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_at";
+						rank = "PRIVATE";
+						position[] = { 20,-20,0 };
+					};
+
+				};
+				
+				class nldo_ua_uaf_bg_grp_motor_gmg
+				{
+					name = "Motorized GMG patrol";
+					side = "2";
+					faction = "nldo_ua_uaf_bg";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_gl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz_gmg";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_mmg";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+				};
+				
+				class nldo_ua_uaf_bg_grp_motor_team_gmg
+				{
+					name = "Motorized Team GMG";
+					side = "2";
+					faction = "nldo_ua_uaf_bg";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_sl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz_gmg";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz_gmg";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_tl";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_cls";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_mmg";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_gl";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+
+					class Unit7
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_at";
+						rank = "PRIVATE";
+						position[] = { 20,-20,0 };
+					};
+
+				};
+				
+				class nldo_ua_uaf_bg_grp_motor
+				{
+					name = "Motorized patrol";
+					side = "2";
+					faction = "nldo_ua_uaf_bg";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_gl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_mmg";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+				};
+				
+				class nldo_ua_uaf_bg_grp_motor_team
+				{
+					name = "Motorized Team";
+					side = "2";
+					faction = "nldo_ua_uaf_bg";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_sl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_kraz";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_tl";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_cls";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_mmg";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_gl";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+
+					class Unit7
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_bg_at";
+						rank = "PRIVATE";
+						position[] = { 20,-20,0 };
+					};
+
+				};
+			};	
 		};
 	};
 };
