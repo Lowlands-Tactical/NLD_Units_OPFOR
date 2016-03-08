@@ -956,7 +956,7 @@ class cfgWeapons
 		author="Lowlands Tactical";
 		displayName = "[NLDO] Pixelated Woodland";
 		picture = "\nldo_ua_uaf_bg\Gear\uim\Uniform.paa";
-		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
