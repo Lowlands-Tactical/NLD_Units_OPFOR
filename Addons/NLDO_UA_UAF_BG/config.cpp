@@ -1262,12 +1262,12 @@ class CfgGroups
 						position[] = { -20,-20,0 };
 					};
 					
-					class Unit7
+					class Unit8
 					{
 						side = 2;
 						vehicle = "nldo_ua_uaf_bg_dm";
 						rank = "PRIVATE";
-						position[] = { -20,-20,0 };
+						position[] = { 20,-20,0 };
 					};
 
 				};
