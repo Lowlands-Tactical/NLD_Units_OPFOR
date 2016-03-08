@@ -288,8 +288,8 @@ class cfgVehicles
 		respawnLinkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
 		weapons[] = { "Fort221","CUP_launch_RPG7V","CUP_hgun_Makarov","put","throw"};
 		respawnweapons[] = { "Fort221","CUP_launch_RPG7V","CUP_hgun_Makarov","put","throw"};
-		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","SmokeShell","SmokeShell","CUP_PG7VR_M"  };
-		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","SmokeShell","SmokeShell","CUP_PG7VR_M" };
+		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","SmokeShell","SmokeShell"  };
+		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","SmokeShell","SmokeShell" };
 	};
 
 	class nldo_ua_uaf_bg_amat: I_Soldier_base_F
@@ -508,7 +508,7 @@ class cfgVehicles
 			class _xx_CUP_PG7VR_M
 			{
 				magazine="CUP_PG7VR_M";
-				count=1;
+				count=2;
 			};
 			class _xx_CUP_HandGrenade_RGD5
 			{
@@ -1035,7 +1035,7 @@ class cfgWeapons
 	class arifle_TRG21_F;
 	class arifle_TRG21_GL_F;
 	class LMG_Zafir_F;
-	class launch_RPG32_F
+	class launch_RPG32_F;
 	
 	class NLDO_Fort221_black: arifle_TRG20_F
 	{
@@ -1129,9 +1129,9 @@ class cfgWeapons
 	{
 		author="Lowlands Tactical";
 		displayName="[NLDO] RPG32";
-		picture = "\nldo_ua_uaf_bg\Weapons\Fort221\uim\Fort221.paa";
-		hiddenselections[]= {"camo"};
-		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\RPG32\rpg_32.paa"};
+		picture = "\nldo_ua_uaf_bg\Weapons\RPG32\uim\rpg32.paa";
+		hiddenselections[]= {"camo1"};
+		hiddenselectionstextures[]={"\nldo_ua_uaf_bg\Weapons\RPG32\rpg32.paa"};
 	};
 
 };
