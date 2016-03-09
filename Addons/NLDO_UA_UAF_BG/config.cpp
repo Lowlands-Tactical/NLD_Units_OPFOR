@@ -193,8 +193,8 @@ class cfgVehicles
 		respawnLinkedItems[] = { "nldo_ua_uaf_bg_vest","nldo_ua_uaf_bg_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
 		weapons[] = { "NLDO_Fort401","CUP_hgun_Makarov","put","throw"};
 		respawnweapons[] = { "NLDO_Fort401","CUP_hgun_Makarov","put","throw"};
-		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","150Rnd_762x54_Box_Tracer","150Rnd_762x54_Box_Tracer","150Rnd_762x54_Box_Tracer","150Rnd_762x54_Box_Tracer","150Rnd_762x54_Box_Tracer","SmokeShellGreen","SmokeShell","CUP_HandGrenade_RGD5"  };
-		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","150Rnd_762x54_Box_Tracer","150Rnd_762x54_Box_Tracer","150Rnd_762x54_Box_Tracer","150Rnd_762x54_Box_Tracer","150Rnd_762x54_Box_Tracer","SmokeShellGreen","SmokeShell","CUP_HandGrenade_RGD5" };
+		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","150Rnd_762x54_Box","150Rnd_762x54_Box","150Rnd_762x54_Box","150Rnd_762x54_Box","150Rnd_762x54_Box","SmokeShellGreen","SmokeShell","CUP_HandGrenade_RGD5"  };
+		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","150Rnd_762x54_Box","150Rnd_762x54_Box","150Rnd_762x54_Box","150Rnd_762x54_Box","150Rnd_762x54_Box","SmokeShellGreen","SmokeShell","CUP_HandGrenade_RGD5" };
 	};
 
 	class nldo_ua_uaf_bg_gl: I_Soldier_base_F
@@ -629,9 +629,9 @@ class cfgVehicles
 		class TransportMagazines
 		{
 
-			class _xx_150Rnd_762x54_Box_Tracer
+			class _xx_150Rnd_762x54_Box
 			{
-				magazine="150Rnd_762x54_Box_Tracer";
+				magazine="150Rnd_762x54_Box";
 				count=2;
 			};
 
@@ -726,9 +726,9 @@ class cfgVehicles
 		class TransportMagazines
 		{
 
-			class _xx_150Rnd_762x54_Box_Tracer
+			class _xx_150Rnd_762x54_Box
 			{
-				magazine="150Rnd_762x54_Box_Tracer";
+				magazine="150Rnd_762x54_Box";
 				count=2;
 			};
 			class _xx_CUP_HandGrenade_RGD5
