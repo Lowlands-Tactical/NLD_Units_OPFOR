@@ -602,10 +602,18 @@ class cfgVehicles
 			};
 
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_95_bp_dm: nldo_ua_uaf_95_bp_empty
@@ -620,6 +628,18 @@ class cfgVehicles
 				count=6;
 			};
 		};
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_95_bp_engineer : nldo_ua_uaf_95_bp_empty
@@ -630,7 +650,7 @@ class cfgVehicles
 
 
 
-		class TransportItems
+		class TransportMagazines
 		{
 
 			class _xx_ToolKit {
@@ -642,10 +662,26 @@ class cfgVehicles
 				name = "MineDetector";
 				count = 1;
 			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=2;
+			};
 
 		};
-
-
+		
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_95_bp_cls : nldo_ua_uaf_95_bp_empty
@@ -656,7 +692,7 @@ class cfgVehicles
 
 
 
-		class TransportItems
+		class TransportMagazines
 		{
 
 			class _xx_medikit {
@@ -668,10 +704,30 @@ class cfgVehicles
 				name = "firstAidKit";
 				count = 4;
 			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
 
 		};
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_95_bp_mmg : nldo_ua_uaf_95_bp_empty
@@ -690,9 +746,18 @@ class cfgVehicles
 			};
 
 		};
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 
 	};
 
@@ -708,13 +773,27 @@ class cfgVehicles
 			class _xx_CUP_AT13_M
 			{
 				magazine="CUP_AT13_M";
+				count=1;
+			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
 				count=2;
 			};
 
 		};
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 
 	};
 
@@ -730,19 +809,32 @@ class cfgVehicles
 			class _xx_CUP_30Rnd_545x39_AK_M
 			{
 				magazine="CUP_30Rnd_545x39_AK_M";
-				count=4;
+				count=2;
 			};
-
-			class _xx_CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M
+			class _xx_SmokeShellGreen
 			{
-				magazine="CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";
+				magazine="SmokeShellGreen";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
 				count=2;
 			};
 
 		};
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 
 	};
 
@@ -754,21 +846,36 @@ class cfgVehicles
 
 
 
-		class TransportItems
+		class TransportMagazines
 		{
 
 			class _xx_SatchelCharge_Remote_Mag {
 				name = "SatchelCharge_Remote_Mag";
 				count = 1;
 			};
-
 			class _xx_DemoCharge_Remote_Mag {
 				name = "DemoCharge_Remote_Mag";
 				count = 4;
 			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=2;
+			};
 
 		};
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 
 	};
 
@@ -781,10 +888,10 @@ class cfgVehicles
 		class TransportMagazines
 		{
 
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
 			{
-				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
-				count=2;
+				magazine="CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				count=4;
 			};
 
 			class _xx_CUP_30Rnd_545x39_AK_M
@@ -798,12 +905,25 @@ class cfgVehicles
 				magazine="smokeShell";
 				count=4;
 			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
 
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_95_bp_ar : nldo_ua_uaf_95_bp_empty
@@ -815,17 +935,30 @@ class cfgVehicles
 		class TransportMagazines
 		{
 
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
 			{
-				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				magazine="CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
 				count=4;
+			};
+			class _xx_smokeShell
+			{
+				magazine="smokeShell";
+				count=2;
 			};
 
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_95_bp_gl : nldo_ua_uaf_95_bp_empty
@@ -850,10 +983,18 @@ class cfgVehicles
 			};
 
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_95_bp_aa : nldo_ua_uaf_95_bp_empty
@@ -868,14 +1009,27 @@ class cfgVehicles
 			class _xx_CUP_Igla_M
 			{
 				magazine="CUP_Igla_M";
+				count=1;
+			};
+			class _xx_smokeShell
+			{
+				magazine="smokeShell";
 				count=2;
 			};
 
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 	class nldo_ua_uaf_95_bp_at : nldo_ua_uaf_95_bp_empty
@@ -890,14 +1044,27 @@ class cfgVehicles
 			class _xx_CUP_RPG18_M
 			{
 				magazine="CUP_RPG18_M";
-				count=3;
+				count=2;
+			};
+			class _xx_smokeShell
+			{
+				magazine="smokeShell";
+				count=2;
 			};
 
 		};
-
-
-
-
+		class TransportItems
+		{
+			class _xx_NVGoggles_OPFOR {
+				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
 	};
 
 
