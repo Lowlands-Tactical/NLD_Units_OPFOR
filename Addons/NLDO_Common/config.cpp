@@ -161,6 +161,28 @@ class cfgWeapons
             hiddenSelectionsTextures[] = {"\SP_Pack\Hats\TSH04Helmet\Black.paa"};
         };
     };
+	
+	class nldo_ua_uaf_CrewHelmet: ItemCore
+    {
+        scope = 2;
+        weaponPoolAvailable = 1;
+        displayName = "[NLDO] Ukrainian Crew Helmet";
+        picture = "\NLDO_Common\Gear\uim\Black.jpg";
+        model = "\SP_Pack\Models\TSH04Helmet";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\TSH04Helmet\Black.paa"};
+
+        class ItemInfo: HeadgearItem
+        {
+            mass = 1;
+            uniformmodel = "\SP_Pack\Models\TSH04Helmet";
+            modelSides[] = {3,1};
+            armor = 6;
+            passThrough = 0.5;
+            hiddenSelections[] = {"Camo"};
+            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\TSH04Helmet\Black.paa"};
+        };
+    };
 
 };
 

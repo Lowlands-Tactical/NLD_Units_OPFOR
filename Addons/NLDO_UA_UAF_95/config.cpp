@@ -447,8 +447,8 @@ class cfgVehicles
 		hiddenSelectionsTextures[] = {"\nldo_ua_uaf_95\Gear\Uniform.paa", "\nldo_ua_uaf_95\Badges\Badge.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
-		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
+		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_CrewHelmet","NVGoggles_OPFOR","ItemCompass","ItemMap","ItemWatch","ItemRadio","ItemGPS" };
+		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_CrewHelmet","NVGoggles_OPFOR","ItemCompass","ItemMap","ItemWatch","ItemRadio","ItemGPS"  };
 		weapons[] = { "CUP_arifle_AKS74U","CUP_hgun_Makarov","put","throw"};
 		respawnweapons[] = { "CUP_arifle_AKS74U","CUP_hgun_Makarov","put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
@@ -557,6 +557,7 @@ class cfgVehicles
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
 	};
+
 
 	class B_FieldPack_blk;
 
@@ -1090,12 +1091,12 @@ class cfgVehicles
   class O_MBT_02_arty_F;
   class O_APC_Tracked_02_AA_F;
 
-  class nldo_ua_uaf_95_t84 : O_MBT_02_cannon_F
+  class nldo_ua_uaf_95_t95 : O_MBT_02_cannon_F
   {
     author = "Lowlands Tactical";
     scope = 2;
     side = 2;
-    displayName = "[NLDO] T-84U (95th AMB)";
+    displayName = "[NLDO] T-84U Oplot-M (95th AMB)";
     faction = "nldo_ua_uaf_95";
     vehicleClass = "nldo_ua_uaf_95_Armor";
     crew = "nldo_ua_uaf_95_crew";
