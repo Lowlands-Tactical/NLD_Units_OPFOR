@@ -65,8 +65,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5" };
 	};
@@ -91,8 +91,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","ItemGPS" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","ItemGPS"  };
-		weapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
-		respawnweapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
+		weapons[] = { "NLDO_AKS74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
+		respawnweapons[] = { "NLDO_AKS74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
 	};
@@ -117,8 +117,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","CUP_launch_Metis","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","CUP_launch_Metis" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","CUP_launch_Metis","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","CUP_launch_Metis" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5" };
 	};
@@ -169,8 +169,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5" };
 	};
@@ -194,8 +194,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_srifle_SVD","CUP_hgun_Makarov","put","throw","laserdesignator" };
-		respawnweapons[] = { "CUP_srifle_SVD","CUP_hgun_Makarov" ,"put","throw","laserdesignator" };
+		weapons[] = { "NLDO_SVD","CUP_hgun_Makarov","put","throw","laserdesignator" };
+		respawnweapons[] = { "NLDO_SVD","CUP_hgun_Makarov" ,"put","throw","laserdesignator" };
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Laserbatteries","Laserbatteries","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Laserbatteries","Laserbatteries","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -220,8 +220,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","CUP_launch_Igla","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","CUP_launch_Igla" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","CUP_launch_Igla","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","CUP_launch_Igla" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -245,8 +245,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -270,8 +270,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -296,8 +296,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","ItemGPS" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","ItemGPS"  };
-		weapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
-		respawnweapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
+		weapons[] = { "NLDO_AKS74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
+		respawnweapons[] = { "NLDO_AKS74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
 	};
@@ -321,8 +321,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -348,8 +348,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","FirstAidKit","FirstAidKit","SmokeShell","SmokeShell","SmokeShell","SmokeShell" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","FirstAidKit","FirstAidKit","SmokeShell","SmokeShell","SmokeShell","SmokeShell"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -375,8 +375,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -400,8 +400,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -425,8 +425,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","put","throw","laserdesignator"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov" ,"put","throw","laserdesignator"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","put","throw","laserdesignator"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov" ,"put","throw","laserdesignator"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Laserbatteries","Laserbatteries","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Laserbatteries","Laserbatteries","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -475,8 +475,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","CUP_launch_RPG18","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74","CUP_hgun_Makarov","CUP_launch_RPG18" ,"put","throw"};
+		weapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","CUP_launch_RPG18","put","throw"};
+		respawnweapons[] = { "NLDO_AKS74","CUP_hgun_Makarov","CUP_launch_RPG18" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","CUP_RPG18_M","CUP_RPG18_M","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","CUP_RPG18_M","CUP_RPG18_M","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -501,8 +501,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_RPK74_45","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_RPK74_45","CUP_hgun_Makarov" ,"put","throw"};
+		weapons[] = { "NLDO_RPK74","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "NLDO_RPK74","CUP_hgun_Makarov" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -526,8 +526,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_hgun_Makarov","CUP_arifle_AK74_GL","put","throw"};
-		respawnweapons[] = { "CUP_hgun_Makarov","CUP_arifle_AK74_GL" ,"put","throw"};
+		weapons[] = { "CUP_hgun_Makarov","NLDO_AKS74_GL","put","throw"};
+		respawnweapons[] = { "CUP_hgun_Makarov","NLDO_AKS74_GL" ,"put","throw"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -552,8 +552,8 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
-		weapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
-		respawnweapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
+		weapons[] = { "NLDO_AKS74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
+		respawnweapons[] = { "NLDO_AKS74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
 	};
@@ -1089,12 +1089,12 @@ class cfgVehicles
   class O_APC_Tracked_02_cannon_F;
   class O_MBT_02_arty_F;
 
-  class nldo_ua_uaf_95_t95 : O_MBT_02_cannon_F
+  class nldo_ua_uaf_95_t84 : O_MBT_02_cannon_F
   {
     author = "Lowlands Tactical";
     scope = 2;
     side = 2;
-    displayName = "[NLDO] T-95 (95th AMB)";
+    displayName = "[NLDO] T-84U (95th AMB)";
     faction = "nldo_ua_uaf_95";
     vehicleClass = "nldo_ua_uaf_95_Armor";
     crew = "nldo_ua_uaf_95_crew";
@@ -1133,7 +1133,7 @@ class cfgVehicles
     author = "Lowlands Tactical";
     scope = 2;
     side = 2;
-    displayName = "[NLDO] BMP-1U (95th AMB)";
+    displayName = "[NLDO] BMP-1U ShKval (95th AMB)";
     faction = "nldo_ua_uaf_95";
     vehicleClass = "nldo_ua_uaf_95_Armor";
     crew = "nldo_ua_uaf_95_crew";
@@ -1260,8 +1260,8 @@ class cfgVehicles
     displayName = "[NLDO] Kraz Spartan (95th AMB)";
     faction = "nldo_ua_uaf_95";
     vehicleClass = "nldo_ua_uaf_95_Car";
-    crew = "nldo_ua_uaf_95_crew";
-    typicalCargo[] = {"nldo_ua_uaf_95_crew"};
+    crew = "nldo_ua_uaf_95_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2"};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody1.paa"};
 
@@ -1301,8 +1301,48 @@ class cfgVehicles
     displayName = "[NLDO] Kraz Spartan HMG (95th AMB)";
     faction = "nldo_ua_uaf_95";
     vehicleClass = "nldo_ua_uaf_95_Car";
-    crew = "nldo_ua_uaf_95_crew";
-    typicalCargo[] = {"nldo_ua_uaf_95_crew"};
+    crew = "nldo_ua_uaf_95_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody1.paa","\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\rcwsuk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+	
+	
+  class B_MRAP_01_gmg_F;
+
+  class nldo_ua_uaf_95_kraz_gmg: B_MRAP_01_gmg_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kraz Spartan GMG (95th AMB)";
+    faction = "nldo_ua_uaf_95";
+    vehicleClass = "nldo_ua_uaf_95_Car";
+    crew = "nldo_ua_uaf_95_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody1.paa","\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\rcwsuk.paa"};
 
@@ -1330,6 +1370,7 @@ class cfgVehicles
     };
     class TransportWeapons {};
   };
+  
   // End wheelies
 
   // Start Kamazjes
@@ -1343,8 +1384,8 @@ class cfgVehicles
     displayName = "[NLDO] Kamaz Transport (95th AMB)";
     faction = "nldo_ua_uaf_95";
     vehicleClass = "nldo_ua_uaf_95_Car";
-    crew = "nldo_ua_uaf_95_crew";
-    typicalCargo[] = {"nldo_ua_uaf_95_crew"};
+    crew = "nldo_ua_uaf_95_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2"};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
 
@@ -1384,8 +1425,47 @@ class cfgVehicles
     displayName = "[NLDO] Kamaz Covered (95th AMB)";
     faction = "nldo_ua_uaf_95";
     vehicleClass = "nldo_ua_uaf_95_Car";
-    crew = "nldo_ua_uaf_95_crew";
-    typicalCargo[] = {"nldo_ua_uaf_95_crew"};
+    crew = "nldo_ua_uaf_95_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+  
+  class O_Truck_02_medical_F;
+
+  class nldo_ua_uaf_95_kamaz_medical: O_Truck_02_medical_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kamaz Medical (95th AMB)";
+    faction = "nldo_ua_uaf_95";
+    crew = "nldo_ua_uaf_95_cls";
+    typicalCargo[] = {"nldo_ua_uaf_95_cls"};
     hiddenSelections[] = {"Camo1", "Camo2"};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
 
@@ -1424,9 +1504,8 @@ class cfgVehicles
     side = 2;
     displayName = "[NLDO] Kamaz Fuel (95th AMB)";
     faction = "nldo_ua_uaf_95";
-    vehicleClass = "nldo_ua_uaf_95_Car";
-    crew = "nldo_ua_uaf_95_crew";
-    typicalCargo[] = {"nldo_ua_uaf_95_crew"};
+    crew = "nldo_ua_uaf_95_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2"};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_fueluk.paa"};
 
@@ -1465,9 +1544,47 @@ class cfgVehicles
     side = 2;
     displayName = "[NLDO] Kamaz Repair (95th AMB)";
     faction = "nldo_ua_uaf_95";
-    vehicleClass = "nldo_ua_uaf_95_Car";
-    crew = "nldo_ua_uaf_95_crew";
-    typicalCargo[] = {"nldo_ua_uaf_95_crew"};
+    crew = "nldo_ua_uaf_95_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
+    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_repairuk.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
+  
+  class O_Truck_02_box_F;
+
+  class nldo_ua_uaf_95_kamaz_ammo: O_Truck_02_ammo_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] Kamaz Ammo (95th AMB)";
+    faction = "nldo_ua_uaf_95";
+    crew = "nldo_ua_uaf_95_rifleman";
+    typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
     hiddenSelections[] = {"Camo1", "Camo2"};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_repairuk.paa"};
 
@@ -1619,7 +1736,67 @@ class cfgWeapons
 			};
 		};
 	};
+	
+	class CUP_arifle_AKS74;
+	class CUP_arifle_RPK74_45;
+	class CUP_srifle_SVD;
+	class CUP_arifle_AK74_GL
 
+	class NLDO_SVD: CUP_srifle_SVD
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] SVD Dragunov";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_PSO_3";
+			};
+		};
+	};
+	
+	class NLDO_RPK74: CUP_arifle_RPK74_45
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] RPK74";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_Kobra";
+			};
+		};
+	};
+	
+	class NLDO_AKS74: CUP_arifle_AKS74
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] AKS74";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_Kobra";
+			};
+		};
+	};
+	
+	class NLDO_AKS74_GL: CUP_arifle_AK74_GL
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] AKS74 GP25";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_Kobra";
+			};
+		};
+	};
 
 };
 
