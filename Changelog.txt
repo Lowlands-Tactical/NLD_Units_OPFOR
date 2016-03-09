@@ -2,6 +2,7 @@ Changelog:
 
 v???
 - added 2 new Alive factions with camo's (Ukraine 95th airmobile and Border Guard)
+- added AA vehicles for russians
 - fixed numerous bugs and config issues for existing russian vdv faction
 
 v201602222
