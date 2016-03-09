@@ -1329,6 +1329,7 @@ class cfgVehicles
       };
     };
     class TransportWeapons {};
+  };
 	
 	
   class B_MRAP_01_gmg_F;
@@ -1574,7 +1575,7 @@ class cfgVehicles
     class TransportWeapons {};
   };
   
-  class O_Truck_02_box_F;
+  class O_Truck_02_ammo_F;
 
   class nldo_ua_uaf_95_kamaz_ammo: O_Truck_02_ammo_F
   {
@@ -1611,7 +1612,7 @@ class cfgVehicles
       };
     };
     class TransportWeapons {};
-  };
+ };
   // End Kamaz
 
 };
@@ -1740,7 +1741,7 @@ class cfgWeapons
 	class CUP_arifle_AKS74;
 	class CUP_arifle_RPK74_45;
 	class CUP_srifle_SVD;
-	class CUP_arifle_AK74_GL
+	class CUP_arifle_AK74_GL;
 
 	class NLDO_SVD: CUP_srifle_SVD
 	{
