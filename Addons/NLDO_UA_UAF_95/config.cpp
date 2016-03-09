@@ -93,8 +93,8 @@ class cfgVehicles
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","ItemGPS"  };
 		weapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
 		respawnweapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
-		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell"  };
-		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
+		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell"  };
+		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
 	};
 
 	class nldo_ua_uaf_95_mat: I_Soldier_base_F
@@ -298,8 +298,8 @@ class cfgVehicles
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio","ItemGPS"  };
 		weapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
 		respawnweapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
-		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
-		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
+		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
+		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell" };
 	};
 
 	class nldo_ua_uaf_95_rifleman: I_Soldier_base_F
@@ -554,8 +554,8 @@ class cfgVehicles
 		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
 		weapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov","put","throw","Rangefinder"};
 		respawnweapons[] = { "CUP_arifle_AK74_GL","CUP_hgun_Makarov" ,"put","throw","Rangefinder"};
-		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
-		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
+		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
+		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
 	};
 
 	class B_FieldPack_blk;
@@ -625,7 +625,7 @@ class cfgVehicles
 			class _xx_CUP_10Rnd_762x54_SVD_M
 			{
 				magazine="CUP_10Rnd_762x54_SVD_M";
-				count=6;
+				count=10;
 			};
 		};
 		class TransportItems
@@ -653,15 +653,6 @@ class cfgVehicles
 		class TransportMagazines
 		{
 
-			class _xx_ToolKit {
-				name = "ToolKit";
-				count = 1;
-			};
-
-			class _xx_MineDetector {
-				name = "MineDetector";
-				count = 1;
-			};
 			class _xx_CUP_30Rnd_545x39_AK_M
 			{
 				magazine="CUP_30Rnd_545x39_AK_M";
@@ -674,6 +665,15 @@ class cfgVehicles
 		{
 			class _xx_NVGoggles_OPFOR {
 				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_ToolKit {
+				name = "ToolKit";
+				count = 1;
+			};
+
+			class _xx_MineDetector {
+				name = "MineDetector";
 				count = 1;
 			};
 			class _xx_FirstAidKit
@@ -695,15 +695,6 @@ class cfgVehicles
 		class TransportMagazines
 		{
 
-			class _xx_medikit {
-				name = "medikit";
-				count = 1;
-			};
-
-			class _xx_firstAidKit {
-				name = "firstAidKit";
-				count = 4;
-			};
 			class _xx_CUP_30Rnd_545x39_AK_M
 			{
 				magazine="CUP_30Rnd_545x39_AK_M";
@@ -722,10 +713,14 @@ class cfgVehicles
 				name = "NVGoggles_OPFOR";
 				count = 1;
 			};
+			class _xx_medikit {
+				name = "medikit";
+				count = 1;
+			};
 			class _xx_FirstAidKit
 			{
 				name="FirstAidKit";
-				count=2;
+				count=8;
 			};
 		};
 	};
@@ -843,9 +838,6 @@ class cfgVehicles
 		displayName = "[NLDO] Ukrainian Fieldpack 95 (explosive)";
 		scope = 1;
 
-
-
-
 		class TransportMagazines
 		{
 
@@ -868,6 +860,15 @@ class cfgVehicles
 		{
 			class _xx_NVGoggles_OPFOR {
 				name = "NVGoggles_OPFOR";
+				count = 1;
+			};
+			class _xx_ToolKit {
+				name = "ToolKit";
+				count = 1;
+			};
+
+			class _xx_MineDetector {
+				name = "MineDetector";
 				count = 1;
 			};
 			class _xx_FirstAidKit
