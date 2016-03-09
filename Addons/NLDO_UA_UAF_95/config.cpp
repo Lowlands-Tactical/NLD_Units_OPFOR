@@ -1088,6 +1088,7 @@ class cfgVehicles
   class O_MBT_02_cannon_F;
   class O_APC_Tracked_02_cannon_F;
   class O_MBT_02_arty_F;
+  class O_APC_Tracked_02_AA_F;
 
   class nldo_ua_uaf_95_t84 : O_MBT_02_cannon_F
   {
@@ -1165,6 +1166,45 @@ class cfgVehicles
     };
     class TransportWeapons {};
   };
+  
+
+  class nldo_ua_uaf_95_tunguska : O_APC_Tracked_02_AA_F
+  {
+    author = "Lowlands Tactical";
+    scope = 2;
+    side = 2;
+    displayName = "[NLDO] 2K22 Tunguska (95th AMB)";
+    faction = "nldo_ua_uaf_95";
+    vehicleClass = "nldo_ua_uaf_95_Armor";
+    crew = "nldo_ua_uaf_95_crew";
+    typicalCargo[] = {"nldo_ua_uaf_95_crew"};
+    hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2K22 Tunguska\tunguskabody.paa", "\NLDO_UA_UAF_95\Armored\2K22 Tunguska\bmpbody1.paa", "\NLDO_UA_UAF_95\Armored\2K22 Tunguska\TunguskAA.paa"};
+
+    class TransportItems
+    {
+      class _xx_FirstAidKit
+      {
+        name = "FirstAidKit";
+        count = 10;
+      };
+    };
+
+    class TransportMagazines
+    {
+      class _xx_SmokeShell
+      {
+        magazine="SmokeShell";
+        count=10;
+      };
+      class _xx_SmokeShellGreen
+      {
+        magazine="SmokeShellGreen";
+        count=5;
+      };
+    };
+    class TransportWeapons {};
+  };
 
 
   class nldo_ua_uaf_95_2S19MSTA : O_MBT_02_arty_F
@@ -1177,8 +1217,8 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Armor";
     crew = "nldo_ua_uaf_95_crew";
     typicalCargo[] = {"nldo_ua_uaf_95_crew"};
-    hiddenSelections[] = {"Camo1", "Camo2", "Camo4"};
-    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAturretuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAcomgunuk.paa"};
+    hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk1.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAturretuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAcomgunuk.paa"};
 
     class TransportItems
     {
