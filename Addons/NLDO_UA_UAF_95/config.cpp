@@ -2532,7 +2532,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_2s19MSTA";
 						rank = "LIEUTENANT";
-						position[] = { -5,-5,0 };
+						position[] = { -15,-15,0 };
 					};
 
 					class Unit2
@@ -2540,7 +2540,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_2s19MSTA";
 						rank = "SERGEANT";
-						position[] = { 5,-5,0 };
+						position[] = { 15,-15,0 };
 					};
 
 					class Unit3
@@ -2548,7 +2548,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_2s19MSTA";
 						rank = "CORPORAL";
-						position[] = { -10,-10,0 };
+						position[] = { -30,-30,0 };
 					};
 
 				};
@@ -2574,7 +2574,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_t95";
 						rank = "LIEUTENANT";
-						position[] = { -5,-5,0 };
+						position[] = { -15,-15,0 };
 					};
 
 					class Unit2
@@ -2582,7 +2582,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_t95";
 						rank = "SERGEANT";
-						position[] = { 5,-5,0 };
+						position[] = { 15,-15,0 };
 					};
 
 					class Unit3
@@ -2590,7 +2590,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_t95";
 						rank = "CORPORAL";
-						position[] = { -10,-10,0 };
+						position[] = { -30,-30,0 };
 					};
 
 				};
@@ -2616,7 +2616,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_t95";
 						rank = "LIEUTENANT";
-						position[] = { -5,-5,0 };
+						position[] = { -15,-15,0 };
 					};
 
 				};
@@ -2642,7 +2642,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_2s19MSTA";
 						rank = "LIEUTENANT";
-						position[] = { -5,-5,0 };
+						position[] = { -15,-15,0 };
 					};
 
 				};
@@ -2674,7 +2674,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_l39";
 						rank = "CAPTAIN";
-						position[] = { -5,-5,0 };
+						position[] = { -50,-50,0 };
 					};
 
 				};
