@@ -2,7 +2,7 @@
 __________________________________________
 
 Textures: 	ShiftySean & Smootch
-config.cpp:	Sacha Ligthert & Smootch
+config.cpp:	Sacha Ligthert & Smootch & ShiftySean
 Models:		Bohemia Interactive
 
 __________________________________________
