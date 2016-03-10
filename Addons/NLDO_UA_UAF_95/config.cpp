@@ -3021,7 +3021,7 @@ class CfgGroups
 				
 				class nldo_ua_uaf_95_grp_combined_platoon
 				{
-					name = "Combined Weapons Platoon";
+					name = "Combined Armor Platoon";
 					side = "2";
 					faction = "nldo_ua_uaf_95";
 					rarityGroup = 0.5;
@@ -3063,7 +3063,7 @@ class CfgGroups
 				
 				class nldo_ua_uaf_95_grp_combined_weapons_platoon
 				{
-					name = "Combined Armor Platoon";
+					name = "Combined Weapons Platoon";
 					side = "2";
 					faction = "nldo_ua_uaf_95";
 					rarityGroup = 0.5;
@@ -3106,7 +3106,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_sl";
 						rank = "CORPORAL";
-						position[] = { -35,-35,0 };
+						position[] = { -45,-45,0 };
 					};
 					
 					class Unit5
@@ -3122,7 +3122,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_cls";
 						rank = "PRIVATE";
-						position[] = { -40,-40,0 };
+						position[] = { -50,-50,0 };
 					};
 					
 					class Unit7
@@ -3138,7 +3138,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_aa";
 						rank = "PRIVATE";
-						position[] = { -45,-45,0 };
+						position[] = { -55,-55,0 };
 					};
 					
 					class Unit9
@@ -3154,7 +3154,7 @@ class CfgGroups
 						side = 2;
 						vehicle = "nldo_ua_uaf_95_ammo";
 						rank = "PRIVATE";
-						position[] = { -50,-50,0 };
+						position[] = { -60,-60,0 };
 					};
 					
 
