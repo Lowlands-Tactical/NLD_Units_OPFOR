@@ -557,6 +557,29 @@ class cfgVehicles
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
 	};
+	
+	class nldo_ua_uaf_95_pilot: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 2;
+		scope = 2;
+		displayName = "Pilot";
+		faction = "nldo_ua_uaf_95";
+		backpack = "B_Parachute";
+		model = "\A3\characters_F\Common\pilot_f.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "nldo_ua_uaf_pilot_camo";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"NLDO_Common\Gear\PilotCoveralluk.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"nldo_ua_uaf_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"nldo_ua_uaf_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		weapons[] = { "CUP_arifle_AKS74U","CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "CUP_arifle_AKS74U","CUP_hgun_Makarov","put","throw"};
+		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
+		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
+	};
 
 
 	class B_FieldPack_blk;
@@ -1259,8 +1282,8 @@ class cfgVehicles
     displayName = "[NLDO] L-39 CAS (95th AMB)";
     faction = "nldo_ua_uaf_95";
     vehicleClass = "nldo_ua_uaf_95_Air";
-    crew = "nldo_ua_uaf_95_crew";
-    typicalCargo[] = {"nldo_ua_uaf_95_crew"};
+    crew = "nldo_ua_uaf_95_pilot";
+    typicalCargo[] = {"nldo_ua_uaf_95_pilot"};
     hiddenSelections[] = {"Camo1", "Camo2"};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Air\L39\L39body.paa", "\NLDO_UA_UAF_95\Air\L39\L39body1.paa"};
 

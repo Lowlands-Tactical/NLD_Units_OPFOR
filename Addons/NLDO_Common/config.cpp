@@ -78,6 +78,23 @@ class cfgWeapons
         };
 
     };
+	
+	class nldo_ua_uaf_pilot_camo : Uniform_Base
+    {
+        scope = 2;
+        displayName = "[NLDO] Ukrainian pilot Camo";
+        picture = "NLDO_Common\Gear\uim\Uniform.paa";
+        model = "\A3\characters_F\Common\pilot_f.p3d";
+
+        class ItemInfo : UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "nldo_ua_uaf_Pilot";
+            containerClass = "Supply60";
+            mass = 1;
+        };
+
+    };
 
     class NLDO_RU_VDV_HeliPilot_Camo : Uniform_Base
     {
@@ -115,6 +132,28 @@ class cfgWeapons
             passThrough = 0.5;
             hiddenSelections[] = {"Camo"};
             hiddenSelectionsTextures[] = {"NLDO_Common\Gear\Helmet.paa"};
+        };
+    };
+	
+	class nldo_ua_uaf_PilotHelmet: ItemCore
+    {
+        scope = 2;
+        weaponPoolAvailable = 1;
+        displayName = "[NLDO] Ukrainian Pilot Helmet";
+        picture = "NLDO_Common\Gear\uim\Helmet.paa";
+        model = "\a3\characters_f\common\headgear_helmet_heli";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmetuk.paa"};
+
+        class ItemInfo: HeadgearItem
+        {
+            mass = 1;
+            uniformmodel = "\a3\characters_f\common\headgear_helmet_pilot";
+            modelSides[] = {3,1};
+            armor = 6;
+            passThrough = 0.5;
+            hiddenSelections[] = {"Camo"};
+            hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmetuk.paa"};
         };
     };
 
