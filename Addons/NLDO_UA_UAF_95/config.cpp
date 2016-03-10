@@ -912,12 +912,6 @@ class cfgVehicles
 
 		class TransportMagazines
 		{
-
-			class _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
-			{
-				magazine="CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
-				count=4;
-			};
 			
 			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
 			{
@@ -1248,7 +1242,7 @@ class cfgVehicles
     crew = "nldo_ua_uaf_95_crew";
     typicalCargo[] = {"nldo_ua_uaf_95_crew"};
     hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
-    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk1.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAturretuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAcomgunuk.paa"};
+    hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAturretuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk1.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAcomgunuk.paa"};
 
     class TransportItems
     {
@@ -2277,7 +2271,7 @@ class CfgGroups
 					class Unit7
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_ammg";
+						vehicle = "nldo_ua_uaf_95_ammo";
 						rank = "PRIVATE";
 						position[] = { -20,-20,0 };
 					};
@@ -2469,7 +2463,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_tl";
+						vehicle = "nldo_ua_uaf_95_cls";
 						rank = "PRIVATE";
 						position[] = { -10,-10,0 };
 					};
@@ -2477,7 +2471,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_cls";
+						vehicle = "nldo_ua_uaf_95_mmg";
 						rank = "PRIVATE";
 						position[] = { 10,-10,0 };
 					};
@@ -2485,25 +2479,9 @@ class CfgGroups
 					class Unit5
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_mmg";
-						rank = "PRIVATE";
-						position[] = { -15,-15,0 };
-					};
-
-					class Unit6
-					{
-						side = 2;
-						vehicle = "nldo_ua_uaf_95_gl";
-						rank = "PRIVATE";
-						position[] = { -20,-20,0 };
-					};
-
-					class Unit7
-					{
-						side = 2;
 						vehicle = "nldo_ua_uaf_95_at";
 						rank = "PRIVATE";
-						position[] = { 20,-20,0 };
+						position[] = { -15,-15,0 };
 					};
 
 				};
@@ -2744,7 +2722,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_bmp1u";
+						vehicle = "nldo_ua_uaf_95_tl";
 						rank = "CORPORAL";
 						position[] = { 5,-5,0 };
 					};
@@ -2752,7 +2730,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_tl";
+						vehicle = "nldo_ua_uaf_95_cls";
 						rank = "PRIVATE";
 						position[] = { -10,-10,0 };
 					};
@@ -2760,7 +2738,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_cls";
+						vehicle = "nldo_ua_uaf_95_mmg";
 						rank = "PRIVATE";
 						position[] = { 10,-10,0 };
 					};
@@ -2768,7 +2746,7 @@ class CfgGroups
 					class Unit5
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_mmg";
+						vehicle = "nldo_ua_uaf_95_gl";
 						rank = "PRIVATE";
 						position[] = { -15,-15,0 };
 					};
@@ -2776,7 +2754,7 @@ class CfgGroups
 					class Unit6
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_gl";
+						vehicle = "nldo_ua_uaf_95_at";
 						rank = "PRIVATE";
 						position[] = { 15,-15,0 };
 					};
@@ -2784,9 +2762,17 @@ class CfgGroups
 					class Unit7
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_at";
+						vehicle = "nldo_ua_uaf_95_dm";
 						rank = "PRIVATE";
 						position[] = { -20,-20,0 };
+					};
+					
+					class Unit8
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_ammo";
+						rank = "PRIVATE";
+						position[] = { 20,-20,0 };
 					};
 
 				};
@@ -3035,7 +3021,7 @@ class CfgGroups
 				
 				class nldo_ua_uaf_95_grp_combined_platoon
 				{
-					name = "Combined Armor Platoon";
+					name = "Combined Weapons Platoon";
 					side = "2";
 					faction = "nldo_ua_uaf_95";
 					rarityGroup = 0.5;
@@ -3072,6 +3058,105 @@ class CfgGroups
 						rank = "CORPORAL";
 						position[] = { -30,-30,0 };
 					};
+
+				};
+				
+				class nldo_ua_uaf_95_grp_combined_weapons_platoon
+				{
+					name = "Combined Armor Platoon";
+					side = "2";
+					faction = "nldo_ua_uaf_95";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_armor.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_t84";
+						rank = "CAPTAIN";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_t84";
+						rank = "LIEUTENANT";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit2
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_t84";
+						rank = "SERGEANT";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit3
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_bmp1u";
+						rank = "CORPORAL";
+						position[] = { -30,-30,0 };
+					};
+					
+					class Unit4
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_sl";
+						rank = "CORPORAL";
+						position[] = { -35,-35,0 };
+					};
+					
+					class Unit5
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_mmg";
+						rank = "PRIVATE";
+						position[] = { 30,-30,0 };
+					};
+					
+					class Unit6
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_cls";
+						rank = "PRIVATE";
+						position[] = { -40,-40,0 };
+					};
+					
+					class Unit7
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_mat";
+						rank = "PRIVATE";
+						position[] = { 35,-35,0 };
+					};
+					
+					class Unit8
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_aa";
+						rank = "PRIVATE";
+						position[] = { -45,-45,0 };
+					};
+					
+					class Unit9
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_gl";
+						rank = "PRIVATE";
+						position[] = { 40,-40,0 };
+					};
+					
+					class Unit10
+					{
+						side = 2;
+						vehicle = "nldo_ua_uaf_95_ammo";
+						rank = "PRIVATE";
+						position[] = { -50,-50,0 };
+					};
+					
 
 				};
 
