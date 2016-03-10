@@ -141,7 +141,7 @@ class cfgWeapons
         weaponPoolAvailable = 1;
         displayName = "[NLDO] Ukrainian Pilot Helmet";
         picture = "NLDO_Common\Gear\uim\Helmet.paa";
-        model = "\a3\characters_f\common\headgear_helmet_heli";
+        model = "\a3\characters_f\common\headgear_helmet_heli_shield";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmetuk.paa"};
 

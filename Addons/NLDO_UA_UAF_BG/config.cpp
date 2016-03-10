@@ -1367,11 +1367,6 @@ class cfgWeapons
 				slot="CowsSlot";
 				item="optic_ACO_grn";
 			};
-			class LinkedItemsAcc
-			{
-				slot="PointerSlot";
-				item="acc_pointer_IR";
-			};
 		};
 	};
 
@@ -1389,11 +1384,6 @@ class cfgWeapons
 			{
 				slot="CowsSlot";
 				item="optic_ACO_grn";
-			};
-			class LinkedItemsAcc
-			{
-				slot="PointerSlot";
-				item="acc_pointer_IR";
 			};
 		};
 	};
@@ -1413,11 +1403,6 @@ class cfgWeapons
 				slot="CowsSlot";
 				item="optic_ACO_grn";
 			};
-			class LinkedItemsAcc
-			{
-				slot="PointerSlot";
-				item="acc_pointer_IR";
-			};
 		};
 	};
 
@@ -1430,11 +1415,6 @@ class cfgWeapons
 			{
 				slot="CowsSlot";
 				item="optic_MRCO";
-			};
-			class LinkedItemsAcc
-			{
-				slot="PointerSlot";
-				item="acc_pointer_IR";
 			};
 		};
 	};
