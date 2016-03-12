@@ -45,6 +45,27 @@ class cfgVehicles
 {
 
 	class I_Soldier_base_F;
+	class I_ghillie_lsh_F;
+
+	class nldo_ua_uaf_95_sniper: I_ghillie_lsh_F
+	{
+		author = "Lowlands Tactical";
+		side = 2;
+		scope = 2;
+		displayName = "Sniper Full Ghillie";
+		faction = "nldo_ua_uaf_95";
+		genericNames = "NLDO_UA";
+		backpack = "nldo_ua_uaf_95_bp_dm";
+		uniformAccessories[] = {};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio" };
+		respawnLinkedItems[] = { "nldo_ua_uaf_95_vest","nldo_ua_uaf_95_helmet","ItemCompass","ItemMap","ItemWatch","ItemRadio"  };
+		weapons[] = { "NLDO_SVD","CUP_hgun_Makarov","put","throw","laserdesignator" };
+		respawnweapons[] = { "NLDO_SVD","CUP_hgun_Makarov" ,"put","throw","laserdesignator" };
+		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Laserbatteries","Laserbatteries","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
+		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Laserbatteries","Laserbatteries","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
+	};
 
 	class nldo_ua_uaf_95_aar: I_Soldier_base_F
 	{
