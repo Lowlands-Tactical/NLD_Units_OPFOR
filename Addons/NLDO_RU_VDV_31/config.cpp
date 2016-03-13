@@ -579,7 +579,7 @@ class CfgVehicles
 			class _xx_CUP_Igla_M
 			{
 				magazine="CUP_Igla_M";
-				count=2;
+				count=1;
 			};
 		};
 		class TransportItems
@@ -2668,6 +2668,41 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "NLDO_RU_VDV_31_amat";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+				};
+				class NLDO_RU_VDV_31_AAteam
+				{
+					name = "AA team";
+					side = 0;
+					faction = "NLDO_RU_VDV_31";
+                    rarityGroup = 0.5;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_tl";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_aa";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_aa";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_mmg";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};

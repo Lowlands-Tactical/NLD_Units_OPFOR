@@ -580,7 +580,7 @@ class cfgVehicles
 			class _xx_CUP_Igla_M
 			{
 				magazine="CUP_Igla_M";
-				count=2;
+				count=1;
 			};
 		};
 		class TransportItems
@@ -772,6 +772,16 @@ class cfgVehicles
 		backpack = "NLDO_FieldPack_EMP_Ammo";
         weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
 		respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	
+	class NLDO_RU_VDV_76_aa: NLDO_RU_VDV_76_rifleman
+	{
+		displayName = "Missile Specialist AA";
+		backpack = "NLDO_FieldPack_EMP_AA";
+        weapons[] = {"NLDO_AK74M","CUP_launch_Igla","hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"NLDO_AK74M","CUP_launch_Igla","hgun_Rook40_F","put","throw"};
 		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
@@ -2605,6 +2615,41 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "NLDO_RU_VDV_76_amat";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+				};
+				class NLDO_RU_VDV_76_AAteam
+				{
+					name = "AA team";
+					side = 0;
+					faction = "NLDO_RU_VDV_76";
+                    rarityGroup = 0.5;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_tl";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_aa";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_aa";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_mmg";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
