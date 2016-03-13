@@ -358,11 +358,6 @@ class CfgVehicles
 
 		class TransportMagazines
 		{
-			class _xx_CUP_1Rnd_HE_GP25_M
-			{
-				magazine="CUP_1Rnd_HE_GP25_M";
-				count=5;
-			};
 			class _xx_CUP_HandGrenade_RGD5
 			{
 				magazine="CUP_HandGrenade_RGD5";
@@ -381,7 +376,7 @@ class CfgVehicles
 			class _xx_CUP_30Rnd_545x39_AK_M
 			{
 				magazine="CUP_30Rnd_545x39_AK_M";
-				count=10;
+				count=8;
 			};
 			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
 			{
@@ -697,6 +692,26 @@ class CfgVehicles
 	{
 		displayName = "Assistent Automatic Rifleman";
 		backpack = "NLDO_FieldPack_Flora_AAR";
+    weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
+	
+	class NLDO_RU_VDV_31_eng: NLDO_RU_VDV_31_marksman
+	{
+		displayName = "Engineer";
+		backpack = "NLDO_FieldPack_Flora_eng";
+    weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
+		
+	class NLDO_RU_VDV_31_expl: NLDO_RU_VDV_31_marksman
+	{
+		displayName = "Explosive Specialist";
+		backpack = "NLDO_FieldPack_Flora_expl";
     weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
     respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
     magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -1124,8 +1139,8 @@ class CfgVehicles
 		side = 0;
 		displayName = "[NLDO] Otokar (31th)";
 		faction = "NLDO_RU_VDV_31";
-		crew = "NLDO_RU_VDV_31_rifleman";
-		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
+		crew = "NLDO_RU_VDV_31_Crew";
+		typicalCargo[] = {"NLDO_RU_VDV_31_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Wheeled\OtokarArma\Body_co.paa", "NLDO_RU_VDV_31\Wheeled\OtokarArma\Wheels_co.paa", "NLDO_RU_VDV_31\Wheeled\PunisherMRAP\Comgun_co.paa"};
 
@@ -1782,8 +1797,8 @@ class CfgVehicles
 		side = 0;
 		displayName = "[NLDO] BMP-T (31th)";
 		faction = "NLDO_RU_VDV_31";
-		crew = "NLDO_RU_VDV_31_rifleman";
-		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
+		crew = "NLDO_RU_VDV_31_Crew";
+		typicalCargo[] = {"NLDO_RU_VDV_31_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Armored\BMP-T\Body_up_co.paa", "NLDO_RU_VDV_31\Armored\BMP-T\Body_down_co.paa", "NLDO_RU_VDV_31\Armored\BMP-T\Turret_co.paa"};
 
@@ -1847,8 +1862,8 @@ class CfgVehicles
 		side = 0;
 		displayName = "[NLDO] 2K22 Tunguska (31th)";
 		faction = "NLDO_RU_VDV_31";
-		crew = "NLDO_RU_VDV_31_rifleman";
-		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
+		crew = "NLDO_RU_VDV_31_Crew";
+		typicalCargo[] = {"NLDO_RU_VDV_31_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Armored\2K22Tunguska\Body_up_co.paa", "NLDO_RU_VDV_31\Armored\2K22Tunguska\Body_down_co.paa", "NLDO_RU_VDV_31\Armored\2K22Tunguska\Turret_co.paa"};
 
@@ -2474,7 +2489,7 @@ class CfgGroups
 				};
 				class NLDO_RU_VDV_31_LMGteam
 				{
-					name = "LMGteam";
+					name = "LMG team";
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
@@ -2509,7 +2524,7 @@ class CfgGroups
 				};
 				class NLDO_RU_VDV_31_MMGteam
 				{
-					name = "MMGteam";
+					name = "MMG team";
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
@@ -2542,9 +2557,79 @@ class CfgGroups
 						position[] = {-10,-10,0};
 					};
 				};
+				class NLDO_RU_VDV_31_eodteam
+				{
+					name = "EOD team";
+					side = 0;
+					faction = "NLDO_RU_VDV_31";
+                    rarityGroup = 0.5;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_tl";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_expl";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_expl";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_mmg";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+				};
+				class NLDO_RU_VDV_31_engineerteam
+				{
+					name = "Engineer team";
+					side = 0;
+					faction = "NLDO_RU_VDV_31";
+                    rarityGroup = 0.5;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_tl";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_eng";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_eng";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_mmg";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+				};
 				class NLDO_RU_VDV_31_ATteam
 				{
-					name = "ATteam";
+					name = "AT team";
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
@@ -2694,6 +2779,27 @@ class CfgGroups
 						vehicle = "NLDO_RU_VDV_31_ammo";
 						rank = "PRIVATE";
 						position[] = {-20,-20,0};
+					};
+				};
+				class NLDO_RU_VDV_31_Sniper
+				{
+					name = "Sniper Team";
+					side = 0;
+					faction = "NLDO_RU_VDV_31";
+                    rarityGroup = 0.5;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_spotter";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_sniper";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
 					};
 				};
 
