@@ -41,6 +41,7 @@ class cfgVehicles
 	class B_UAV_01_backpack_F;
 	class I_Soldier_base_F;
 	class I_G_Soldier_base_F;
+	class O_ghillie_sard_F;
 
 	// Start backpack
 	class NLDO_FieldPack_EMP_Empty: B_FieldPack_blk {
@@ -60,17 +61,17 @@ class cfgVehicles
 			class _xx_CUP_HandGrenade_RGD5
 			{
 				magazine="CUP_HandGrenade_RGD5";
-				count=4;
+				count=2;
 			};
 			class _xx_SmokeShell
 			{
 				magazine="SmokeShell";
-				count=4;
+				count=2;
 			};
 			class _xx_SmokeShellRed
 			{
 				magazine="SmokeShellRed";
-				count=4;
+				count=2;
 			};
 		};
 		class TransportItems
@@ -288,9 +289,9 @@ class cfgVehicles
 
 		class TransportMagazines
 		{
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
 			{
-				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				magazine="CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
 				count=6;
 			};
 			class _xx_CUP_HandGrenade_RGD5
@@ -359,11 +360,6 @@ class cfgVehicles
 
 		class TransportMagazines
 		{
-			class _xx_CUP_1Rnd_HE_GP25_M
-			{
-				magazine="CUP_1Rnd_HE_GP25_M";
-				count=5;
-			};
 			class _xx_CUP_HandGrenade_RGD5
 			{
 				magazine="CUP_HandGrenade_RGD5";
@@ -382,11 +378,11 @@ class cfgVehicles
 			class _xx_CUP_30Rnd_545x39_AK_M
 			{
 				magazine="CUP_30Rnd_545x39_AK_M";
-				count=10;
+				count=8;
 			};
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
 			{
-				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 				count=2;
 			};
 		};
@@ -500,9 +496,9 @@ class cfgVehicles
 
 		class TransportMagazines
 		{
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
 			{
-				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				magazine="CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
 				count=8;
 			};
 		};
@@ -621,11 +617,53 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_srifle_SVD_pso","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_srifle_SVD_pso","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-	};
+        weapons[] = {"NLDO_SVD","hgun_Rook40_F","put","throw", "Rangefinder"};
+		respawnweapons[] = {"NLDO_SVD","hgun_Rook40_F","put","throw","Rangefinder"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
+	
+	class NLDO_RU_VDV_76_sniper: O_ghillie_sard_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2;
+		displayName = "Sniper";
+		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "U_O_FullGhillie_sard";
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"V_Chestrig_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR"};
+		respawnLinkedItems[] = {"V_Chestrig_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR"};
+    weapons[] = {"NLDO_SV98","hgun_Rook40_F","put","throw", "Rangefinder"};
+    respawnweapons[] = {"NLDO_SV98","hgun_Rook40_F","put","throw","Rangefinder"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
+		
+	class NLDO_RU_VDV_76_spotter: O_ghillie_sard_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2;
+		displayName = "Spotter";
+		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "U_O_FullGhillie_sard";
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"V_Chestrig_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR"};
+		respawnLinkedItems[] = {"V_Chestrig_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR"};
+    weapons[] = {"CUP_srifle_VSSVintorez_pso","hgun_Rook40_F","put","throw", "Rangefinder"};
+    respawnweapons[] = {"CUP_srifle_VSSVintorez_pso","hgun_Rook40_F","put","throw","Rangefinder"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
 
 	class NLDO_RU_VDV_76_rifleman: I_Soldier_base_F
 	{
@@ -645,43 +683,63 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 
 	class NLDO_RU_VDV_76_aar: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Assistent Automatic Rifleman";
 		backpack = "NLDO_FieldPack_EMP_AAR";
-        weapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
+	
+	class NLDO_RU_VDV_76_eng: NLDO_RU_VDV_76_marksman
+	{
+		displayName = "Engineer";
+		backpack = "NLDO_FieldPack_EMP_eng";
+    weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
+		
+	class NLDO_RU_VDV_76_expl: NLDO_RU_VDV_76_marksman
+	{
+		displayName = "Explosive Specialist";
+		backpack = "NLDO_FieldPack_EMP_expl";
+    weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
 
 	class NLDO_RU_VDV_76_ammg: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Assistent Medium Machinegunner";
 		backpack = "NLDO_FieldPack_EMP_MMG";
-        weapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 
 	class NLDO_RU_VDV_76_mmg: NLDO_RU_VDV_76_marksman
 	{
-		displayName = "Medium machiengunner";
+		displayName = "Medium machinegunner";
 		icon = "iconManMG";
 		backpack = "NLDO_FieldPack_EMP_MMG";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_lmg_Pecheneg","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_lmg_Pecheneg","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"CUP_lmg_Pecheneg","hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"CUP_lmg_Pecheneg","hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 
 	class NLDO_RU_VDV_76_tl: NLDO_RU_VDV_76_marksman
@@ -689,10 +747,10 @@ class cfgVehicles
 		displayName = "Team Leader";
 		icon = "iconManLeader";
 		backpack = "NLDO_FieldPack_EMP_TL";
-        weapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_AK74M_GL","hgun_Rook40_F","put","throw","Binocular"};
+		respawnweapons[] = {"NLDO_AK74M_GL","hgun_Rook40_F","put","throw","Binocular"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 
 	class NLDO_RU_VDV_76_ar: NLDO_RU_VDV_76_marksman
@@ -702,20 +760,20 @@ class cfgVehicles
 		backpack = "NLDO_FieldPack_EMP_AR";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_arifle_RPK74M","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_RPK74M","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_RPK74M","hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"NLDO_RPK74M","hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 
 	class NLDO_RU_VDV_76_ammo: NLDO_RU_VDV_76_rifleman
 	{
 		displayName = "Ammo Bearer";
 		backpack = "NLDO_FieldPack_EMP_Ammo";
-        weapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 
 	class NLDO_RU_VDV_76_officer: NLDO_RU_VDV_76_marksman
@@ -723,20 +781,20 @@ class cfgVehicles
 		displayName = "Officer";
 		icon = "iconManOfficer";
 		backpack = "NLDO_FieldPack_EMP_TL";
-        weapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_AK74M_GL","hgun_Rook40_F","put","throw","Binocular"};
+		respawnweapons[] = {"NLDO_AK74M_GL","hgun_Rook40_F","put","throw","Binocular"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 
 	class NLDO_RU_VDV_76_amat: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Assistent Medium Anti-Tank";
 		backpack = "NLDO_FieldPack_EMP_MAT";
-        weapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 
 	class NLDO_RU_VDV_76_cls: NLDO_RU_VDV_76_marksman
@@ -744,11 +802,11 @@ class cfgVehicles
 		displayName = "Combat Life Saver";
 		icon = "iconManMedic";
 		backpack = "NLDO_FieldPack_EMP_Medic";
-        weapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-	};
+        weapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","put","throw"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
 
 	class NLDO_RU_VDV_76_mat: NLDO_RU_VDV_76_marksman
 	{
@@ -757,11 +815,11 @@ class cfgVehicles
 		backpack = "NLDO_FieldPack_EMP_MAT";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","CUP_launch_Metis","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","CUP_launch_Metis","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-	};
+        weapons[] = {"NLDO_AK74M","hgun_Rook40_F","CUP_launch_Metis","put","throw"};
+    respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","CUP_launch_Metis","put","throw"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
 
 	class NLDO_RU_VDV_76_at: NLDO_RU_VDV_76_rifleman
 	{
@@ -770,11 +828,11 @@ class cfgVehicles
 		backpack = "NLDO_FieldPack_EMP_AT";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","CUP_launch_RPG18","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_kobra","CUP_hgun_Makarov","CUP_launch_RPG18","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-	};
+        weapons[] = {"NLDO_AK74M","hgun_Rook40_F","CUP_launch_RPG18","put","throw"};
+    respawnweapons[] = {"NLDO_AK74M","hgun_Rook40_F","CUP_launch_RPG18","put","throw"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
 
 	class NLDO_RU_VDV_76_gl: NLDO_RU_VDV_76_rifleman
 	{
@@ -782,21 +840,21 @@ class cfgVehicles
 		backpack = "NLDO_FieldPack_EMP_GL";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_76_Helmet2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        weapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-	};
+        weapons[] = {"NLDO_AK74M_GL","hgun_Rook40_F","put","throw"};
+    respawnweapons[] = {"NLDO_AK74M_GL","hgun_Rook40_F","put","throw"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		};
 
 	class NLDO_RU_VDV_76_sl: NLDO_RU_VDV_76_marksman
 	{
 		displayName = "Squad Leader";
 		icon = "iconManLeader";
 		backpack = "NLDO_FieldPack_EMP_TL";
-        weapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"CUP_arifle_AK107_GL_kobra","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"NLDO_AK74M_GL","hgun_Rook40_F","put","throw","Binocular"};
+    respawnweapons[] = {"NLDO_AK74M_GL","hgun_Rook40_F","put","throw","Binocular"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	// End infantrie
 
@@ -884,6 +942,7 @@ class cfgVehicles
 
 	// Start Wheeled vehicles
 	class O_MRAP_02_hmg_F;
+	class O_MRAP_02_gmg_F;
 	class O_MRAP_02_F;
 	class O_APC_Wheeled_02_rcws_F;
 	class O_Truck_02_transport_F;
@@ -892,6 +951,8 @@ class cfgVehicles
 	class O_Truck_02_Ammo_F;
 	class O_Truck_02_fuel_F;
 	class O_Truck_02_box_F;
+	class O_Truck_03_transport_F;
+	class O_Truck_03_ammo_F;
 
 	class NLDO_Punisher_76 : O_MRAP_02_F
 	{
@@ -1023,6 +1084,71 @@ class cfgVehicles
 		};
 		class TransportWeapons {};
 	};
+	
+	class NLDO_Punisher_76_GMG : O_MRAP_02_gmg_F
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		side = 0;
+		displayName = "[NLDO] Punisher GMG (76th)";
+		faction = "NLDO_RU_VDV_76";
+		crew = "NLDO_RU_VDV_76_rifleman";
+		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Comgun_co.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=25;
+			};
+			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			{
+				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				count=10;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+				count=10;
+			};
+			class _xx_CUP_RPG18_M
+			{
+				magazine="CUP_RPG18_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
 
 
 	class NLDO_Otokar_76 : O_APC_Wheeled_02_rcws_F
@@ -1032,8 +1158,8 @@ class cfgVehicles
 		side = 0;
 		displayName = "[NLDO] Otokar (76th)";
 		faction = "NLDO_RU_VDV_76";
-		crew = "NLDO_RU_VDV_76_rifleman";
-		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		crew = "NLDO_RU_VDV_76_Crew";
+		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\OtokarArma\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\OtokarArma\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\OtokarArma\Comgun_co.paa"};
 
@@ -1479,19 +1605,150 @@ class cfgVehicles
 		};
 		class TransportWeapons {};
 	};
+	
+	class NLDO_typhoon_Ammo_76 : O_Truck_03_ammo_F	
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		side = 0;
+		displayName = "[NLDO] Kamaz Typhoon Ammo (76th)";
+		faction = "NLDO_RU_VDV_76";
+		crew = "NLDO_RU_VDV_76_rifleman";
+		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_front.paa", "NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_chassis.paa", "NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_ammo.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=25;
+			};
+			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			{
+				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				count=10;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+				count=10;
+			};
+			class _xx_CUP_RPG18_M
+			{
+				magazine="CUP_RPG18_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLDO_typhoon_transport_76 : O_Truck_03_transport_F
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		side = 0;
+		displayName = "[NLDO] Kamaz Typhoon Transport (76th)";
+		faction = "NLDO_RU_VDV_76";
+		crew = "NLDO_RU_VDV_76_rifleman";
+		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_front.paa", "NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_chassis.paa","NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_cargo.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=25;
+			};
+			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			{
+				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				count=10;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+				count=10;
+			};
+			class _xx_CUP_RPG18_M
+			{
+				magazine="CUP_RPG18_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
 	// End Wheeled vehicles
 
 	// Start armoured vehicles
 	class O_MBT_02_cannon_F;
 	class O_APC_Tracked_02_cannon_F;
 	class O_MBT_02_arty_F;
+	class O_APC_Tracked_02_AA_F;
 
-	class NLDO_T100_76 : O_MBT_02_cannon_F
+	class NLDO_T95_76 : O_MBT_02_cannon_F
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
-		displayName = "[NLDO] T100 (76th)";
+		displayName = "[NLDO] T95 (76th)";
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
@@ -1559,8 +1816,8 @@ class cfgVehicles
 		side = 0;
 		displayName = "[NLDO] BMP-T (76th)";
 		faction = "NLDO_RU_VDV_76";
-		crew = "NLDO_RU_VDV_76_rifleman";
-		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		crew = "NLDO_RU_VDV_76_Crew";
+		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Armored\BMP-T\Body_up_co.paa", "NLDO_RU_VDV_76\Armored\BMP-T\Body_down_co.paa", "NLDO_RU_VDV_76\Armored\BMP-T\Turret_co.paa"};
 
@@ -1616,6 +1873,51 @@ class cfgVehicles
 		};
 		class TransportWeapons {};
 	};
+	
+	class NLDO_TUNGUSKA_76 : O_APC_Tracked_02_AA_F
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		side = 0;
+		displayName = "[NLDO] 2K22 Tunguska (76th)";
+		faction = "NLDO_RU_VDV_76";
+		crew = "NLDO_RU_VDV_76_Crew";
+		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Armored\2K22Tunguska\Body_up_co.paa", "NLDO_RU_VDV_76\Armored\2K22Tunguska\Body_down_co.paa", "NLDO_RU_VDV_76\Armored\2K22Tunguska\Turret_co.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
 
 	class NLDO_2S19MSTA_76 : O_MBT_02_arty_F
 	{
@@ -1626,8 +1928,8 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo4"};
-		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Armored\2S19MSTA\Body_co.paa", "NLDO_RU_VDV_76\Armored\2S19MSTA\Turret_co.paa", "NLDO_RU_VDV_76\Armored\2S19MSTA\Comgun_co.paa"};
+		hiddenSelections[] = {"Camo1", "Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Armored\2S19MSTA\Body_co.paa", "NLDO_RU_VDV_76\Armored\2S19MSTA\Turret_co.paa","NLDO_RU_VDV_76\Armored\2S19MSTA\Turret_extra_co.paa", "NLDO_RU_VDV_76\Armored\2S19MSTA\Comgun_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -1909,12 +2211,7 @@ class cfgVehicles
 		};
 
 		class TransportMagazines
-		{
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=10;
-			};
+		{	
 			class _xx_HandGrenade
 			{
 				magazine="HandGrenade";
@@ -1928,26 +2225,6 @@ class cfgVehicles
 			class _xx_SmokeShellGreen
 			{
 				magazine="SmokeShellGreen";
-				count=5;
-			};
-			class _xx_CUP_30Rnd_545x39_AK_M
-			{
-				magazine="CUP_30Rnd_545x39_AK_M";
-				count=25;
-			};
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
-			{
-				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
-				count=10;
-			};
-			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
-			{
-				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
-				count=10;
-			};
-			class _xx_CUP_RPG18_M
-			{
-				magazine="CUP_RPG18_M";
 				count=5;
 			};
 		};
@@ -2117,6 +2394,74 @@ class cfgWeapons
  			};
 		};
 	};
+	
+	class CUP_arifle_AK74M ;
+	class CUP_srifle_CZ750_SOS_bipod;
+	class CUP_arifle_AK74M_GL;
+	class CUP_arifle_RPK74M;
+	class CUP_srifle_SVD;
+	
+	class NLDO_AK74M: CUP_arifle_AK74M 
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] AK74M";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_Kobra";
+			};
+		};
+	};
+	
+	class NLDO_AK74M_GL: CUP_arifle_AK74M_GL
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] AK74M GP25";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_Kobra";
+			};
+		};
+	};
+	
+	class NLDO_RPK74M: CUP_arifle_RPK74M 
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] RPK74M";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_Kobra";
+			};
+		};
+	};
+	
+	class NLDO_SVD: CUP_srifle_SVD
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] SVD Dragunov";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_PSO_3";
+			};
+		};
+	};
+	
+	class NLDO_SV98: CUP_srifle_CZ750_SOS_bipod 
+	{
+		author="Lowlands Tactical";
+		displayName="[NLDO] SV-98";
+	};
 };
 
 // cfgGroups
@@ -2161,7 +2506,7 @@ class CfgGroups
 				};
 				class NLDO_RU_VDV_76_LMGteam
 				{
-					name = "LMGteam";
+					name = "LMG team";
 					side = 0;
 					faction = "NLDO_RU_VDV_76";
                     rarityGroup = 0.5;
@@ -2196,7 +2541,7 @@ class CfgGroups
 				};
 				class NLDO_RU_VDV_76_MMGteam
 				{
-					name = "MMGteam";
+					name = "MMG team";
 					side = 0;
 					faction = "NLDO_RU_VDV_76";
                     rarityGroup = 0.5;
@@ -2231,7 +2576,7 @@ class CfgGroups
 				};
 				class NLDO_RU_VDV_76_ATteam
 				{
-					name = "ATteam";
+					name = "AT team";
 					side = 0;
 					faction = "NLDO_RU_VDV_76";
                     rarityGroup = 0.5;
@@ -2285,6 +2630,76 @@ class CfgGroups
 						position[] = {5,-5,0};
 					};
 				};
+				class NLDO_RU_VDV_76_eodteam
+				{
+					name = "EOD team";
+					side = 0;
+					faction = "NLDO_RU_VDV_76";
+                    rarityGroup = 0.5;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_tl";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_expl";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_expl";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_mmg";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+				};
+				class NLDO_RU_VDV_76_engineerteam
+				{
+					name = "Engineer team";
+					side = 0;
+					faction = "NLDO_RU_VDV_76";
+                    rarityGroup = 0.5;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_tl";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_eng";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_eng";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_mmg";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+				};
 				class NLDO_RU_VDV_76_Team
 				{
 					name = "Team";
@@ -2308,7 +2723,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 0;
-						vehicle = "NLDO_RU_VDV_76_ar";
+						vehicle = "NLDO_RU_VDV_76_mmg";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
@@ -2350,14 +2765,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 0;
-						vehicle = "NLDO_RU_VDV_76_ar";
+						vehicle = "NLDO_RU_VDV_76_mmg";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "NLDO_RU_VDV_76_ar";
+						vehicle = "NLDO_RU_VDV_76_mmg";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
@@ -2381,6 +2796,27 @@ class CfgGroups
 						vehicle = "NLDO_RU_VDV_76_ammo";
 						rank = "PRIVATE";
 						position[] = {-20,-20,0};
+					};
+				};
+				class NLDO_RU_VDV_76_Sniper
+				{
+					name = "Sniper Team";
+					side = 0;
+					faction = "NLDO_RU_VDV_76";
+                    rarityGroup = 0.5;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_spotter";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_sniper";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
 					};
 				};
 
