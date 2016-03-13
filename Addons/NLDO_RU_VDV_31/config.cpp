@@ -287,9 +287,9 @@ class CfgVehicles
 
 		class TransportMagazines
 		{
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
 			{
-				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				magazine="CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
 				count=6;
 			};
 			class _xx_CUP_HandGrenade_RGD5
@@ -383,9 +383,9 @@ class CfgVehicles
 				magazine="CUP_30Rnd_545x39_AK_M";
 				count=10;
 			};
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
 			{
-				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 				count=2;
 			};
 		};
@@ -644,8 +644,8 @@ class CfgVehicles
 		respawnLinkedItems[] = {"V_Chestrig_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR"};
     weapons[] = {"NLDO_SV98","hgun_Rook40_F","put","throw", "Rangefinder"};
     respawnweapons[] = {"NLDO_SV98","hgun_Rook40_F","put","throw","Rangefinder"};
-    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		};
 		
 	class NLDO_RU_VDV_31_spotter: O_ghillie_sard_F
@@ -665,8 +665,8 @@ class CfgVehicles
 		respawnLinkedItems[] = {"V_Chestrig_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR"};
     weapons[] = {"CUP_srifle_VSSVintorez_pso","hgun_Rook40_F","put","throw", "Rangefinder"};
     respawnweapons[] = {"CUP_srifle_VSSVintorez_pso","hgun_Rook40_F","put","throw","Rangefinder"};
-    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		};
 
 	class NLDO_RU_VDV_31_rifleman: I_Soldier_base_F
@@ -908,6 +908,7 @@ class CfgVehicles
 
 // Start wheelie vehicles
 	class O_MRAP_02_hmg_F;
+	class O_MRAP_02_gmg_F;
 	class O_MRAP_02_F;
 	class O_APC_Wheeled_02_rcws_F;
 	class O_Truck_02_transport_F;
@@ -916,6 +917,8 @@ class CfgVehicles
 	class O_Truck_02_Ammo_F;
 	class O_Truck_02_fuel_F;
 	class O_Truck_02_box_F;
+	class O_Truck_03_transport_F;
+	class O_Truck_03_ammo_F;
 
 	class NLDO_Punisher_31 : O_MRAP_02_F
 	{
@@ -989,6 +992,71 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "[NLDO] Punisher HMG (31st)";
+		faction = "NLDO_RU_VDV_31";
+		crew = "NLDO_RU_VDV_31_rifleman";
+		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Wheeled\PunisherMRAP\Body_co.paa", "NLDO_RU_VDV_31\Wheeled\PunisherMRAP\Wheels_co.paa", "NLDO_RU_VDV_31\Wheeled\PunisherMRAP\Comgun_co.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=25;
+			};
+			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			{
+				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				count=10;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+				count=10;
+			};
+			class _xx_CUP_RPG18_M
+			{
+				magazine="CUP_RPG18_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLDO_Punisher_31_GMG : O_MRAP_02_gmg_F
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		side = 0;
+		displayName = "[NLDO] Punisher GMG (31st)";
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
@@ -1502,6 +1570,137 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
+	
+	class NLDO_typhoon_Ammo_31 : O_Truck_03_ammo_F	
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		side = 0;
+		displayName = "[NLDO] Kamaz Typhoon Ammo (31th)";
+		faction = "NLDO_RU_VDV_31";
+		crew = "NLDO_RU_VDV_31_rifleman";
+		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Wheeled\TyphoonTrucks\Typhoon_front.paa", "NLDO_RU_VDV_31\Wheeled\TyphoonTrucks\Typhoon_chassis.paa", "NLDO_RU_VDV_31\Wheeled\TyphoonTrucks\Typhoon_ammo.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=25;
+			};
+			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			{
+				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				count=10;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+				count=10;
+			};
+			class _xx_CUP_RPG18_M
+			{
+				magazine="CUP_RPG18_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLDO_typhoon_transport_31 : O_Truck_03_transport_F
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		side = 0;
+		displayName = "[NLDO] Kamaz Typhoon Transport (31th)";
+		faction = "NLDO_RU_VDV_31";
+		crew = "NLDO_RU_VDV_31_rifleman";
+		typicalCargo[] = {"NLDO_RU_VDV_31_rifleman"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Wheeled\TyphoonTrucks\Typhoon_front.paa", "NLDO_RU_VDV_31\Wheeled\TyphoonTrucks\Typhoon_chassis.paa","NLDO_RU_VDV_31\Wheeled\TyphoonTrucks\Typhoon_cargo.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_545x39_AK_M
+			{
+				magazine="CUP_30Rnd_545x39_AK_M";
+				count=25;
+			};
+			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			{
+				magazine="CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				count=10;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+				count=10;
+			};
+			class _xx_CUP_RPG18_M
+			{
+				magazine="CUP_RPG18_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
 // End wheelie vehicles
 
 // Start Armored Vehicles
@@ -1510,14 +1709,14 @@ class CfgVehicles
 	class O_MBT_02_arty_F;
 	class O_APC_Tracked_02_AA_F;
 
-	class NLDO_T100_31 : O_MBT_02_cannon_F
+	class NLDO_T95_31 : O_MBT_02_cannon_F
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
 		side = 0;
 		displayName = "[NLDO] T95 (31th)";
 		faction = "NLDO_RU_VDV_31";
-		crew = "NLDO_RU_VDV_Crew_31";
+		crew = "NLDO_RU_VDV_31_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_31_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Armored\T-95BlackEagle\Body_co.paa", "NLDO_RU_VDV_31\Armored\T-95BlackEagle\Turret_co.paa", "NLDO_RU_VDV_31\Armored\T-95BlackEagle\Turret_extra_co.paa"};
@@ -1696,8 +1895,8 @@ class CfgVehicles
 		faction = "NLDO_RU_VDV_31";
 		crew = "NLDO_RU_VDV_31_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_31_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo4"};
-		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Armored\2S19MSTA\Body_co.paa", "NLDO_RU_VDV_31\Armored\2S19MSTA\Turret_co.paa", "NLDO_RU_VDV_31\Armored\2S19MSTA\Comgun_co.paa"};
+		hiddenSelections[] = {"Camo1", "Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_31\Armored\2S19MSTA\Body_co.paa", "NLDO_RU_VDV_31\Armored\2S19MSTA\Turret_co.paa","NLDO_RU_VDV_31\Armored\2S19MSTA\Turret_extra_co.paa", "NLDO_RU_VDV_31\Armored\2S19MSTA\Comgun_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -2422,7 +2621,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 0;
-						vehicle = "NLDO_RU_VDV_31_ar";
+						vehicle = "NLDO_RU_VDV_31_mmg";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
@@ -2464,14 +2663,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 0;
-						vehicle = "NLDO_RU_VDV_31_ar";
+						vehicle = "NLDO_RU_VDV_31_mmg";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "NLDO_RU_VDV_31_ar";
+						vehicle = "NLDO_RU_VDV_31_mmg";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
