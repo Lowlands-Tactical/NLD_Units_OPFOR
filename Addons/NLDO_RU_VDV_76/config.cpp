@@ -877,10 +877,10 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
-        weapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
 	};
 
 	class NLDO_RU_VDV_76_HeliPilot: I_Soldier_base_F
@@ -901,10 +901,10 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
-        weapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
 	};
 
 	class NLDO_RU_VDV_76_HeliCrew: NLDO_RU_VDV_76_HeliPilot
@@ -932,10 +932,10 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_CrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest", "NLDO_RU_VDV_CrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
-        weapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
-        respawnweapons[] = {"hgun_PDW2000_F","CUP_hgun_Makarov","put","throw"};
-        magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
-        respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell"};
+        weapons[] = {"CUP_arifle_AKS74U","hgun_Rook40_F","put","throw"};
+        respawnweapons[] = {"CUP_arifle_AKS74U","hgun_Rook40_F","put","throw"};
+        magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
+        respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
 	};
 	// End of support
 
