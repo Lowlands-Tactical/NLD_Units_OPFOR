@@ -575,10 +575,10 @@ class cfgVehicles
 		faceType = "Man_A3";
 		linkedItems[] = {"nldo_ua_uaf_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"nldo_ua_uaf_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
-		weapons[] = { "CUP_arifle_AKS74U","CUP_hgun_Makarov","put","throw"};
-		respawnweapons[] = { "CUP_arifle_AKS74U","CUP_hgun_Makarov","put","throw"};
-		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
-		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
+		weapons[] = { "CUP_hgun_Makarov","put","throw"};
+		respawnweapons[] = { "CUP_hgun_Makarov","put","throw"};
+		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
+		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
 	};
 
 
