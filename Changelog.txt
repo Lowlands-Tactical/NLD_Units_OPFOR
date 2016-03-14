@@ -4,6 +4,7 @@ v???
 - added 2 new Alive factions with camo's (Ukraine 95th airmobile and Border Guard)
 - added AA vehicles for russians
 - added more infantry types for russians
+- added Alive compatible groups for russians (motorized,mechanized, armor and air)
 - changed russian loadouts
 - fixed numerous bugs and config issues for existing russian vdv faction
 
