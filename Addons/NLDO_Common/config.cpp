@@ -83,7 +83,7 @@ class cfgWeapons
     {
         scope = 2;
         displayName = "[NLDO] Ukrainian pilot Camo";
-        picture = "NLDO_Common\Gear\uim\Uniform.paa";
+        picture = "NLDO_Common\Gear\uim\PilotCoveralluk.paa";
         model = "\A3\characters_F\Common\pilot_f.p3d";
 
         class ItemInfo : UniformItem
@@ -140,15 +140,15 @@ class cfgWeapons
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[NLDO] Ukrainian Pilot Helmet";
-        picture = "NLDO_Common\Gear\uim\Helmet.paa";
-        model = "\a3\characters_f\common\headgear_helmet_heli_shield";
+        picture = "NLDO_Common\Gear\uim\PilotHelmetuk.paa";
+        model = "\a3\characters_f\common\headgear_helmet_heli";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmetuk.paa"};
 
         class ItemInfo: HeadgearItem
         {
             mass = 1;
-            uniformmodel = "\a3\characters_f\common\headgear_helmet_pilot";
+            uniformmodel = "\a3\characters_f\common\headgear_helmet_heli";
             modelSides[] = {3,1};
             armor = 6;
             passThrough = 0.5;
