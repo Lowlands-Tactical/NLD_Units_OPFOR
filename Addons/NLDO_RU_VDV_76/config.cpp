@@ -2262,7 +2262,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "[NLDO] Russian EMP Camo";
-		picture = "NLDO_RU_VDV_76\Gear\uim\Uniform.paa";
+		picture = "\NLDO_RU_VDV_76\Gear\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 
 		class ItemInfo : UniformItem {
@@ -2277,7 +2277,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "[NLDO] Russian EMP Camo2";
-		picture = "NLDO_RU_VDV_76\Gear\uim\T-shirt.paa";
+		picture = "\NLDO_RU_VDV_76\Gear\uim\T-shirt.paa";
 		model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
 
 		class ItemInfo : UniformItem {
@@ -2294,7 +2294,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLDO] Russian EMP Helmet";
-		picture = "NLDO_RU_VDV_76\Gear\uim\Helmet.paa";
+		picture = "\NLDO_RU_VDV_76\Gear\uim\Helmet.paa";
 		model = "\SP_Pack\Models\SSh68Helmet1";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Helmet.paa"};
@@ -2325,7 +2325,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLDO] Russian EMP Helmet2";
-		picture = "NLDO_RU_VDV_76\Gear\uim\Helmet2.paa";
+		picture = "\NLDO_RU_VDV_76\Gear\uim\Helmet2.paa";
 		model = "\SP_Pack\Models\SSh68Helmet2";
         hiddenSelections[] = {"Camo","Camo1","Camo2"};
         hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Helmet.paa","\SP_Pack\Hats\SSh68CoverHelmet\Black.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
@@ -2355,7 +2355,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "[NLDO] Russian EMP Vest";
-		picture = "NLDO_RU_VDV_76\Gear\uim\Vest.paa";
+		picture = "\NLDO_RU_VDV_76\Gear\uim\Vest.paa";
 		model = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
                 hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Vest.paa"};
                 hiddenSelections[] = {"Camo"};

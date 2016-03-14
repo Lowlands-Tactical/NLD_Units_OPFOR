@@ -45,7 +45,7 @@ class cfgWeapons
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[NLDO] Russian HeliPilot Helmet";
-        picture = "NLDO_Common\Gear\uim\HeliHelmet.paa";
+        picture = "\NLDO_Common\Gear\uim\HeliHelmet.paa";
         model = "A3\Characters_F\Common\headgear_helmet_heli";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmet.paa"};
@@ -66,7 +66,7 @@ class cfgWeapons
     {
         scope = 2;
         displayName = "[NLDO] Russian pilot Camo";
-        picture = "NLDO_Common\Gear\uim\Uniform.paa";
+        picture = "\NLDO_Common\Gear\uim\Uniform.paa";
         model = "\A3\characters_F\Common\pilot_f.p3d";
 
         class ItemInfo : UniformItem
@@ -83,7 +83,7 @@ class cfgWeapons
     {
         scope = 2;
         displayName = "[NLDO] Ukrainian pilot Camo";
-        picture = "NLDO_Common\Gear\uim\PilotCoveralluk.paa";
+        picture = "\NLDO_Common\Gear\uim\PilotCoveralluk.paa";
         model = "\A3\characters_F\Common\pilot_f.p3d";
 
         class ItemInfo : UniformItem
@@ -98,9 +98,9 @@ class cfgWeapons
 
     class NLDO_RU_VDV_HeliPilot_Camo : Uniform_Base
     {
-        scope = 1;
+        scope = 2;
         displayName = "[NLDO] Russian Helipilot Camo";
-        picture = "NLDO_Common\Gear\uim\Uniform.paa";
+        picture = "\NLDO_Common\Gear\uim\Uniform.paa";
         model = "\A3\characters_F\Common\pilot_f.p3d";
 
         class ItemInfo : UniformItem
@@ -118,7 +118,7 @@ class cfgWeapons
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[NLDO] Russian Pilot Helmet";
-        picture = "NLDO_Common\Gear\uim\Helmet.paa";
+        picture = "\NLDO_Common\Gear\uim\Helmet.paa";
         model = "\a3\characters_f\common\headgear_helmet_pilot";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_Common\Gear\Helmet.paa"};
@@ -140,7 +140,7 @@ class cfgWeapons
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[NLDO] Ukrainian Pilot Helmet";
-        picture = "NLDO_Common\Gear\uim\PilotHelmetuk.paa";
+        picture = "\NLDO_Common\Gear\uim\PilotHelmetuk.paa";
         model = "\a3\characters_f\common\headgear_helmet_heli";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmetuk.paa"};
@@ -162,7 +162,7 @@ class cfgWeapons
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[NLDO] Russian HeliCrew Helmet";
-        picture = "NLDO_Common\Gear\uim\HeliHelmet.paa";
+        picture = "\NLDO_Common\Gear\uim\HeliHelmet.paa";
         model = "A3\Characters_F\Common\headgear_helmet_heli_shield";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_Common\Gear\HeliHelmet.paa"};

@@ -19,6 +19,30 @@ class CfgFactionClasses
 	};
 };
 
+class CfgVehicleClasses
+{
+	class nldo_ru_vdv_31_Infantry
+	{
+		displayName="Men";
+	};
+	class nldo_ru_vdv_31_Mechanized
+	{
+		displayName="Mechanized Infantry";
+	};
+	class nldo_ru_vdv_31_Motorized
+	{
+		displayName="Motorized Infantry";
+	};
+	class nldo_ru_vdv_31_Armor
+	{
+		displayName="Armor";
+	};
+	class nldo_ru_vdv_31_Air
+	{
+		displayName="Air";
+	};
+};
+
 // The units insignia
 class CfgUnitInsignia
 {
@@ -2243,7 +2267,7 @@ class cfgWeapons
     {
         scope = 2;
         displayName = "[NLDO] Russian Flora Camo";
-        picture = "NLDO_RU_VDV_31\Gear\uim\Uniform.paa";
+        picture = "\NLDO_RU_VDV_31\Gear\uim\Uniform.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 
         class ItemInfo : UniformItem {
@@ -2470,10 +2494,11 @@ class CfgGroups
 				name = "Infantry";
 				class NLDO_RU_VDV_31_Cmdr
 				{
-					name = "Cmdr";
+					name = "HQ group";
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 
 					class Unit0
 					{
@@ -2503,6 +2528,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2538,6 +2564,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2573,6 +2600,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2608,6 +2636,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2643,6 +2672,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2678,6 +2708,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2713,6 +2744,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2734,6 +2766,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2769,6 +2802,7 @@ class CfgGroups
 					side = 0;
 					faction = "NLDO_RU_VDV_31";
                     rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -2848,8 +2882,1029 @@ class CfgGroups
 					};
 				};
 
+				class nldo_ru_vdv_31_grp_atteam
+				{
+					name = "Anti-Tank team";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_tl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_at";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_at";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_gl";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_squad
+				{
+					name = "Rifle Squad";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_sl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_tl";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_cls";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mmg";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_rifleman";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_gl";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 0;
+						vehicle = "nldo_ua_uaf_95_at";
+						rank = "PRIVATE";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit7
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_ammo";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_weaponsquad
+				{
+					name = "Weapons Squad";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_sl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_tl";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_cls";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mmg";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_at";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_dm";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_gl";
+						rank = "PRIVATE";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit7
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_ammo";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+
+				};
+			};
+			
+			class Motorized
+			{
+				name = "Motorized";
+
+
+				class nldo_ru_vdv_31_grp_motor_hmg
+				{
+					name = "Motorized HMG Team";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mmg";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_Punisher_31_HMG";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mmg";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_motor_team
+				{
+					name = "Motorized Team";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_sl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_Punisher_31_HMG";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_Punisher_31_HMG";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_cls";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mmg";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_at";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+				};
+
+				class nldo_ua_uaf_95_grp_motor_aa
+				{
+					name = "Motorized Air-defence Team";
+					side = "0";
+					faction = "nldo_ua_uaf_95";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_aa";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_Punisher_31";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_aa";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_motor_hq
+				{
+					name = "Motorized HQ Team";
+					side = "0";
+					faction = "nldo_ua_uaf_95";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_officer";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_Punisher_31";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_cls";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_motor_recon
+				{
+					name = "Motorized Recon Team";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_tl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_Punisher_31";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_motor_at
+				{
+					name = "Motorized Anti-Tank Team";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_amat";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_Punisher_31";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mat";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+				};
+
+			};
+			
+			class Mechanized
+			{
+				name = "Mechanized";
+
+
+				class nldo_ru_vdv_31_grp_mech_support
+				{
+					name = "Mechanized Support Squad";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_sl";
+						rank = "LIEUTENANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_BMP_T_31";
+						rank = "SERGEANT";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mmg";
+						rank = "CORPORAL";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mmg";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mat";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mat";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_dm";
+						rank = "PRIVATE";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit7
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_dm";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_mech_rifle
+				{
+					name = "Mechanized Rifle Squad";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_sl";
+						rank = "LIEUTENANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_BMP_T_31";
+						rank = "SERGEANT";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_tl";
+						rank = "CORPORAL";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_cls";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mmg";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_gl";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_at";
+						rank = "PRIVATE";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit7
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_dm";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+					
+					class Unit8
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_ammo";
+						rank = "PRIVATE";
+						position[] = { 20,-20,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_mech_aa
+				{
+					name = "Mechanized Air-defence Squad";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_sl";
+						rank = "LIEUTENANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_BMP_T_31";
+						rank = "SERGEANT";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_aa";
+						rank = "CORPORAL";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_aa";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_rifleman";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+				};
+
+				class nldo_ua_uaf_95_grp_mech_at
+				{
+					name = "Mechanized Anti-armor Squad";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_sl";
+						rank = "LIEUTENANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_BMP_T_31";
+						rank = "SERGEANT";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mat";
+						rank = "CORPORAL";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_mat";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 0;
+						vehicle = "nldo_ru_vdv_31_amat";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+				};
+
+			};
+			class Armor
+			{
+				name = "Armor";
+
+
+				class nldo_ru_vdv_31_grp_art_platoon
+				{
+					name = "Artillery Platoon (2S19 MSTA)";
+					side = "0";
+					faction = "NLDO_RU_VDV_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_2S19MSTA_31";
+						rank = "CAPTAIN";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_2S19MSTA_31";
+						rank = "LIEUTENANT";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_2S19MSTA_31";
+						rank = "SERGEANT";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_2S19MSTA_31";
+						rank = "CORPORAL";
+						position[] = { -30,-30,0 };
+					};
+
+				};
+
+				class nldo_ua_uaf_95_grp_tank_platoon
+				{
+					name = "Tank Platoon (T-95)";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "CAPTAIN";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "LIEUTENANT";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "SERGEANT";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "CORPORAL";
+						position[] = { -30,-30,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_tank_section
+				{
+					name = "Tank Section (T-95)";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "CAPTAIN";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "LIEUTENANT";
+						position[] = { -15,-15,0 };
+					};
+
+				};
+
+				class nldo_ru_vdv_31_grp_art_section
+				{
+					name = "Artillery Section (2S19 MSTA)";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_2S19MSTA_31";
+						rank = "CAPTAIN";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_2S19MSTA_31";
+						rank = "LIEUTENANT";
+						position[] = { -15,-15,0 };
+					};
+
+				};
+				
+				class nldo_ru_vdv_31_grp_combined_platoon
+				{
+					name = "Combined Armor Platoon";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "CAPTAIN";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "LIEUTENANT";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_TUNGUSKA_31";
+						rank = "SERGEANT";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_TUNGUSKA_31";
+						rank = "CORPORAL";
+						position[] = { -30,-30,0 };
+					};
+
+				};
+				
+				class nldo_ru_vdv_31_grp_combined_weapons_platoon
+				{
+					name = "Combined Weapons Platoon";
+					side = "0";
+					faction = "NLDO_RU_VDV_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "CAPTAIN";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "LIEUTENANT";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_T95_31";
+						rank = "SERGEANT";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_BMP_T_31";
+						rank = "CORPORAL";
+						position[] = { -30,-30,0 };
+					};
+					
+					class Unit4
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_sl";
+						rank = "CORPORAL";
+						position[] = { -45,-45,0 };
+					};
+					
+					class Unit5
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_mmg";
+						rank = "PRIVATE";
+						position[] = { 30,-30,0 };
+					};
+					
+					class Unit6
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_cls";
+						rank = "PRIVATE";
+						position[] = { -50,-50,0 };
+					};
+					
+					class Unit7
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_mat";
+						rank = "PRIVATE";
+						position[] = { 35,-35,0 };
+					};
+					
+					class Unit8
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_aa";
+						rank = "PRIVATE";
+						position[] = { -55,-55,0 };
+					};
+					
+					class Unit9
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_gl";
+						rank = "PRIVATE";
+						position[] = { 40,-40,0 };
+					};
+					
+					class Unit10
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_31_ammo";
+						rank = "PRIVATE";
+						position[] = { -60,-60,0 };
+					};
+					
+
+				};
+
+			};
+			class Air
+			{
+				name = "Air";
+
+
+				class nldo_ru_vdv_31_grp_Yak131_squadron
+				{
+					name = "YAK-131 Squadron";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_plane.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_YAK131_31";
+						rank = "MAJOR";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_YAK131_31";
+						rank = "CAPTAIN";
+						position[] = { -50,-50,0 };
+					};
+
+				};
+				
+				class nldo_ru_vdv_31_grp_mi48_squadron
+				{
+					name = "MI-48 Hunting Pack";
+					side = "0";
+					faction = "nldo_ru_vdv_31";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_plane.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_MI48_31";
+						rank = "MAJOR";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_MI48_31";
+						rank = "CAPTAIN";
+						position[] = { -50,-50,0 };
+					};
+
+				};
+
 			};
 		};
 	};
 };
+
 // End of Groups
