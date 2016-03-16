@@ -43,11 +43,6 @@ class CfgUnitInsignia
 // Vehicles classes
 class cfgVehicles
 {
-	class 45th_Spetsnaz
-    {
-       displayName = "45th Guards Detached Spetsnaz Brigade "; 
-	};
-
 
 	// Inheritence classes
 	class B_FieldPack_blk;
@@ -251,6 +246,38 @@ class cfgVehicles
 			};
 		};
 	};
+	
+	class NLDO_FieldPack_EMP_SF_Medic : NLDO_FieldPack_EMP_Empty {
+		displayName = "[NLDO] EMP FieldPack SF Medic";
+        scope = 1;
+
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellRed
+			{
+				magazine="SmokeShellRed";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_MediKit
+			{
+				name="MediKit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+	};
 
 
 	class NLDO_FieldPack_EMP_AT : NLDO_FieldPack_EMP_Empty {
@@ -287,6 +314,44 @@ class cfgVehicles
 				name = "NVGoggles_OPFOR";
 				count = 1;
 			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
+	};
+	
+	class NLDO_FieldPack_EMP_SF_AT : NLDO_FieldPack_EMP_Empty {
+		displayName = "[NLDO] EMP FieldPack SF AT";
+        scope = 1;
+
+		class TransportMagazines
+		{
+			class _xx_CUP_RPG18_M
+			{
+				magazine="CUP_RPG18_M";
+				count=3;
+			};
+
+			class _xx_CUP_HandGrenade_RGD5
+			{
+				magazine="CUP_HandGrenade_RGD5";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellRed
+			{
+				magazine="SmokeShellRed";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
 			class _xx_FirstAidKit
 			{
 				name="FirstAidKit";
@@ -454,6 +519,43 @@ class cfgVehicles
 			};
 		};
 	};
+	
+	class NLDO_FieldPack_EMP_SF_EXPL : NLDO_FieldPack_EMP_Empty {
+		displayName = "[NLDO] EMP FieldPack SF Expl";
+        scope = 1;
+
+		class TransportMagazines
+		{
+			class _xx_DemoCharge_Remote_Mag
+			{
+				magazine="DemoCharge_Remote_Mag";
+				count=3;
+			};
+			class _xx_SatchelCharge_Remote_Mag
+			{
+				magazine="SatchelCharge_Remote_Mag";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_MineDetector
+			{
+				name="MineDetector";
+				count=1;
+			};
+			class _xx_ToolKit
+			{
+				name="ToolKit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+		};
+	};
 
 
 	class NLDO_FieldPack_EMP_JTAC : NLDO_FieldPack_EMP_Empty {
@@ -494,6 +596,48 @@ class cfgVehicles
 				name = "NVGoggles_OPFOR";
 				count = 1;
 			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=1;
+			};
+		};
+	};
+	
+	class NLDO_FieldPack_EMP_SF_JTAC : NLDO_FieldPack_EMP_Empty {
+		displayName = "[NLDO] EMP FieldPack SF JTAC";
+        scope = 1;
+
+		class TransportMagazines
+		{
+			class _xx_SmokeShellRed
+			{
+				magazine="SmokeShellRed";
+				count=5;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=5;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_Laserbatteries
+			{
+				magazine="Laserbatteries";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
 			class _xx_FirstAidKit
 			{
 				name="FirstAidKit";
@@ -678,7 +822,7 @@ class cfgVehicles
 		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 		
-	class NLDO_RU_VDV_76_sf_ak: I_Soldier_base_F
+	class NLDO_RU_VDV_76_sf_ak: O_ghillie_sard_F
 	{
 		author = "Lowlands Tactical";
 		side = 0;
@@ -688,7 +832,31 @@ class cfgVehicles
 		genericNames = "NLDO_RU";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
-		uniformClass = "NLDO_RU_VDV_76_Camo";
+		uniformClass = "NLDO_RU_VDV_SF_Camo";
+		hiddenSelections[] = {"Camo1", "insignia"};
+		hiddenSelectionsTextures[] = { "NLDO_RU_VDV_76\Gear\Uniform.paa", "NLDO_RU_VDV_76\Badges\45th_Spetsnaz_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Beanie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Beanie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		weapons[] = {"NLDO_AKS74U","hgun_Rook40_snds_F","put","throw", "Rangefinder"};
+		respawnweapons[] = {"NLDO_AKS74U","hgun_Rook40_snds_F","put","throw","Rangefinder"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
+	};
+	
+	class NLDO_RU_VDV_76_sf_expl: O_ghillie_sard_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2;
+		displayName = "Spetsnaz Explosive Specialist";
+		backpack = "NLDO_FieldPack_EMP_SF_EXPL";
+		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_SF_Camo";
 		hiddenSelections[] = {"Camo1", "insignia"};
 		hiddenSelectionsTextures[] = { "NLDO_RU_VDV_76\Gear\Uniform.paa", "NLDO_RU_VDV_76\Badges\45th_Spetsnaz_Rondel.paa"};
 		hasDriver = 1;
@@ -701,7 +869,102 @@ class cfgVehicles
 		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
 	};
 	
-	class NLDO_RU_VDV_76_sf_bizon: I_Soldier_base_F
+	class NLDO_RU_VDV_76_sf_tl: O_ghillie_sard_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2;
+		displayName = "Spetsnaz Team Leader";
+		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_SF_Camo";
+		hiddenSelections[] = {"Camo1", "insignia"};
+		hiddenSelectionsTextures[] = { "NLDO_RU_VDV_76\Gear\Uniform.paa", "NLDO_RU_VDV_76\Badges\45th_Spetsnaz_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Boonie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Boonie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		weapons[] = {"NLDO_AKS74U","hgun_Rook40_snds_F","put","throw", "Rangefinder"};
+		respawnweapons[] = {"NLDO_AKS74U","hgun_Rook40_snds_F","put","throw","Rangefinder"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
+	};
+	
+	class NLDO_RU_VDV_76_sf_cls: O_ghillie_sard_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2;
+		displayName = "Spetsnaz Paramedic";
+		backpack = "NLDO_FieldPack_EMP_SF_Medic";
+		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_SF_Camo";
+		hiddenSelections[] = {"Camo1", "insignia"};
+		hiddenSelectionsTextures[] = { "NLDO_RU_VDV_76\Gear\Uniform.paa", "NLDO_RU_VDV_76\Badges\45th_Spetsnaz_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Boonie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Boonie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		weapons[] = {"NLDO_AKS74U","hgun_Rook40_snds_F","put","throw", "Rangefinder"};
+		respawnweapons[] = {"NLDO_AKS74U","hgun_Rook40_snds_F","put","throw","Rangefinder"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
+	};
+	
+	class NLDO_RU_VDV_76_sf_at: O_ghillie_sard_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2;
+		displayName = "Spetsnaz AT operator";
+		backpack = "NLDO_FieldPack_EMP_SF_AT";
+		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_SF_Camo";
+		hiddenSelections[] = {"Camo1", "insignia"};
+		hiddenSelectionsTextures[] = { "NLDO_RU_VDV_76\Gear\Uniform.paa", "NLDO_RU_VDV_76\Badges\45th_Spetsnaz_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Beanie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Beanie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		weapons[] = {"NLDO_AKS74U","CUP_launch_RPG18","hgun_Rook40_snds_F","put","throw", "Rangefinder"};
+		respawnweapons[] = {"NLDO_AKS74U","CUP_launch_RPG18","hgun_Rook40_snds_F","put","throw","Rangefinder"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
+	};
+	
+	class NLDO_RU_VDV_76_sf_jtac: O_ghillie_sard_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2;
+		displayName = "Spetsnaz JTAC";
+		backpack = "NLDO_FieldPack_EMP_SF_JTAC";
+		faction = "NLDO_RU_VDV_76";
+		genericNames = "NLDO_RU";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_SF_Camo";
+		hiddenSelections[] = {"Camo1", "insignia"};
+		hiddenSelectionsTextures[] = { "NLDO_RU_VDV_76\Gear\Uniform.paa", "NLDO_RU_VDV_76\Badges\45th_Spetsnaz_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Beanie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Beanie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		weapons[] = {"NLDO_AKS74U","hgun_Rook40_snds_F","put","throw", "LaserDesignator"};
+		respawnweapons[] = {"NLDO_AKS74U","hgun_Rook40_snds_F","put","throw","LaserDesignator"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red","Laserbatteries"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red","Laserbatteries"};
+	};
+	
+	class NLDO_RU_VDV_76_sf_bizon: O_ghillie_sard_F
 	{
 		author = "Lowlands Tactical";
 		side = 0;
@@ -711,20 +974,20 @@ class cfgVehicles
 		genericNames = "NLDO_RU";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
-		uniformClass = "NLDO_RU_VDV_76_Camo";
+		uniformClass = "NLDO_RU_VDV_SF_Camo";
 		hiddenSelections[] = {"Camo1", "insignia"};
 		hiddenSelectionsTextures[] = { "NLDO_RU_VDV_76\Gear\Uniform.paa", "NLDO_RU_VDV_76\Badges\45th_Spetsnaz_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Boonie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
-		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Boonie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		linkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Beanie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
+		respawnLinkedItems[] = {"NLDO_RU_VDV_76_Vest","NLDO_RU_VDV_76_Beanie","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS","NVGoggles_OPFOR","FirstAidKit","FirstAidKit"};
 		weapons[] = {"NLDO_Bizon","hgun_Rook40_snds_F","put","throw", "Rangefinder"};
 		respawnweapons[] = {"NLDO_Bizon","hgun_Rook40_snds_F","put","throw","Rangefinder"};
 		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
 		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","Chemlight_red","Chemlight_red"};
 	};
 	
-	class NLDO_RU_VDV_76_sf_dm: I_Soldier_base_F
+	class NLDO_RU_VDV_76_sf_dm: O_ghillie_sard_F
 	{
 		author = "Lowlands Tactical";
 		side = 0;
@@ -734,7 +997,7 @@ class cfgVehicles
 		genericNames = "NLDO_RU";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
-		uniformClass = "NLDO_RU_VDV_76_Camo";
+		uniformClass = "NLDO_RU_VDV_SF_Camo";
 		hiddenSelections[] = {"Camo1", "insignia"};
 		hiddenSelectionsTextures[] = { "NLDO_RU_VDV_76\Gear\Uniform.paa", "NLDO_RU_VDV_76\Badges\45th_Spetsnaz_Rondel.paa"};
 		hasDriver = 1;
@@ -2338,7 +2601,7 @@ class cfgWeapons
 	class InventoryItem_Base_F;
 	class V_PlateCarrier1_rgr;
     class VestItem;
-	class H_Watchcap_camo;
+	class H_Watchcap_blk;
 	class H_Booniehat_grn;
 
 	class NLDO_RU_VDV_76_Camo : Uniform_Base
@@ -2355,6 +2618,20 @@ class cfgWeapons
 			mass = 1;
 		};
 
+	};
+	class NLDO_RU_VDV_SF_Camo : Uniform_Base
+	{
+		scope = 1;
+		displayName = "[NLDO] Russian EMP Camo";
+		picture = "\NLDO_RU_VDV_76\Gear\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLDO_RU_VDV_76_sf_ak";
+			containerClass = "Supply60";
+			mass = 1;
+		};
 	};
 	class NLDO_RU_VDV_76_Camo2 : Uniform_Base
 	{
@@ -2434,25 +2711,25 @@ class cfgWeapons
 		};
 	};
 	
-	class NLDO_RU_VDV_76_Beanie: H_Watchcap_camo
+	class NLDO_RU_VDV_76_Beanie: H_Watchcap_blk
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLDO] Russian EMP Beanie";
 		picture = "\NLDO_RU_VDV_76\Gear\uim\Helmet.paa";
-		model = "\A3\Characters_F\Common\headgear_beanie";
+		model = "\A3\Characters_F\Civil\headgear_beaniehat01";
         hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Helmet.paa"};
+        hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Beanie.paa"};
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 1;
-			uniformmodel = "\A3\Characters_F\Common\headgear_beanie";
+			uniformmodel = "\A3\Characters_F\Civil\headgear_beaniehat01";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 1;
             hiddenSelections[] = {"Camo"};
-            hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Helmet.paa"};
+            hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Beanie.paa"};
 			class HitpointsProtectionInfo
  			{
  				class Head
@@ -2586,13 +2863,18 @@ class cfgWeapons
 	class NLDO_AKS74U: CUP_arifle_AKS74U 
 	{
 		author="Lowlands Tactical";
-		displayName="[NLDO] AK74M";
+		displayName="[NLDO] AKS74U";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
 				item="CUP_optic_Kobra";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot="MuzzleSlot";
+				item="CUP_muzzle_Bizon";
 			};
 		};
 	};
@@ -2607,6 +2889,11 @@ class cfgWeapons
 			{
 				slot="CowsSlot";
 				item="CUP_optic_Kobra";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot="MuzzleSlot";
+				item="CUP_muzzle_Bizon";
 			};
 			
 		};
@@ -3186,6 +3473,72 @@ class CfgGroups
 						vehicle = "nldo_ru_vdv_76_ammo";
 						rank = "PRIVATE";
 						position[] = { -20,-20,0 };
+					};
+
+				};
+				
+				class nldo_ru_vdv_76_sf_squad
+				{
+					name = "Spetsnaz Group";
+					side = "0";
+					faction = "nldo_ru_vdv_76";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_sf_tl";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_sf_cls";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_sf_dm";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_sf_jtac";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_sf_at";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_sf_bizon";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 0;
+						vehicle = "NLDO_RU_VDV_76_sf_expl";
+						rank = "PRIVATE";
+						position[] = { 15,-15,0 };
 					};
 
 				};
