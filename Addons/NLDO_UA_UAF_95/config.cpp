@@ -866,11 +866,11 @@ class cfgVehicles
 		{
 
 			class _xx_SatchelCharge_Remote_Mag {
-				name = "SatchelCharge_Remote_Mag";
+				magazine = "SatchelCharge_Remote_Mag";
 				count = 1;
 			};
 			class _xx_DemoCharge_Remote_Mag {
-				name = "DemoCharge_Remote_Mag";
+				magazine = "DemoCharge_Remote_Mag";
 				count = 4;
 			};
 			class _xx_CUP_30Rnd_545x39_AK_M
