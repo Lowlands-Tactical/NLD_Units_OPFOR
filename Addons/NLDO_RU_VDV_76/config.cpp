@@ -2716,7 +2716,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLDO] Russian EMP Beanie";
-		picture = "\NLDO_RU_VDV_76\Gear\uim\Helmet.paa";
+		picture = "\NLDO_RU_VDV_76\Gear\uim\Beanie.paa";
 		model = "\A3\Characters_F\Civil\headgear_beaniehat01";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Beanie.paa"};
@@ -2747,7 +2747,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLDO] Russian EMP Boonie";
-		picture = "\NLDO_RU_VDV_76\Gear\uim\Helmet.paa";
+		picture = "\NLDO_RU_VDV_76\Gear\uim\Booniehat.paa";
 		model = "\A3\Characters_F\Common\booniehat";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Gear\Booniehat.paa"};
