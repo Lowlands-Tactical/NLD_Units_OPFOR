@@ -902,24 +902,17 @@ class CfgVehicles
 		backpack = "";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
-		uniformClass = "NLDO_RU_VDV_HeliPilot_Camo";
+		uniformClass = "NLDO_RU_VDV_31_HeliPilot_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
 		hiddenSelectionsTextures[] = {"NLDO_Common\Gear\PilotCoverall.paa", "NLDO_Common\Badges\Heli_Rondel.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
-    weapons[] = {"hgun_Rook40_F","put","throw"};
-    respawnweapons[] = {"hgun_Rook40_F","put","throw"};
-    magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
-    respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
-	};
-
-
-	class NLDO_RU_VDV_31_Pilot: NLDO_RU_VDV_31_HeliPilot
-	{
-		displayName = "Pilot";
-		faction = "NLDO_RU_VDV_31";
+		weapons[] = {"hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
 	};
 
 
@@ -927,6 +920,30 @@ class CfgVehicles
 	{
 		displayName = "HeliCrew";
 		faction = "NLDO_RU_VDV_31";
+		linkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_HeliCrewHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+	};
+	class NLDO_RU_VDV_31_Pilot: I_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 0;
+		scope = 2;
+		displayName = "Pilot";
+		faction = "NLDO_RU_VDV_31";
+		backpack = "";
+		model = "\A3\characters_F\Common\pilot_f.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLDO_RU_VDV_31_Pilot_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"NLDO_Common\Gear\PilotCoverall.paa", "NLDO_Common\Badges\YAK_Rondel.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"NLDO_RU_RU_VDV_PilotHelmet","NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio","ItemGPS"};
+		weapons[] = {"hgun_Rook40_F","put","throw"};
+		respawnweapons[] = {"hgun_Rook40_F","put","throw"};
+		magazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
+		respawnmagazines[] = {"16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed"};
 	};
 
 
@@ -2292,7 +2309,38 @@ class cfgWeapons
             containerClass = "Supply60";
             mass = 1;
         };
+    };
 
+    class NLDO_RU_VDV_31_Pilot_Camo : Uniform_Base
+    {
+        scope = 2;
+        displayName = "[NLDO] Russian 31st pilot Camo";
+        picture = "\NLDO_Common\Gear\uim\Uniform.paa";
+        model = "\A3\characters_F\Common\pilot_f.p3d";
+
+        class ItemInfo : UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "NLDO_RU_VDV_31_Pilot";
+            containerClass = "Supply60";
+            mass = 1;
+        };
+    };
+
+    class NLDO_RU_VDV_31_HeliPilot_Camo : Uniform_Base
+    {
+        scope = 1;
+        displayName = "[NLDO] Russian Helipilot Camo";
+        picture = "\NLDO_Common\Gear\uim\Uniform.paa";
+        model = "\A3\characters_F\Common\pilot_f.p3d";
+
+        class ItemInfo : UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "NLDO_RU_VDV_31_HeliPilot";
+            containerClass = "Supply60";
+            mass = 1;
+        };
     };
 
     class NLDO_RU_VDV_31_Helmet: ItemCore

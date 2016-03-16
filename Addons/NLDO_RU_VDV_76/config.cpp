@@ -880,7 +880,7 @@ class cfgVehicles
 		backpack = "B_Parachute";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
-		uniformClass = "NLDO_RU_VDV_Pilot_Camo";
+		uniformClass = "NLDO_RU_VDV_76_Pilot_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
 		hiddenSelectionsTextures[] = {"NLDO_Common\Gear\PilotCoverall.paa", "NLDO_Common\Badges\YAK_Rondel.paa"};
 		hasDriver = 1;
@@ -904,7 +904,7 @@ class cfgVehicles
 		backpack = "";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
-		uniformClass = "NLDO_RU_VDV_HeliPilot_Camo";
+		uniformClass = "NLDO_RU_VDV_76_HeliPilot_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
 		hiddenSelectionsTextures[] = {"NLDO_Common\Gear\PilotCoverall.paa", "NLDO_Common\Badges\Heli_Rondel.paa"};
 		hasDriver = 1;
@@ -2286,8 +2286,39 @@ class cfgWeapons
 			containerClass = "Supply60";
 			mass = 1;
 		};
-
 	};
+
+    class NLDO_RU_VDV_76_Pilot_Camo : Uniform_Base
+    {
+        scope = 2;
+        displayName = "[NLDO] Russian 76th pilot Camo";
+        picture = "\NLDO_Common\Gear\uim\Uniform.paa";
+        model = "\A3\characters_F\Common\pilot_f.p3d";
+
+        class ItemInfo : UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "NLDO_RU_VDV_76_Pilot";
+            containerClass = "Supply60";
+            mass = 1;
+        };
+    };
+
+    class NLDO_RU_VDV_76_HeliPilot_Camo : Uniform_Base
+    {
+        scope = 1;
+        displayName = "[NLDO] Russian Helipilot Camo";
+        picture = "\NLDO_Common\Gear\uim\Uniform.paa";
+        model = "\A3\characters_F\Common\pilot_f.p3d";
+
+        class ItemInfo : UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "NLDO_RU_VDV_76_HeliPilot";
+            containerClass = "Supply60";
+            mass = 1;
+        };
+    };
 
     class NLDO_RU_VDV_76_Helmet: ItemCore
 	{

@@ -568,8 +568,8 @@ class cfgVehicles
 		backpack = "B_Parachute";
 		model = "\A3\characters_F\Common\pilot_f.p3d";
 		uniformAccessories[] = {};
-		uniformClass = "nldo_ua_uaf_pilot_camo";
-		hiddenSelections[] = {"Camo"};
+		uniformClass = "nldo_ua_uaf_95_pilot_camo";
+		hiddenSelections[] = {"camo", "insignia"};
 		hiddenSelectionsTextures[] = {"NLDO_Common\Gear\PilotCoveralluk.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
@@ -1702,6 +1702,22 @@ class cfgWeapons
 			mass = 1;
 		};
 	};
+	
+	class nldo_ua_uaf_95_pilot_camo : Uniform_Base
+    {
+        scope = 2;
+        displayName = "[NLDO] Ukrainian 95th pilot Camo";
+        picture = "\NLDO_Common\Gear\uim\PilotCoveralluk.paa";
+        model = "\A3\characters_F\Common\pilot_f.p3d";
+
+        class ItemInfo : UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "nldo_ua_uaf_95_Pilot";
+            containerClass = "Supply60";
+            mass = 1;
+        };
+    };
 
 	class ItemInfo;
 	class ItemCore;
