@@ -11,17 +11,14 @@ So you'll see this return in the units
 
 Faction:
 
-	76th	NLDO_RU_VDV_76
-	31st	NLDO_RU_VDV_31
+Russians	76th	NLDO_RU_VDV_76
+		31st	NLDO_RU_VDV_31
+Ukraine		95th	nldo_ua_uaf_95
+	Border Guards	nldo_ua_uaf_bg
+
 Infantry:
 
-	Crew:
-		NLD_Crew
-		NLD_Helicrew
-		NLD_Helipilot
-		NLD_Lifeliner_F
-		NLD_Police_F
-
+Russian
 	76th:
 		NLDO_RU_VDV_76_aar
 		NLDO_RU_VDV_76_amat
@@ -38,6 +35,16 @@ Infantry:
 		NLDO_RU_VDV_76_rifleman
 		NLDO_RU_VDV_76_sl
 		NLDO_RU_VDV_76_tl
+		NLDO_RU_VDV_76_sniper
+   		NLDO_RU_VDV_76_spotter
+    		NLDO_RU_VDV_76_sf_ak
+    		NLDO_RU_VDV_76_sf_expl
+    		NLDO_RU_VDV_76_sf_tl
+    		NLDO_RU_VDV_76_sf_cls
+    		NLDO_RU_VDV_76_sf_at
+    		NLDO_RU_VDV_76_sf_jtac
+    		NLDO_RU_VDV_76_sf_bizon
+    		NLDO_RU_VDV_76_sf_dm
 
 	Crew 76th:
 		NLDO_RU_VDV_Pilot_76
@@ -46,27 +53,73 @@ Infantry:
 		NLDO_RU_VDV_Crew_76
 
 	31st:
-		NLDO_RU_VDV_31_aar
-		NLDO_RU_VDV_31_amat
-		NLDO_RU_VDV_31_ammg
-		NLDO_RU_VDV_31_ammo
-		NLDO_RU_VDV_31_ar
-		NLDO_RU_VDV_31_at
-		NLDO_RU_VDV_31_cls
-		NLDO_RU_VDV_31_gl
 		NLDO_RU_VDV_31_marksman
-		NLDO_RU_VDV_31_mat
-		NLDO_RU_VDV_31_mmg
-		NLDO_RU_VDV_31_officer
-		NLDO_RU_VDV_31_rifleman
-		NLDO_RU_VDV_31_sl
-		NLDO_RU_VDV_31_tl
+   	 	NLDO_RU_VDV_31_sniper
+    		NLDO_RU_VDV_31_spotter
+    		NLDO_RU_VDV_31_rifleman
+    		NLDO_RU_VDV_31_aar
+    		NLDO_RU_VDV_31_eng
+    		NLDO_RU_VDV_31_expl
+    		NLDO_RU_VDV_31_ammg
+    		NLDO_RU_VDV_31_mmg
+    		NLDO_RU_VDV_31_tl
+    		NLDO_RU_VDV_31_ar
+    		NLDO_RU_VDV_31_ammo
+    		NLDO_RU_VDV_31_aa
+    		NLDO_RU_VDV_31_officer
+    		NLDO_RU_VDV_31_amat
+    		NLDO_RU_VDV_31_cls
+    		NLDO_RU_VDV_31_mat
+    		NLDO_RU_VDV_31_at
+    		NLDO_RU_VDV_31_gl
+    		NLDO_RU_VDV_31_sl
 
 	Crew 31st:
-		NLDO_RU_VDV_Pilot_31
-		NLDO_RU_VDV_HeliPilot_31
-		NLDO_RU_VDV_HeliCrew_31
-		NLDO_RU_VDV_Crew_31
+		NLDO_RU_VDV_31_HeliPilot
+		NLDO_RU_VDV_31_HeliCrew
+		NLDO_RU_VDV_31_Pilot
+		NLDO_RU_VDV_31_Crew
+
+Ukraine
+	95th
+		nldo_ua_uaf_95_aar
+		nldo_ua_uaf_95_sl
+   		nldo_ua_uaf_95_mat
+    		nldo_ua_uaf_95_mmg
+    		nldo_ua_uaf_95_explosive
+    		nldo_ua_uaf_95_dm
+    		nldo_ua_uaf_95_aa
+    		nldo_ua_uaf_95_ammo
+    		nldo_ua_uaf_95_ammg
+    		nldo_ua_uaf_95_officer
+    		nldo_ua_uaf_95_rifleman
+    		nldo_ua_uaf_95_cls
+    		nldo_ua_uaf_95_engineer
+    		nldo_ua_uaf_95_amat
+    		nldo_ua_uaf_95_fac
+    		nldo_ua_uaf_95_at
+    		nldo_ua_uaf_95_ar
+    		nldo_ua_uaf_95_gl
+    		nldo_ua_uaf_95_tl
+
+	Crew 95th
+		nldo_ua_uaf_95_pilot
+		nldo_ua_uaf_95_crew
+
+	Border Guard
+		nldo_ua_uaf_bg_cls
+    		nldo_ua_uaf_bg_ammo
+    		nldo_ua_uaf_bg_rifleman
+    		nldo_ua_uaf_bg_dm
+    		nldo_ua_uaf_bg_tl
+    		nldo_ua_uaf_bg_mmg
+    		nldo_ua_uaf_bg_gl
+    		nldo_ua_uaf_bg_officer
+    		nldo_ua_uaf_bg_sl
+    		nldo_ua_uaf_bg_at
+    		nldo_ua_uaf_bg_amat
+    		nldo_ua_uaf_bg_mat
+    		nldo_ua_uaf_bg_ammg
 
 
 BackPacks:
@@ -86,6 +139,10 @@ BackPacks:
 	NLDO_FieldPack_EMP_MMG
 	NLDO_FieldPack_EMP_TL
 	NLDO_FieldPack_EMP_UAV
+	NLDO_FieldPack_EMP_SF_Medic
+	NLDO_FieldPack_EMP_SF_AT
+	NLDO_FieldPack_EMP_SF_EXPL
+	NLDO_FieldPack_EMP_SF_JTAC
 	
 	NLDO_FieldPack_Flora_Empty
 	NLDO_FieldPack_Flora_AA
@@ -103,24 +160,161 @@ BackPacks:
 	NLDO_FieldPack_Flora_MMG
 	NLDO_FieldPack_Flora_TL
 	NLDO_FieldPack_Flora_UAV
+
+	nldo_ua_uaf_95_bp_empty
+    	nldo_ua_uaf_95_bp_cc 
+    	nldo_ua_uaf_95_bp_dm
+   	nldo_ua_uaf_95_bp_engineer 
+   	nldo_ua_uaf_95_bp_cls 
+   	nldo_ua_uaf_95_bp_mmg 
+  	nldo_ua_uaf_95_bp_mat 
+   	nldo_ua_uaf_95_bp_fieldpack 
+    	nldo_ua_uaf_95_bp_explosive 
+    	nldo_ua_uaf_95_bp_ammo 
+    	nldo_ua_uaf_95_bp_ar 
+    	nldo_ua_uaf_95_bp_gl
+    	nldo_ua_uaf_95_bp_aa 
+    	nldo_ua_uaf_95_bp_at 
 	
+	nldo_ua_uaf_bg_bp_empty 
+    	nldo_ua_uaf_bg_bp_cls 
+    	nldo_ua_uaf_bg_bp_rifleman 
+    	nldo_ua_uaf_bg_bp_dm 
+    	nldo_ua_uaf_bg_bp_at 
+   	nldo_ua_uaf_bg_bp_cc 
+    	nldo_ua_uaf_bg_bp_ammo 
+    	nldo_ua_uaf_bg_bp_mat 
+    	nldo_ua_uaf_bg_bp_mmg 
+    	nldo_ua_uaf_bg_bp_gl
+
 Groups:
 	Infantry
 		NLDO_RU_VDV_76_Cmdr
-		NLDO_RU_VDV_76_LMGteam
-		NLDO_RU_VDV_76_MMGteam
-		NLDO_RU_VDV_76_ATteam
-		NLDO_RU_VDV_76_Sentry
-		NLDO_RU_VDV_76_Team
-		NLDO_RU_VDV_76_Squad
+                NLDO_RU_VDV_76_LMGteam
+                NLDO_RU_VDV_76_MMGteam
+                NLDO_RU_VDV_76_eodteam
+                NLDO_RU_VDV_76_engineerteam
+                NLDO_RU_VDV_76_ATteam
+                NLDO_RU_VDV_76_AAteam
+                NLDO_RU_VDV_76_Sentry
+                NLDO_RU_VDV_76_Team
+                NLDO_RU_VDV_76_Sniper
+                nldo_ru_vdv_76_grp_atteam
+                nldo_ru_vdv_76_grp_squad
+                nldo_ru_vdv_76_grp_weaponsquad
+                nldo_ru_vdv_76_sf_squad
 		
 		NLDO_RU_VDV_31_Cmdr
-		NLDO_RU_VDV_31_LMGteam
-		NLDO_RU_VDV_31_MMGteam
-		NLDO_RU_VDV_31_ATteam
-		NLDO_RU_VDV_31_Sentry
-		NLDO_RU_VDV_31_Team
-		NLDO_RU_VDV_31_Squad
+                NLDO_RU_VDV_31_LMGteam
+                NLDO_RU_VDV_31_MMGteam
+                NLDO_RU_VDV_31_eodteam
+                NLDO_RU_VDV_31_engineerteam
+                NLDO_RU_VDV_31_ATteam
+                NLDO_RU_VDV_31_AAteam
+                NLDO_RU_VDV_31_Sentry
+                NLDO_RU_VDV_31_Team
+                NLDO_RU_VDV_31_Sniper
+                nldo_ru_vdv_31_grp_atteam
+                nldo_ru_vdv_31_grp_squad
+                nldo_ru_vdv_31_grp_weaponsquad
+
+		nldo_ua_uaf_95_grp_mmgteam
+                nldo_ua_uaf_95_grp_atteam
+                nldo_ua_uaf_95_grp_engineers
+                nldo_ua_uaf_95_grp_squad
+                nldo_ua_uaf_95_grp_matteam
+                nldo_ua_uaf_95_grp_cmdr
+                nldo_ua_uaf_95_grp_aateam
+                nldo_ua_uaf_95_grp_weaponsquad
+                nldo_ua_uaf_95_grp_team
+                nldo_ua_uaf_95_grp_explosive
+                nldo_ua_uaf_95_grp_sentry
+
+		nldo_ua_uaf_bg_team
+                nldo_ua_uaf_bg_squad
+                nldo_ua_uaf_bg_mmgteam
+                nldo_ua_uaf_bg_atteam
+                nldo_ua_uaf_bg_sentry
+                nldo_ua_uaf_bg_cmdr
+
+	Motorized
+		nldo_ru_vdv_76_grp_motor_hmg
+                nldo_ru_vdv_76_heavy_grp_motor_rifle
+                nldo_ru_vdv_76_grp_motor_team
+                nldo_ru_vdv_76_grp_motor_aa
+                nldo_ru_vdv_76_grp_motor_hq
+                nldo_ru_vdv_76_grp_motor_recon
+                nldo_ru_vdv_76_grp_motor_at
+
+		nldo_ru_vdv_31_grp_motor_hmg
+		nldo_ru_vdv_31_heavy_grp_motor_rifle
+		nldo_ru_vdv_31_grp_motor_team
+		nldo_ru_vdv_31_grp_motor_aa
+                nldo_ru_vdv_31_grp_motor_hq
+                nldo_ru_vdv_31_grp_motor_recon
+                nldo_ru_vdv_31_grp_motor_at
+
+		nldo_ua_uaf_95_grp_motor_hmg
+                nldo_ua_uaf_95_grp_motor_team
+                nldo_ua_uaf_95_grp_motor_aa
+                nldo_ua_uaf_95_grp_motor_hq
+                nldo_ua_uaf_95_grp_motor_recon
+                nldo_ua_uaf_95_grp_motor_at
+
+		nldo_ua_uaf_bg_grp_motor_hmg
+                nldo_ua_uaf_bg_grp_motor_team_hmg
+                nldo_ua_uaf_bg_grp_motor_gmg
+                nldo_ua_uaf_bg_grp_motor_team_gmg
+                nldo_ua_uaf_bg_grp_motor
+                nldo_ua_uaf_bg_grp_motor_team
+
+	Mechanized
+		nldo_ru_vdv_76_grp_mech_support
+                nldo_ru_vdv_76_grp_mech_rifle
+                nldo_ru_vdv_76_grp_mech_aa
+                nldo_ru_vdv_76_grp_mech_at
+
+		nldo_ru_vdv_31_grp_mech_support
+                nldo_ru_vdv_31_grp_mech_rifle
+                nldo_ru_vdv_31_grp_mech_aa
+                nldo_ru_vdv_31_grp_mech_at
+
+		nldo_ua_uaf_95_grp_mech_support
+                nldo_ua_uaf_95_grp_mech_rifle
+                nldo_ua_uaf_95_grp_mech_aa
+                nldo_ua_uaf_95_grp_mech_at
+	
+	Armor
+		nldo_ru_vdv_76_grp_art_platoon
+                nldo_ru_vdv_76_grp_tank_platoon
+                nldo_ru_vdv_76_grp_tank_section
+                nldo_ru_vdv_76_grp_art_section
+                nldo_ru_vdv_76_grp_combined_platoon
+                nldo_ru_vdv_76_grp_combined_weapons_platoon
+
+		nldo_ru_vdv_31_grp_art_platoon
+                nldo_ru_vdv_31_grp_tank_platoon
+                nldo_ru_vdv_31_grp_tank_section
+                nldo_ru_vdv_31_grp_art_section
+                nldo_ru_vdv_31_grp_combined_platoon
+                nldo_ru_vdv_31_grp_combined_weapons_platoon
+
+                nldo_ua_uaf_95_grp_art_platoon
+                nldo_ua_uaf_95_grp_tank_platoon
+                nldo_ua_uaf_95_grp_tank_section
+                nldo_ua_uaf_95_grp_art_section
+                nldo_ua_uaf_95_grp_combined_platoon
+                nldo_ua_uaf_95_grp_combined_weapons_platoon
+
+	Air	
+		nldo_ru_vdv_76_grp_Yak131_squadron
+                nldo_ru_vdv_76_grp_mi48_squadron
+
+		nldo_ru_vdv_31_grp_Yak131_squadron
+                nldo_ru_vdv_31_grp_mi48_squadron
+
+		nldo_ua_uaf_95_grp_L39_squadron
+		
 
 Vehicles:
 
@@ -128,24 +322,35 @@ Vehicles:
 		NLDO_KA60_76
 		NLDO_KA60_Armed_76
 		NLDO_MI48_76
+		NLDO_YAK131_76
 		
 		NLDO_KA60_31
 		NLDO_KA60_Armed_31
 		NLDO_MI48_31
 		NLDO_YAK131_31
+
+		nldo_ua_uaf_95_l39
 		
 	Armor:
-		NLDO_T100_76
+		NLDO_T95_76
 		NLDO_BMP_T_76
 		NLDO_2S19MSTA_76
+		NLDO_TUNGUSKA_76
 		
 		NLDO_T100_31
 		NLDO_BMP_T_31
 		NLDO_2S19MSTA_31
+		NLDO_TUNGUSKA_31
+
+		nldo_ua_uaf_95_t84
+		nldo_ua_uaf_95_bmp1u
+		nldo_ua_uaf_95_tunguska
+		nldo_ua_uaf_95_2S19MSTA
 		
 	Car:
 		NLDO_Punisher_76
 		NLDO_Punisher_76_HMG
+		NLDO_Punisher_76_GMG
 		NLDO_Otokar_76
 		NLDO_kamaz_Transport_76
 		NLDO_kamaz_Covered_76
@@ -153,9 +358,12 @@ Vehicles:
 		NLDO_kamaz_Fuel_76
 		NLDO_kamaz_Repair_76
 		NLDO_kamaz_Ammo_76
+		NLDO_typhoon_Ammo_76
+		NLDO_typhoon_transport_76
 		
 		NLDO_Punisher_31
 		NLDO_Punisher_31_HMG
+		NLDO_Punisher_31_GMG
 		NLDO_Otokar_31
 		NLDO_kamaz_Transport_31
 		NLDO_kamaz_Covered_31
@@ -163,6 +371,29 @@ Vehicles:
 		NLDO_kamaz_Fuel_31
 		NLDO_kamaz_Repair_31
 		NLDO_kamaz_Ammo_31
+		NLDO_typhoon_Ammo_31
+		NLDO_typhoon_transport_31
+
+		nldo_ua_uaf_95_kraz
+		nldo_ua_uaf_95_kraz_hmg
+		nldo_ua_uaf_95_kraz_gmg
+  		nldo_ua_uaf_95_kamaz_transport
+  		nldo_ua_uaf_95_kamaz_covered
+  		nldo_ua_uaf_95_kamaz_medical
+  		nldo_ua_uaf_95_kamaz_fuel
+  		nldo_ua_uaf_95_kamaz_repair
+  		nldo_ua_uaf_95_kamaz_ammo 
+
+		nldo_ua_uaf_BG_kraz
+  		nldo_ua_uaf_bg_quad
+  		nldo_ua_uaf_bg_kraz_hmg
+  		nldo_ua_uaf_bg_kraz_gmg
+  		nldo_ua_uaf_bg_kamaz_transport
+  		nldo_ua_uaf_bg_kamaz_covered
+  		nldo_ua_uaf_bg_kamaz_medical
+  		nldo_ua_uaf_bg_kamaz_fuel
+  		nldo_ua_uaf_bg_kamaz_repair
+  		nldo_ua_uaf_bg_kamaz_ammo
 
 Items:
 	NLDO_RU_VDV_76_Camo
@@ -170,6 +401,9 @@ Items:
 	NLDO_RU_VDV_76_Helmet
 	NLDO_RU_VDV_76_Helmet2
 	NLDO_RU_VDV_76_Vest
+	NLDO_RU_VDV_SF_Camo
+	NLDO_RU_VDV_76_Beanie
+	NLDO_RU_VDV_76_Boonie
 	
 	NLDO_RU_VDV_31_Camo
 	NLDO_RU_VDV_31_Camo2
@@ -184,6 +418,15 @@ Items:
 	NLDO_RU_RU_VDV_HeliCrewHelmet
 	NLDO_RU_VDV_CrewHelmet
 
+	nldo_ua_uaf_95_Camo
+    	nldo_ua_uaf_95_pilot_camo 
+    	nldo_ua_uaf_95_Helmet
+    	nldo_ua_uaf_95_Vest
+
+	nldo_ua_uaf_bg_Camo
+	nldo_ua_uaf_bg_Helmet
+	nldo_ua_uaf_bg_Vest
+
 Weapons:
 	All of the classes can be found here: http://friedenhq.org/tmp/CUP_Class%20List/classlist.html
 
@@ -194,5 +437,9 @@ Insignia:
 	Use this with: [this,"$INSIGNIA-NAME"] call BIS_fnc_setUnitInsignia;
 	NLDO_76AMB_Russia
 	NLDO_31MB_Russia
+	NLDO_45Spetsnaz_Russia
 	NLDO_Heli_Russia
 	NLDO_YAK_Russia
+	nldo_ua_uaf_bg_bg
+	nldo_ua_uaf_95_bg
+	

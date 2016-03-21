@@ -12,8 +12,10 @@ CUP_launch_Igla
 CUP_launch_9K32Strela
 CUP_optic_Kobra									(Aimpoint)
 CUP_optic_PSO_3									(Sniperscope)
+NLDO_AK74M
+NLDO_AK74M_GL   							
 NLDO_SVD
-NLDO_RPK74
+NLDO_RPK74M
 NLDO_AKS74
 NLDO_AKS74_GL
 NLDO_Fort401
@@ -21,17 +23,23 @@ NLDO_Fort222_DM
 NLDO_Fort222_GL
 NLDO_Fort222
 NLDO_Fort221
-
+NLDO_SV98
+NLDO_RPK74
+NLDO_Bizon
+NLDO_AKS74U
+hgun_Rook40_F
 
 ** Ammunition **
 
 CUP_8Rnd_9x18_Makarov_M 						(CUP_hgun_Makarov)
 CUP_30Rnd_545x39_AK_M 							(CUP_arifle_AK74M_kobra, CUP_arifle_AK74M_GL_kobra, CUP_arifle_RPK74M)
-CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M 			(CUP_arifle_AK74M_kobra, CUP_arifle_AK74M_GL_kobra, CUP_arifle_RPK74M)
-CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M 	(CUP_arifle_AK74M_kobra, CUP_arifle_AK74M_GL_kobra, CUP_arifle_RPK74M)
-CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M	(CUP_arifle_RPK74M)
-CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M 	(CUP_lmg_Pecheneg)
+CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M 					(CUP_arifle_AK74M_kobra, CUP_arifle_AK74M_GL_kobra, CUP_arifle_RPK74M)
+CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M 				(CUP_arifle_AK74M_kobra, CUP_arifle_AK74M_GL_kobra, CUP_arifle_RPK74M)
+CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M 				(CUP_lmg_Pecheneg)
 CUP_10Rnd_762x54_SVD_M							(CUP_srifle_SVD_pso)
+16Rnd_9x21_Mag								(hgun_Rook40_F)
+
+
 
 CUP_1Rnd_HE_GP25_M								(CUP_arifle_AK74M_GL_kobra)
 CUP_1Rnd_SMOKE_GP25_M							(CUP_arifle_AK74M_GL_kobra)
