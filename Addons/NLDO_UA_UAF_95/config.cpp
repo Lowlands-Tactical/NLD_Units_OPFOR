@@ -24,6 +24,10 @@ class CfgVehicleClasses
 	{
 		displayName="Men";
 	};
+        class nldo_ua_uaf_95_Car
+	{
+		displayName="Car";
+	};
 	class nldo_ua_uaf_95_Mechanized
 	{
 		displayName="Mechanized Infantry";
