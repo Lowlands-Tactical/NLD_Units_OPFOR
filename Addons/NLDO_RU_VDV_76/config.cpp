@@ -1516,6 +1516,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
+		textureList[] = {"",1};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\OtokarArma\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\OtokarArma\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\OtokarArma\Comgun_co.paa"};
 
