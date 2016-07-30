@@ -1128,7 +1128,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Armor";
     crew = "nldo_ua_uaf_95_crew";
     typicalCargo[] = {"nldo_ua_uaf_95_crew"};
-    hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95bodyukwdl.paa", "\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95turretukwdl.paa", "\NLDO_UA_UAF_95\Armored\T95 Black Eagle\T95turret1ukwdl.paa"};
 
     class TransportItems
@@ -1167,7 +1167,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Armor";
     crew = "nldo_ua_uaf_95_crew";
     typicalCargo[] = {"nldo_ua_uaf_95_crew"};
-    hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\BMP1U Shkval\bmpbody.paa", "\NLDO_UA_UAF_95\Armored\BMP1U Shkval\bmpbody1.paa", "\NLDO_UA_UAF_95\Armored\BMP1U Shkval\rcws30_co.paa"};
 
     class TransportItems
@@ -1206,7 +1206,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Armor";
     crew = "nldo_ua_uaf_95_crew";
     typicalCargo[] = {"nldo_ua_uaf_95_crew"};
-    hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2K22 Tunguska\tunguskabody.paa", "\NLDO_UA_UAF_95\Armored\2K22 Tunguska\bmpbody1.paa", "\NLDO_UA_UAF_95\Armored\2K22 Tunguska\TunguskAA.paa"};
 
     class TransportItems
@@ -1245,7 +1245,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Armor";
     crew = "nldo_ua_uaf_95_crew";
     typicalCargo[] = {"nldo_ua_uaf_95_crew"};
-    hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAturretuk.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAbodyuk1.paa", "\NLDO_UA_UAF_95\Armored\2S19 MSTA\MSTAcomgunuk.paa"};
 
     class TransportItems
@@ -1288,7 +1288,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Air";
     crew = "nldo_ua_uaf_95_pilot";
     typicalCargo[] = {"nldo_ua_uaf_95_pilot"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Air\L39\L39body.paa", "\NLDO_UA_UAF_95\Air\L39\L39body1.paa"};
 
     class TransportItems
@@ -1330,7 +1330,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Car";
     crew = "nldo_ua_uaf_95_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody1.paa"};
 
     class TransportItems
@@ -1371,7 +1371,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Car";
     crew = "nldo_ua_uaf_95_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody1.paa","\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\rcwsuk.paa"};
 
     class TransportItems
@@ -1412,7 +1412,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Car";
     crew = "nldo_ua_uaf_95_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\krazbody1.paa","\NLDO_UA_UAF_95\Wheeled\Kraz Spartan\rcwsuk.paa"};
 
     class TransportItems
@@ -1455,7 +1455,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Car";
     crew = "nldo_ua_uaf_95_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
 
     class TransportItems
@@ -1496,7 +1496,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_95_Car";
     crew = "nldo_ua_uaf_95_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
 
     class TransportItems
@@ -1535,7 +1535,7 @@ class cfgVehicles
     faction = "nldo_ua_uaf_95";
     crew = "nldo_ua_uaf_95_cls";
     typicalCargo[] = {"nldo_ua_uaf_95_cls"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
 
     class TransportItems
@@ -1575,7 +1575,7 @@ class cfgVehicles
     faction = "nldo_ua_uaf_95";
     crew = "nldo_ua_uaf_95_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_fueluk.paa"};
 
     class TransportItems
@@ -1615,7 +1615,7 @@ class cfgVehicles
     faction = "nldo_ua_uaf_95";
     crew = "nldo_ua_uaf_95_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_repairuk.paa"};
 
     class TransportItems
@@ -1654,7 +1654,7 @@ class cfgVehicles
     faction = "nldo_ua_uaf_95";
     crew = "nldo_ua_uaf_95_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_95_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_95\Wheeled\Kamaz trucks\kamaz_repairuk.paa"};
 
     class TransportItems

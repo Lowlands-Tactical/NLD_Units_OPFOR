@@ -1319,7 +1319,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Comgun_co.paa"};
 
 		class TransportItems {
@@ -1385,7 +1385,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Comgun_co.paa"};
 
 		class TransportItems {
@@ -1450,7 +1450,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\PunisherMRAP\Comgun_co.paa"};
 
 		class TransportItems {
@@ -1517,7 +1517,6 @@ class cfgVehicles
 		crew = "NLDO_RU_VDV_76_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
 		textureList[] = {"",1};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\OtokarArma\Body_co.paa", "NLDO_RU_VDV_76\Wheeled\OtokarArma\Wheels_co.paa", "NLDO_RU_VDV_76\Wheeled\OtokarArma\Comgun_co.paa"};
 
 		class TransportItems {
@@ -1583,6 +1582,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_front_co.paa", "NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_covered_co.paa"};
 
 		class TransportItems {
@@ -1648,6 +1648,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_front_co.paa", "NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_covered_co.paa"};
 
 		class TransportItems {
@@ -1713,6 +1714,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_front_co.paa", "NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_covered_co.paa"};
 
 		class TransportItems {
@@ -1778,6 +1780,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_front_co.paa", "NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_fuel_co.paa"};
 
 		class TransportItems {
@@ -1843,6 +1846,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_front_co.paa", "NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_repair_co.paa"};
 
 		class TransportItems {
@@ -1908,6 +1912,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_front_co.paa", "NLDO_RU_VDV_76\Wheeled\KamazTrucks\Kamaz_repair_co.paa"};
 
 		class TransportItems {
@@ -1972,7 +1977,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_front.paa", "NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_chassis.paa", "NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_ammo.paa"};
 
 		class TransportItems {
@@ -2037,7 +2042,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_rifleman";
 		typicalCargo[] = {"NLDO_RU_VDV_76_rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_front.paa", "NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_chassis.paa","NLDO_RU_VDV_76\Wheeled\TyphoonTrucks\Typhoon_cargo.paa"};
 
 		class TransportItems {
@@ -2109,7 +2114,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Armored\T-95BlackEagle\Body_co.paa", "NLDO_RU_VDV_76\Armored\T-95BlackEagle\Turret_co.paa", "NLDO_RU_VDV_76\Armored\T-95BlackEagle\Turret_extra_co.paa"};
 
 		class TransportItems {
@@ -2175,7 +2180,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Armored\BMP-T\Body_up_co.paa", "NLDO_RU_VDV_76\Armored\BMP-T\Body_down_co.paa", "NLDO_RU_VDV_76\Armored\BMP-T\Turret_co.paa"};
 
 		class TransportItems {
@@ -2240,7 +2245,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Armored\2K22Tunguska\Body_up_co.paa", "NLDO_RU_VDV_76\Armored\2K22Tunguska\Body_down_co.paa", "NLDO_RU_VDV_76\Armored\2K22Tunguska\Turret_co.paa"};
 
 		class TransportItems {
@@ -2285,7 +2290,7 @@ class cfgVehicles
 		faction = "NLDO_RU_VDV_76";
 		crew = "NLDO_RU_VDV_76_Crew";
 		typicalCargo[] = {"NLDO_RU_VDV_76_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2","Camo3","Camo4"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Armored\2S19MSTA\Body_co.paa", "NLDO_RU_VDV_76\Armored\2S19MSTA\Turret_co.paa","NLDO_RU_VDV_76\Armored\2S19MSTA\Turret_extra_co.paa", "NLDO_RU_VDV_76\Armored\2S19MSTA\Comgun_co.paa"};
 
 		class TransportItems {
@@ -2358,7 +2363,7 @@ class cfgVehicles
 		crew = "NLDO_RU_VDV_76_HeliPilot";
 		typicalCargo[] = {"NLDO_RU_VDV_76_HeliCrew","NLDO_RU_VDV_76_HeliPilot"};
 		faction = "NLDO_RU_VDV_76";
-		hiddenSelections[] = {"Camo1"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Air\KA-60\Body_co.paa"};
 
 		class TransportItems {
@@ -2425,7 +2430,7 @@ class cfgVehicles
 		crew = "NLDO_RU_VDV_76_HeliPilot";
 		typicalCargo[] = {"NLDO_RU_VDV_76_HeliCrew","NLDO_RU_VDV_76_HeliPilot"};
 		faction = "NLDO_RU_VDV_76";
-		hiddenSelections[] = {"Camo1"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Air\KA-60\Body_co.paa"};
 
 		class TransportItems {
@@ -2492,7 +2497,7 @@ class cfgVehicles
 		crew = "NLDO_RU_VDV_76_HeliPilot";
 		typicalCargo[] = {"NLDO_RU_VDV_76_HeliCrew","NLDO_RU_VDV_76_HeliPilot"};
 		faction = "NLDO_RU_VDV_76";
-		hiddenSelections[] = {"Camo1", "Camo2"};
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Air\MI-48\Body_co.paa", "NLDO_RU_VDV_76\Air\MI-48\Rotor_co.paa"};
 
 		class TransportItems {
@@ -2558,6 +2563,7 @@ class cfgVehicles
 		side = 0;
 		crew = "NLDO_RU_VDV_76_Pilot";
 		faction = "NLDO_RU_VDV_76";
+		textureList[] = {"",1};
 		hiddenSelectionsTextures[] = {"NLDO_RU_VDV_76\Air\Yak-131\Body_up_co.paa","NLDO_RU_VDV_76\Air\Yak-131\Body_down_co.paa"};
 
 		class TransportItems {

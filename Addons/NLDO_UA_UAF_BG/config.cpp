@@ -840,7 +840,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody1.paa"};
 
     class TransportItems
@@ -881,7 +881,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Bombardier Outlander\Body_co.paa", "\NLDO_UA_UAF_BG\Wheeled\Bombardier Outlander\Wheels_co.paa"};
 	class EventHandlers { init = "(_this select 0) setVariable [""BIS_enableRandomization"", false];"; };
 
@@ -922,7 +922,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody1.paa","\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\rcwsuk.paa"};
 
     class TransportItems
@@ -963,7 +963,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody.paa", "\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\krazbody1.paa","\NLDO_UA_UAF_BG\Wheeled\Kraz Spartan\rcwsuk.paa"};
 
     class TransportItems
@@ -1003,7 +1003,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
 
     class TransportItems
@@ -1044,7 +1044,7 @@ class cfgVehicles
     vehicleClass = "nldo_ua_uaf_bg_Car";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
 
     class TransportItems
@@ -1084,7 +1084,7 @@ class cfgVehicles
 	vehicleClass = "nldo_ua_uaf_bg_Support";
     crew = "nldo_ua_uaf_bg_cls";
     typicalCargo[] = {"nldo_ua_uaf_bg_cls"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_covereduk.paa"};
 
     class TransportItems
@@ -1125,7 +1125,7 @@ class cfgVehicles
 	vehicleClass = "nldo_ua_uaf_bg_Support";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_fueluk.paa"};
 
     class TransportItems
@@ -1166,7 +1166,7 @@ class cfgVehicles
 	vehicleClass = "nldo_ua_uaf_bg_Support";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_repairuk.paa"};
 
     class TransportItems
@@ -1206,7 +1206,7 @@ class cfgVehicles
 	vehicleClass = "nldo_ua_uaf_bg_Support";
     crew = "nldo_ua_uaf_bg_rifleman";
     typicalCargo[] = {"nldo_ua_uaf_bg_rifleman"};
-    hiddenSelections[] = {"Camo1", "Camo2"};
+	textureList[] = {"",1};
     hiddenSelectionsTextures[] = {"\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\zamak_frontuk.paa", "\NLDO_UA_UAF_BG\Wheeled\Kamaz trucks\kamaz_repairuk.paa"};
 
     class TransportItems
@@ -1252,7 +1252,7 @@ class cfgWeapons
 
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
-			uniformClass = "nldo_ua_uaf_bg_rifleman";
+			uniformClass = "nldo_ua_uaf_bg_rifleman"; 
 			containerClass = "Supply60";
 			mass = 1;
 		};
