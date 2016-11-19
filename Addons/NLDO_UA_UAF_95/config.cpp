@@ -1687,9 +1687,27 @@ class cfgVehicles
 
 class cfgWeapons
 {
-
+	class InventoryItem_Base_F;
+	class UniformItem: InventoryItem_Base_F
+	{
+		type = 801;
+	};
+	class ItemCore;
+	class HeadgearItem;
+	class H_HelmetB;
+	class H_HelmetIA;
+	class H_Booniehat_khk;
+	class H_MilCap_mcamo;
+	class H_HelmetB_plain_mcamo;
+	class H_HelmetCrew_B;
 	class Uniform_Base;
-	class UniformItem;
+	class U_B_HeliPilotCoveralls;
+	class VestItem;
+	class V_PlateCarrier1_blk;
+	class V_PlateCarrier3_rgr;
+	class V_PlateCarrierIA2_dgtl;
+	class V_Chestrig_oli;
+	class NVGoggles_OPFOR;
 
 	class nldo_ua_uaf_95_Camo : Uniform_Base
 	{
@@ -1723,10 +1741,6 @@ class cfgWeapons
         };
     };
 
-	class ItemInfo;
-	class ItemCore;
-	class HeadgearItem;
-
 	class nldo_ua_uaf_95_Helmet: ItemCore
 	{
 		scope = 2;
@@ -1758,10 +1772,6 @@ class cfgWeapons
 			};
 		};
 	};
-
-	class InventoryItem_Base_F;
-	class V_PlateCarrier3_rgr;
-	class VestItem;
 
 	class nldo_ua_uaf_95_Vest: V_PlateCarrier3_rgr
 	{

@@ -31,16 +31,26 @@ class CfgUnitInsignia
 // Weapons
 class cfgWeapons
 {
-    class Uniform_Base;
-    class UniformItem;
-    class ItemInfo;
-    class ItemCore;
-    class HeadgearItem;
-    class InventoryItem_Base_F;
-    class V_PlateCarrier1_rgr;
-    class VestItem;
+	class InventoryItem_Base_F;
+	class UniformItem: InventoryItem_Base_F
+	{
+		type = 801;
+	};
+	class ItemCore;
+	class HeadgearItem;
+	class H_PilotHelmetHeli_O;
+	class H_CrewHelmetHeli_O;
+	class H_PilotHelmetFighter_O;
+	class Uniform_Base;
+	class U_B_HeliPilotCoveralls;
+	class VestItem;
+	class V_PlateCarrier1_blk;
+	class V_PlateCarrierIA2_dgtl;
+	class V_Chestrig_oli;
+	class NVGoggles_OPFOR;
+	class V_PlateCarrier1_rgr;
 
-    class NLDO_RU_RU_VDV_HeliHelmet: ItemCore
+    class NLDO_RU_RU_VDV_HeliHelmet: H_PilotHelmetHeli_O
     {
         scope = 2;
         weaponPoolAvailable = 1;
@@ -62,7 +72,7 @@ class cfgWeapons
         };
     };
 
-    class NLDO_RU_RU_VDV_HeliCrewHelmet: ItemCore
+    class NLDO_RU_RU_VDV_HeliCrewHelmet: H_CrewHelmetHeli_O
     {
         scope = 2;
         weaponPoolAvailable = 1;
@@ -84,7 +94,7 @@ class cfgWeapons
         };
     };
 
-    class NLDO_RU_RU_VDV_PilotHelmet: ItemCore
+    class NLDO_RU_RU_VDV_PilotHelmet: H_PilotHelmetFighter_O
     {
         scope = 2;
         weaponPoolAvailable = 1;
@@ -128,7 +138,7 @@ class cfgWeapons
         };
     };
 	
-	class nldo_ua_uaf_PilotHelmet: ItemCore
+	class nldo_ua_uaf_PilotHelmet: H_PilotHelmetFighter_O
     {
         scope = 2;
         weaponPoolAvailable = 1;

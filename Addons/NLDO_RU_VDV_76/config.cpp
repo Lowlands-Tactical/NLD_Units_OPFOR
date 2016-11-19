@@ -2601,14 +2601,27 @@ class cfgVehicles
 // Weapons
 class cfgWeapons
 {
-	class Uniform_Base;
-	class UniformItem;
-	class ItemInfo;
+	class InventoryItem_Base_F;
+	class UniformItem: InventoryItem_Base_F
+	{
+		type = 801;
+	};
 	class ItemCore;
 	class HeadgearItem;
-	class InventoryItem_Base_F;
+	class H_HelmetB;
+	class H_HelmetIA;
+	class H_Booniehat_khk;
+	class H_MilCap_mcamo;
+	class H_HelmetB_plain_mcamo;
+	class H_HelmetCrew_B;
+	class Uniform_Base;
+	class U_B_HeliPilotCoveralls;
+	class VestItem;
+	class V_PlateCarrier1_blk;
+	class V_PlateCarrierIA2_dgtl;
+	class V_Chestrig_oli;
+	class NVGoggles_OPFOR;
 	class V_PlateCarrier1_rgr;
-    class VestItem;
 	class H_Watchcap_blk;
 	class H_Booniehat_grn;
 
