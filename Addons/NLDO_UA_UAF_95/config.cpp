@@ -159,7 +159,7 @@ class cfgVehicles
 		side = 2;
 		scope = 2;
 		displayName = "Explosive Specialist";
-		canDeactivateMines = true; 
+		canDeactivateMines = true;
 		faction = "nldo_ua_uaf_95";
 		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_95_Infantry";
@@ -365,7 +365,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "Engineer";
 		engineer = true;
-		canDeactivateMines = true; 
+		canDeactivateMines = true;
 		faction = "nldo_ua_uaf_95";
 		genericNames = "NLDO_UA";
 		vehicleClass = "nldo_ua_uaf_95_Infantry";
@@ -561,7 +561,7 @@ class cfgVehicles
 		magazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen"  };
 		respawnmagazines[] = { "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M","Chemlight_green","Chemlight_green","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen" };
 	};
-	
+
 	class nldo_ua_uaf_95_pilot: I_Soldier_base_F
 	{
 		author = "Lowlands Tactical";
@@ -688,7 +688,7 @@ class cfgVehicles
 			};
 
 		};
-		
+
 		class TransportItems
 		{
 			class _xx_NVGoggles_OPFOR {
@@ -916,7 +916,7 @@ class cfgVehicles
 
 		class TransportMagazines
 		{
-			
+
 			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
 			{
 				magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
@@ -1194,7 +1194,7 @@ class cfgVehicles
     };
     class TransportWeapons {};
   };
-  
+
 
   class nldo_ua_uaf_95_tunguska : O_APC_Tracked_02_AA_F
   {
@@ -1398,8 +1398,8 @@ class cfgVehicles
     };
     class TransportWeapons {};
   };
-	
-	
+
+
   class B_MRAP_01_gmg_F;
 
   class nldo_ua_uaf_95_kraz_gmg: B_MRAP_01_gmg_F
@@ -1439,7 +1439,7 @@ class cfgVehicles
     };
     class TransportWeapons {};
   };
-  
+
   // End wheelies
 
   // Start Kamazjes
@@ -1523,7 +1523,7 @@ class cfgVehicles
     };
     class TransportWeapons {};
   };
-  
+
   class O_Truck_02_medical_F;
 
   class nldo_ua_uaf_95_kamaz_medical: O_Truck_02_medical_F
@@ -1642,7 +1642,7 @@ class cfgVehicles
     };
     class TransportWeapons {};
   };
-  
+
   class O_Truck_02_ammo_F;
 
   class nldo_ua_uaf_95_kamaz_ammo: O_Truck_02_ammo_F
@@ -1724,7 +1724,7 @@ class cfgWeapons
 			mass = 1;
 		};
 	};
-	
+
 	class nldo_ua_uaf_95_pilot_camo : Uniform_Base
     {
         scope = 2;
@@ -1831,7 +1831,7 @@ class cfgWeapons
 			};
 		};
 	};
-	
+
 	class CUP_arifle_AKS74;
 	class CUP_arifle_RPK74_45;
 	class CUP_srifle_SVD;
@@ -1850,7 +1850,7 @@ class cfgWeapons
 			};
 		};
 	};
-	
+
 	class NLDO_RPK74: CUP_arifle_RPK74_45
 	{
 		author="Lowlands Tactical";
@@ -1864,7 +1864,7 @@ class cfgWeapons
 			};
 		};
 	};
-	
+
 	class NLDO_AKS74: CUP_arifle_AKS74
 	{
 		author="Lowlands Tactical";
@@ -1878,7 +1878,7 @@ class cfgWeapons
 			};
 		};
 	};
-	
+
 	class NLDO_AKS74_GL: CUP_arifle_AK74_GL
 	{
 		author="Lowlands Tactical";
@@ -2211,7 +2211,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_aa_igla";
+						vehicle = "nldo_ua_uaf_95_aa";
 						rank = "CORPORAL";
 						position[] = { -5,-5,0 };
 					};
@@ -2219,7 +2219,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "nldo_ua_uaf_95_aa_igla";
+						vehicle = "nldo_ua_uaf_95_aa";
 						rank = "PRIVATE";
 						position[] = { 5,-5,0 };
 					};
@@ -2645,7 +2645,7 @@ class CfgGroups
 				};
 
 			};
-			
+
 			class Mechanized
 			{
 				name = "Mechanized";
@@ -2796,7 +2796,7 @@ class CfgGroups
 						rank = "PRIVATE";
 						position[] = { -20,-20,0 };
 					};
-					
+
 					class Unit8
 					{
 						side = 2;
@@ -3048,7 +3048,7 @@ class CfgGroups
 					};
 
 				};
-				
+
 				class nldo_ua_uaf_95_grp_combined_platoon
 				{
 					name = "Combined Armor Platoon";
@@ -3090,7 +3090,7 @@ class CfgGroups
 					};
 
 				};
-				
+
 				class nldo_ua_uaf_95_grp_combined_weapons_platoon
 				{
 					name = "Combined Weapons Platoon";
@@ -3130,7 +3130,7 @@ class CfgGroups
 						rank = "CORPORAL";
 						position[] = { -30,-30,0 };
 					};
-					
+
 					class Unit4
 					{
 						side = 2;
@@ -3138,7 +3138,7 @@ class CfgGroups
 						rank = "CORPORAL";
 						position[] = { -45,-45,0 };
 					};
-					
+
 					class Unit5
 					{
 						side = 2;
@@ -3146,7 +3146,7 @@ class CfgGroups
 						rank = "PRIVATE";
 						position[] = { 30,-30,0 };
 					};
-					
+
 					class Unit6
 					{
 						side = 2;
@@ -3154,7 +3154,7 @@ class CfgGroups
 						rank = "PRIVATE";
 						position[] = { -50,-50,0 };
 					};
-					
+
 					class Unit7
 					{
 						side = 2;
@@ -3162,7 +3162,7 @@ class CfgGroups
 						rank = "PRIVATE";
 						position[] = { 35,-35,0 };
 					};
-					
+
 					class Unit8
 					{
 						side = 2;
@@ -3170,7 +3170,7 @@ class CfgGroups
 						rank = "PRIVATE";
 						position[] = { -55,-55,0 };
 					};
-					
+
 					class Unit9
 					{
 						side = 2;
@@ -3178,7 +3178,7 @@ class CfgGroups
 						rank = "PRIVATE";
 						position[] = { 40,-40,0 };
 					};
-					
+
 					class Unit10
 					{
 						side = 2;
@@ -3186,7 +3186,7 @@ class CfgGroups
 						rank = "PRIVATE";
 						position[] = { -60,-60,0 };
 					};
-					
+
 
 				};
 
