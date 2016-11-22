@@ -3,6 +3,7 @@ Changelog:
 v?????????
 - Removed error in zeus
 - Fixed missing keys
+- Less (no?) errors during startup
 
 v201603213
 - added 2 new Alive factions with camo's (Ukraine 95th airmobile and Border Guard)
