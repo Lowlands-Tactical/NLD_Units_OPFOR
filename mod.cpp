@@ -6,5 +6,5 @@ tooltipOwned = "@NLD_Units_OPFOR";
 actionName = "Website";
 action = "http://lowtac.nl";
 overview = "NLD Units OPFOR: OPFOR Units for ArmA 3 v1.";
-description = "NLD Units v1";
+description = "NLD Units: OPFOR";
 author = "Lowlands Tactical";
